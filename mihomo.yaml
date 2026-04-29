@@ -1,6 +1,6 @@
 proxies:
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|4.9MB/s|GPT⁺-SG|YT-JP|NF|D+|GM-JP|10%"
+    name: "\U0001F1EF\U0001F1F5JP_1|2.7MB/s|GPT⁺-SG|YT-JP|NF|D+|GM-JP|10%"
     network: ws
     port: 2053
     server: cfxr.eu.org
@@ -23,18 +23,196 @@ proxies:
     type: http
     username: fcd39788-ca23-11ed-86e2-f23c913c8d2b
     sni: f3aca19c-tebds0-tfqlkj-2b2n.cu.oshuawei.com
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1E7\U0001F1EABE"
-    delay: 2081
-    name: "\U0001F1EF\U0001F1F5JP_2|5.7MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|3%"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '403880e.default.microsoft.io:164892'
-      mode: tls
-    port: 2377
-    server: 403880e.j6.gladns.com
-    type: ss
+  - alpn:
+      - h3
+    auth: 2b67b013-dbe7-470a-9362-3cacd16ff9ec
+    name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s|GPT⁺-US|YT-CN|NF|50%"
+    password: 2b67b013-dbe7-470a-9362-3cacd16ff9ec
+    port: 10005
+    server: usa6.vpnmiao.site
+    type: hysteria2
+    udp: true
+    sni: usa6.vpnmiao.site
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_1|2.8MB/s|GPT⁺-JP|YT-CN|D+|GM-JP|50%"
+    network: ws
+    port: 16632
+    server: planb.mojcn.com
+    type: vmess
+    uuid: c3bb4d48-63db-439e-bb4b-a541729c4f72
+    ws-opts:
+      headers:
+        Host: b51d264b1d49f78bcc89624068d93405.mobgslb.tbcache.com
+      path: /
+  - name: "\U0001F1ED\U0001F1F0HK_2|1.1MB/s|YT-HK|NF|D+"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 28551
+    server: 116.206.178.228
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: "\U0001F1ED\U0001F1F0HK_3|1.2MB/s|YT-HK|NF|D+"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 39792
+    server: 38.55.125.175
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: "\U0001F1ED\U0001F1F0HK_4|3.9MB/s|YT-HK|NF|D+"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 15124
+    server: 149.104.25.35
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_1|810KB/s|YT-SG|NF-SG|D+|GM-SG"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 2096
+    server: 172.64.147.106
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /tr
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_5|975KB/s|YT-HK|NF|D+"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 25258
+    server: 38.147.163.152
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: encryptedsni.com
+    name: "\U0001F1F0\U0001F1F7KR_1|1.8MB/s|GPT⁺-SG|YT-KR|NF|D+|GM-KR|10%"
+    network: ws
+    port: 15000
+    server: 175.213.239.203
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      headers:
+        Host: ynwta9.api-edge.fgfw.qzz.io
+      path: /danfeng
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: ynwta9.api-edge.fgfw.qzz.io
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: encryptedsni.com
+    name: "\U0001F1F0\U0001F1F7KR_2|1.5MB/s|GPT⁺-SG|YT-KR|NF|D+|GM-KR|10%"
+    network: ws
+    port: 18245
+    server: 59.25.212.132
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      headers:
+        Host: ynwta9.api-edge.fgfw.qzz.io
+      path: /danfeng
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: ynwta9.api-edge.fgfw.qzz.io
+  - client-fingerprint: chrome
+    ech-opts:
+      enable: true
+      query-server-name: encryptedsni.com
+    name: "\U0001F1F0\U0001F1F7KR_3|3.2MB/s|GPT⁺-SG|YT-KR|NF|D+|GM-KR|10%"
+    network: ws
+    port: 10088
+    server: 125.137.92.241
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      headers:
+        Host: mug.support.gfw.hidns.co
+      path: /danfeng
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: mug.support.gfw.hidns.co
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_3|2.8MB/s|GPT⁺-US|YT-US|NF|GM-US|2%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-002.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-002.fastervpn.world
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_4|2.2MB/s|GPT⁺-US|YT-US|NF|GM-US|3%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-001.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-001.fastervpn.world
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_5|2.6MB/s|GPT⁺-US|YT-US|NF|GM-US|3%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-003.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-003.fastervpn.world
+    type: hysteria2
+    up: ''
 rule-providers:
   private:
     url: >-
