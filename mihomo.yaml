@@ -1,5 +1,5 @@
 proxies:
-  - client-fingerprint: chrome
+  - client-fingerprint: chrome 
     name: "\U0001F1EF\U0001F1F5JP_1|2.7MB/s|GPT⁺-SG|YT-JP|NF|D+|GM-JP|10%"
     network: ws
     port: 2053
