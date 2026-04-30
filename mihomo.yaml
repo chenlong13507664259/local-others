@@ -9,7 +9,7 @@ proxies:
     server: vpn-us-003.fastervpn.world
     skip-cert-verify: true
     sni: vpn-us-003.fastervpn.world
-    type: hysteria2
+    type: hysteria2 
     up: ''
   - alterId: 0
     cipher: auto
