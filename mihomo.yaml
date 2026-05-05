@@ -9,7 +9,7 @@ proxies:
     udp: true
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     network: tcp
-  - name: "\U0001F1F9\U0001F1FCTW_1|2.4MB/s|GPT⁺-TW|YT-TW|NF|D+|GM-TW"
+  - name: "\U0001F1F9\U0001F1FCTW_1|2.4MB/s|GPT⁺-TW|YT-TW|NF|D+|GM-TW" 
     password: exaxgqkKkd0TAMrCxeonWg==
     port: 1443
     server: twmoon1-cdn-route.couldflare-cdn.com
