@@ -1,46 +1,10 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_1|1.2MB/s|GPT⁺-TW|YT-HK|NF|D+|GM-TW|3%"
-    obfs: ''
-    obfs-password: ''
-    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-    port: 88
-    server: hkaws.ccwink.photos
-    skip-cert-verify: true
-    sni: hkak.ccwink.cc
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1ED\U0001F1F0HK_2|1016KB/s|YT-CN|NF|D+|1%"
-    password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-    port: 5228
-    server: 51932ced-temhs0-tvb36r-1qwom.cm4.oshuawei.com
-    tls: true
-    type: http
-    username: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-    sni: 51932ced-temhs0-tvb36r-1qwom.cm4.oshuawei.com
-  - name: "\U0001F1FA\U0001F1F8US_1|848KB/s|GPT⁺-US|YT-US|NF|GM-US|0%"
-    password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-    port: 443
-    server: dffe7f94-tekn40-thpx3l-141tv.sj.hyhuawei.com
-    tls: true
-    type: http
-    username: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-    sni: dffe7f94-tekn40-thpx3l-141tv.sj.hyhuawei.com
-  - name: "\U0001F1FA\U0001F1F8US_2|816KB/s|GPT⁺-US|YT-US|NF|GM-US|0%"
-    password: cb96c846-fd6d-11ef-a910-f23c9164ca5d
-    port: 443
-    server: 22cd776d-teisg0-teoi3e-1thts.sj.hyhuawei.com
-    tls: true
-    type: http
-    username: cb96c846-fd6d-11ef-a910-f23c9164ca5d
-    sni: 22cd776d-teisg0-teoi3e-1thts.sj.hyhuawei.com
-  - delay: 831
-    name: "\U0001F1F8\U0001F1ECSG_1|1.5MB/s|YT-SG|NF-SG|D+|GM-SG"
+  - delay: 838
+    name: "\U0001F1EF\U0001F1F5JP_1|954KB/s|YT-JP|NF|D+|GM-JP"
     network: ws
     password: '8r<[9''l6hAO#8ZQi'
     port: 443
-    server: 173.245.59.253
+    server: 108.162.198.253
     skip-cert-verify: true
     sni: Koma-YT.PAGeS.Dev
     type: trojan
@@ -49,178 +13,271 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
       path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    delay: 604
-    name: "\U0001F1FB\U0001F1F3VN_1|1.1MB/s|GPT⁺-VN|YT-CN|NF"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.251
-    type: ss
-  - cipher: aes-256-cfb
-    delay: 1490
-    name: "\U0001F1FB\U0001F1F3VN_2|905KB/s|GPT⁺-VN|YT-VN|NF|GM-VN"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.229
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    delay: 693
-    name: "\U0001F1FB\U0001F1F3VN_3|1.7MB/s|GPT⁺-VN|YT-VN|NF|GM-VN"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.215
-    type: ss
-    udp: true
-  - delay: 843
-    name: "\U0001F1F9\U0001F1FCTW_1|1017KB/s|YT-TW|NF|D+|GM-TW"
+  - name: "\U0001F1ED\U0001F1F0HK_1|1.6MB/s|YT-HK|NF|D+"
     network: ws
     password: '8r<[9''l6hAO#8ZQi'
     port: 443
-    server: 114.33.57.170
+    server: 8.223.63.189
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_1|969KB/s|GPT⁺-US|YT-CN|NF|0%"
+    network: tcp
+    port: 180
+    server: 82.198.246.9
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_2|818KB/s|GPT-US|YT-CN|0%"
+    network: tcp
+    port: 180
+    server: 82.198.246.37
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+  - alterId: 0
+    cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_3|2.5MB/s|GPT⁺-US|YT-CN|NF|0%"
+    port: 180
+    server: 82.198.246.9
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    network: tcp
+  - name: "\U0001F1EF\U0001F1F5JP_2|4.7MB/s|GPT⁺-US|YT-JP|NF|D+|GM-JP|10%"
+    network: ws
+    port: 2087
+    server: 162.159.39.157
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
+    ws-opts:
+      headers:
+        Host: 1.proxy2.us.ci
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: 1.proxy2.us.ci
+  - name: "\U0001F1F3\U0001F1F1NL_1|926KB/s|GPT⁺-LV|YT-NL|NF|D+|GM-NL|10%"
+    network: ws
+    port: 8443
+    server: 150.251.147.97
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.army
+      path: "/?ed=2560&https://t.me/wangcai2\U0001F1E8\U0001F1F3"
+    servername: sni.111000.v6.army
+  - name: "\U0001F1EF\U0001F1F5JP_3|1.3MB/s|YT-JP|NF|D+|GM-JP"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 17222
+    server: 212.50.248.248
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: "\U0001F1ED\U0001F1F0HK_2|862KB/s|YT-HK|NF|D+"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 43.154.4.49
     skip-cert-verify: true
     sni: Koma-YT.PAGeS.Dev
     type: trojan
     udp: true
     ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
       path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_4|965KB/s|GPT⁺-VN|YT-US|NF|GM-US"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.233
-    type: ss
+  - encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s|YT-SG|NF-SG|D+|10%"
+    network: ws
+    port: 80
+    server: cf.zhetengsha.eu.org
+    type: vless
+    uuid: ff0f5879-843b-41d4-a029-e45d805761b1
+    ws-opts:
+      headers:
+        Host: uu.iqq8.top
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
   - name: "\U0001F1ED\U0001F1F0HK_3|1.2MB/s|YT-CN|NF|D+|1%"
-    network: tcp
-    password: ba62c023f9bce796ae334fecb20ef7cc
-    port: 53018
-    server: 18.162.168.19
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
-  - name: "\U0001F1EF\U0001F1F5JP_1|2.9MB/s|GPT⁺-US|YT-JP|NF|D+|GM-JP|0%"
-    network: tcp
-    password: ba62c023f9bce796ae334fecb20ef7cc
-    port: 8066
-    server: 18.162.168.19
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
-  - name: "\U0001F1FA\U0001F1F8US_3|3.2MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|0%"
-    network: tcp
-    password: ba62c023f9bce796ae334fecb20ef7cc
-    port: 52249
-    server: 54.238.186.83
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
-  - name: "\U0001F1FA\U0001F1F8US_4|2.4MB/s|GPT⁺-US|YT-US|NF|GM-US"
-    network: tcp
-    password: BxceQaOe
-    port: 23255
-    server: 54.178.47.5
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - name: "\U0001F1F9\U0001F1FCTW_2|1.0MB/s|GPT⁺-TW|YT-TW|NF|D+|GM-TW"
-    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-    port: 6549
-    server: tw.ccwink.cc
-    skip-cert-verify: true
-    sni: baidu.com
-    type: anytls
-    udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_2|1.0MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-TW|33%"
-    obfs: ''
-    obfs-password: ''
-    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-    port: 6533
-    server: hkaws.ccwink.photos
-    skip-cert-verify: true
-    sni: jpdigital.ccwink.cc
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F0\U0001F1F7KR_1|2.5MB/s|GPT⁺-KR|YT-KR|NF|GM-KR|3%"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-kr-003.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-kr-003.fastervpn.world
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1ED\U0001F1F0HK_4|938KB/s|YT-CN|NF|D+|1%"
-    password: f7d95364-607b-11ee-93af-f23c91369f2d
+    password: 500dd8cc-a21c-11ec-bd7c-f23c913c8d2b
     port: 5228
-    server: b8395f91-tegxs0-tv7zgh-1ijh5.cm4.oshuawei.com
+    server: 5dc14e07-t9zts0-tar8u7-1fy29.cm4.oshuawei.com
+    sni: 5dc14e07-t9zts0-tar8u7-1fy29.cm4.oshuawei.com
     tls: true
     type: http
-    username: f7d95364-607b-11ee-93af-f23c91369f2d
-    sni: b8395f91-tegxs0-tv7zgh-1ijh5.cm4.oshuawei.com
-  - name: "\U0001F1ED\U0001F1F0HK_5|1.3MB/s|YT-CN|NF|D+|1%"
-    password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-    port: 5228
-    server: ff28248a-t9zts0-tb08pe-luwe.cm4.oshuawei.com
-    sni: ff28248a-t9zts0-tb08pe-luwe.cm4.oshuawei.com
-    tls: true
-    type: http
-    username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  - name: "\U0001F1EF\U0001F1F5JP_3|2.8MB/s|GPT|YT-JP|NF|D+|GM-JP"
+    username: 500dd8cc-a21c-11ec-bd7c-f23c913c8d2b
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F0\U0001F1F7KR_1|4.5MB/s|GPT⁺-JP|YT-KR|NF|D+|GM-KR|10%"
     network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 21040
-    server: 64.81.113.62
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
+    port: 30006
+    server: 114.204.40.185
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
     ws-opts:
       headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - name: "\U0001F1ED\U0001F1F0HK_6|3.6MB/s|YT-CN|NF|D+|1%"
-    password: ba62c023f9bce796ae334fecb20ef7cc
-    port: 53018
-    server: 18.162.168.19
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
+        Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /@Marisa_kristifp=chrome
+    xudp: true
+    servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision-udp443
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F9\U0001F1FCTW_1|2.2MB/s|GPT⁺-TW|YT-TW|NF|GM-TW|0%"
     network: tcp
-  - name: "\U0001F1EF\U0001F1F5JP_4|2.9MB/s|GPT⁺-US|YT-JP|NF|D+|GM-JP|0%"
-    password: ba62c023f9bce796ae334fecb20ef7cc
-    port: 8066
-    server: 18.162.168.19
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
+    port: 443
+    server: taipei1.ap221.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
+    xudp: true
+    servername: taipei.ap221.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F0\U0001F1F7KR_2|1.0MB/s|GPT⁺-KR|YT-KR|NF|D+|GM-KR|10%"
+    network: ws
+    port: 16993
+    server: 222.113.18.207
+    tls: true
+    type: vless
+    udp: true
+    uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
+    ws-opts:
+      headers:
+        Host: cf.ysuzy.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+    servername: cf.ysuzy.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5JP_4|2.8MB/s|GPT⁺-US|YT-JP|NF|D+|GM-JP|10%"
+    network: ws
+    port: 443
+    server: 162.159.44.198
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers:
+        Host: fu.baiproxy.us.ci
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: fu.baiproxy.us.ci
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5JP_5|3.5MB/s|GPT⁺-US|YT-JP|NF|D+|GM-JP|10%"
+    network: ws
+    port: 2053
+    server: 162.159.45.175
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+    ws-opts:
+      headers:
+        Host: fu.baiproxy.us.ci
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.110 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: fu.baiproxy.us.ci
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision-udp443
+    name: "\U0001F1F9\U0001F1FCTW_2|2.1MB/s|GPT⁺-TW|YT-TW|NF|GM-TW|0%"
     network: tcp
-  - name: "\U0001F1FA\U0001F1F8US_5|2.5MB/s|GPT⁺-US|YT-US|NF|GM-US"
-    password: BxceQaOe
-    port: 23255
-    server: 54.178.47.5
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
+    port: 443
+    server: taipei1.ap221.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
+    xudp: true
+    servername: taipei.ap221.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision-udp443
+    name: "\U0001F1F9\U0001F1FCTW_3|1.5MB/s|GPT⁺-TW|YT-TW|NF|GM-TW|0%"
     network: tcp
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_2|2.5MB/s|GPT⁺-SG|NF-SG|D+|GM-TW|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-    port: 52348
-    server: jpaws.ccwink.photos
-    skip-cert-verify: true
-    sni: sgdigital.ccwink.cc
-    type: hysteria2
-    up: ''
+    port: 443
+    server: taipei1.ap221.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
+    xudp: true
+    servername: taipei.ap221.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision-udp443-udp443
+    name: "\U0001F1EF\U0001F1F5JP_6|1.7MB/s|GPT⁺-JP|YT-JP|NF|GM-JP|0%"
+    network: tcp
+    port: 443
+    server: tokyo1.ap221.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
+    xudp: true
+    servername: tokyo.ap221.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision-udp443
+    name: "\U0001F1EF\U0001F1F5JP_7|3.4MB/s|GPT⁺-JP|YT-JP|NF|GM-JP|0%"
+    network: tcp
+    port: 443
+    server: tokyo1.ap221.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
+    xudp: true
+    servername: tokyo.ap221.com
 rule-providers:
   private:
     url: >-
