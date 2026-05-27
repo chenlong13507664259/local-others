@@ -1,46 +1,5 @@
 proxies:
-  - cipher: aes-256-cfb
-    delay: 674
-    name: "\U0001F1FB\U0001F1F3VN_1|927KB/s|GPT⁺-VN|YT-VN|NF|GM-VN"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.253
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_2|823KB/s|GPT⁺-VN|YT-US|NF"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.33
-    type: ss
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 1000
-    name: "\U0001F1E9\U0001F1EADE_1|819KB/s|GPT⁺-DE|YT-CN|NF|D+|0%"
-    port: 54177
-    protocol: udp
-    server: 5.83.129.90
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 500
-  - name: "\U0001F1F3\U0001F1F1NL_1|893KB/s|NF|D+|GM-NL"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 82.115.6.231
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - name: "\U0001F1ED\U0001F1F0HK_1|2.9MB/s|GPT-DE|YT-HK|NF|D+"
+  - name: "\U0001F1ED\U0001F1F0HK_1|2.7MB/s|YT-HK|NF|D+"
     network: ws
     password: '8r<[9''l6hAO#8ZQi'
     port: 443
@@ -54,97 +13,597 @@ proxies:
         Host: Koma-YT.PAGeS.Dev
       path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
   - client-fingerprint: chrome
-    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F5\U0001F1F1PL_1|1.2MB/s|GPT⁺-PL|YT-PL|NF|GM-PL|0%"
-    network: tcp
+    name: "\U0001F1E9\U0001F1EADE_1|898KB/s|GPT⁺-DE|YT-RU|NF|D+|27%"
     port: 443
     reality-opts:
-      public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
-      short-id: "5629431325884ff0"
-    server: pol2.o4ka-internet.com
+      public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+      short-id: "d67ec5a8fc40ebea"
+    server: ger04.myxasecure.space
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: 42ba03da-78cf-413e-9e79-1128ee6ddb30
-    xudp: true
-    servername: pol2.o4ka-internet.com
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s|GPT⁺-US|YT-US|NF|GM-US|23%"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
+    uuid: 5381a1bb-479a-412a-9d99-08ccbc008828
+    network: tcp
+    servername: ger04.myxasecure.space
+  - name: "\U0001F1F2\U0001F1FEMY_1|2.0MB/s|GPT⁺-MY|YT-MY|NF|GM-MY|24%"
+    password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+    port: 31233
+    server: d6c86ce5-t9zts0-tfi5fd-1imi4.my.oshuawei.com
+    tls: true
+    type: http
+    udp: true
+    username: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+    sni: d6c86ce5-t9zts0-tfi5fd-1imi4.my.oshuawei.com
+  - name: "\U0001F1EE\U0001F1E9ID_1|1.6MB/s|GPT⁺-ID|YT-ID|NF|24%"
+    password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+    port: 32233
+    server: 3d6a7222-t9zts0-tfi5fd-1imi4.id.oshuawei.com
+    tls: true
+    type: http
+    udp: true
+    username: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+    sni: 3d6a7222-t9zts0-tfi5fd-1imi4.id.oshuawei.com
+  - cipher: none
+    name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s|YT-DE|NF|GM-DE"
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
     plugin-opts:
-      host: '817aa69.default.nintendo.com:112719'
-      mode: tls
-    port: 2377
-    server: 88.210.36.106
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+      tls: true
+    port: 443
+    server: 185.216.177.197
     type: ss
+    udp: true
+  - name: "\U0001F1F0\U0001F1F7KR_1|1.9MB/s|GPT⁺-KR|YT-KR|NF|GM-KR|6%"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: test
+    sni: testkr3.ssv.vc
+  - cipher: none
+    name: "\U0001F1F0\U0001F1F7KR_2|1.2MB/s|YT-KR|NF|D+|GM-KR"
+    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+      tls: true
+    port: 10912
+    server: 218.150.34.228
+    type: ss
+    udp: true
   - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_3|896KB/s|GPT⁺-VN|YT-US|NF|GM-US"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.83
+    name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s|GPT⁺-US|YT-US|NF|GM-US|3%"
+    password: amazonskr05
+    port: 443
+    server: 13.218.172.80
     type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_4|1.1MB/s|GPT⁺-VN|YT-US|NF|GM-US"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.223
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_5|1.0MB/s|GPT⁺-VN|YT-RU|NF"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.189
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_6|1.1MB/s|GPT⁺-VN|YT-US|NF|GM-US"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.43
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_7|1.0MB/s|GPT⁺-VN|YT-VN|NF|GM-VN"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.24
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_8|994KB/s|GPT⁺-VN|YT-VN|NF|GM-VN"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.190
-    type: ss
-  - name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s|GPT⁺|YT-US|NF|D+|GM-US|12%"
+    udp: true
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 1000
+    name: "\U0001F1E9\U0001F1EADE_3|2.1MB/s|GPT⁺-DE|YT-CN|NF|D+|0%"
+    port: 54177
+    protocol: udp
+    server: 5.83.129.90
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 500
+  - name: "\U0001F1E9\U0001F1EADE_4|2.1MB/s|YT-DE|NF|D+|GM-DE"
     network: ws
-    port: 8880
-    server: 185.7.240.40
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 2096
+    server: 104.20.5.134
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
     ws-opts:
       headers:
-        Host: vms.lifetime43.workers.dev
-      path: "/?ed=2560&https://t.me/youtube@ZYFXS\U0001F1E8\U0001F1F3"
-  - name: "\U0001F1FA\U0001F1F8US_3|3.2MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|0%"
-    password: f6d3aa07a52dbcedcb4731029e2fb6ae
-    port: 5224
-    server: 43.207.110.128
-    skip-cert-verify: true
-    sni: www.nintendogames.net
+        Host: Koma-YT.PAGeS.Dev
+      path: /tr
+  - name: "\U0001F1E9\U0001F1EADE_5|1.1MB/s|YT-DE|NF|D+|GM-DE|0%"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 2053
+    server: 82.117.245.170
+    sni: Koma-YT.PAGeS.Dev
     type: trojan
-    network: tcp
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F9\U0001F1FCTW_1|1.7MB/s|GPT⁺-TW|YT-TW|NF|D+|GM-TW|0%"
-    obfs: ''
-    obfs-password: ''
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: vpn-tw-002.fastervpn.world
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+  - name: "\U0001F1E9\U0001F1EADE_6|2.0MB/s|YT-DE|NF|D+|GM-DE"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: 152.53.153.158
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+  - name: "\U0001F1E9\U0001F1EADE_7|1.2MB/s|GPT|YT-DE|NF|D+|GM-DE"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 2053
+    server: 77.81.138.64
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+  - name: "\U0001F1F0\U0001F1F7KR_3|2.3MB/s|GPT|YT-KR|NF|D+|GM-KR"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 12345
+    server: 222.114.198.232
     skip-cert-verify: true
-    sni: vpn-tw-002.fastervpn.world
-    type: hysteria2
-    up: ''
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: "\U0001F1F0\U0001F1F7KR_4|1003KB/s|YT-KR|NF|D+|GM-KR"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 60004
+    server: 220.118.83.101
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s|YT-NL|NF|D+|GM-NL"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 82.115.6.231
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: "\U0001F1E8\U0001F1FFCZ_1|809KB/s|GPT-DE|YT-CZ|NF|D+|GM-CZ"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 2087
+    server: 185.224.132.92
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+  - name: "\U0001F1F5\U0001F1F1PL_1|1.1MB/s|YT-PL|NF|D+|GM-PL"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 2053
+    server: 145.239.88.255
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+  - name: "\U0001F1FA\U0001F1F8US_2|861KB/s|YT-US|NF|D+|GM-US"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: 150.136.61.82
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: "\U0001F1FA\U0001F1F8US_3|1.8MB/s|GPT|YT-US|NF|D+|GM-US"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 193.32.177.101
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: "\U0001F1FA\U0001F1F8US_4|1.5MB/s|YT-US|NF|D+|GM-US"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: 138.124.60.93
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+  - name: "\U0001F1FA\U0001F1F8US_5|1.6MB/s|YT-US|D+|GM-US"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 162.245.191.118
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: "\U0001F1FA\U0001F1F8US_6|2.1MB/s|GPT|YT-US|NF|D+|GM-US"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 31.59.136.122
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - delay: 1116
+    name: "\U0001F1E9\U0001F1EADE_8|2.1MB/s|YT-DE|NF|D+|GM-DE"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: 138.124.50.47
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+  - delay: 1418
+    name: "\U0001F1FA\U0001F1F8US_7|2.1MB/s|YT-US|NF|D+|GM-US"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 2053
+    server: 80.209.242.70
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: /trTelegram @WangCai2
+  - delay: 855
+    name: "\U0001F1FA\U0001F1F8US_8|1.2MB/s|YT-US|NF|D+|GM-US"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 2053
+    server: 31.58.50.110
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: /trTelegram
+  - delay: 1303
+    name: "\U0001F1FA\U0001F1F8US_9|1.2MB/s|YT-US|NF|D+|GM-US"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: 23.165.104.123
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: /trTelegram @WangCai2
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: xyz
+    name: "\U0001F1F7\U0001F1FARU_1|1.5MB/s|GPT-TR"
+    network: grpc
+    port: 8443
+    reality-opts:
+      public-key: NDe_UBPG-k6TqnheVYUxNxlXtmgy975eDsdqK35sJhA
+      short-id: "6ba85179e30d4fc2"
+    server: 81.177.215.29
+    tls: true
+    type: vless
+    udp: true
+    uuid: 10e82fcc-94ec-4d09-8855-579bb55b77e4
+    xudp: true
+    servername: eh.vk.com
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_9|1.1MB/s|YT-DE|NF|D+|GM-DE|12%"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: 37.120.188.105
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/31.0.1650.57 Safari/537.36
+      path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_10|889KB/s|GPT⁺-PL|YT-DE|NF|D+|GM-DE|0%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: eLDbbbpsbgPHP6kVW695Pi-VCRfIx9x6nRAJl0oT3WU
+      short-id: "a26ebcc1cb"
+    server: 95.85.227.157
+    tls: true
+    type: vless
+    udp: true
+    uuid: feae759b-c492-4e41-975d-c6315a40bcf9
+    xudp: true
+    servername: teamdocs.su
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_10|3.0MB/s|GPT⁺-US|YT-CN|NF|70%"
+    network: tcp
+    port: 180
+    server: 82.198.246.250
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EA\U0001F1EAEE_1|1022KB/s|GPT⁺-PL|YT-EE|NF-EE|D+|GM-EE|0%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: jY_8Ie_jAzScf94tyz152mXFWeHizA2SjBgJ3KedqHg
+      short-id: "480161102e58c1b3"
+    server: 95.85.229.247
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6343ce34-3357-45cc-9c94-64501f232d06
+    xudp: true
+    servername: teamdocs.su
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1ED\U0001F1F0HK_2|1.8MB/s|GPT⁺-US|YT-HK|NF|D+|12%"
+    network: ws
+    port: 30050
+    server: 83.229.120.141
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6e69871c-4506-4cb9-b375-ac97cb972742
+    ws-opts:
+      headers:
+        Host: o00o.osd.qzz.io
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /proxyip=sjc.o00o.ooo
+    xudp: true
+    servername: o00o.osd.qzz.io
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F1\U0001F1FBLV_1|1.3MB/s|YT-RU"
+    network: tcp
+    port: 50592
+    reality-opts:
+      public-key: kATzSBDyNkm6Ee7p8Ad8iPD5CrJmkJ5n1T-l-LCRmXQ
+      short-id: "b7ca855a4763a7ac"
+    server: 193.163.203.76
+    tls: true
+    type: vless
+    udp: true
+    uuid: 439f353b-b52f-4355-93d8-26e0567d5308
+    xudp: true
+    servername: api-maps.yandex.ru
+  - encryption: none
+    http-opts:
+      headers: {}
+      path:
+        - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+    name: "\U0001F1E8\U0001F1EDCH_1|1.4MB/s|GPT⁺-CH|YT-US|NF|11%"
+    network: http
+    port: 22
+    server: 172.65.111.43
+    type: vless
+    udp: true
+    uuid: monacoVPN
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F1\U0001F1FBLV_2|1.5MB/s|YT-RU"
+    network: tcp
+    port: 50573
+    reality-opts:
+      public-key: NcouT_UbeS3uAcbckd8QXzoTFpiFdlglgHOnhwy76Cg
+      short-id: "7b873acc934a727d"
+    server: 193.163.203.76
+    tls: true
+    type: vless
+    udp: true
+    uuid: d18a0f18-d5bd-43c1-bc08-e208473f30d8
+    xudp: true
+    servername: api-maps.yandex.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F1\U0001F1FBLV_3|1.2MB/s|YT-RU"
+    network: tcp
+    port: 50580
+    reality-opts:
+      public-key: ot_qLvMZOPCyVWFt0w8pC-nZT9RRzkdqNFtRtGpB220
+      short-id: "93290645e01c92f4"
+    server: 193.163.203.76
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3af11c26-c589-4a9c-b811-f068d741a877
+    xudp: true
+    servername: kinopoisk.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_11|1.3MB/s|GPT⁺-NL|YT-US|NF-GE|GM-US|0%"
+    network: tcp
+    port: 22231
+    server: r1.mizulina.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    xudp: true
+    servername: r1.mizulina.top
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_12|4.0MB/s|GPT|YT-US|NF|D+|GM-US"
+    network: xhttp
+    port: 443
+    server: 162.159.253.41
+    tls: true
+    type: vless
+    udp: true
+    uuid: 406d8436-0eb9-4eb2-84fb-960e076ffba6
+    xhttp-opts:
+      host: de.xn--q9jyb4c.online
+      mode: stream-one
+      path: /de
+    xudp: true
+    servername: de.xn--q9jyb4c.online
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F1\U0001F1FBLV_4|1.3MB/s|YT-RU"
+    network: tcp
+    port: 50547
+    reality-opts:
+      public-key: ZAqXfcXRYWRBjEYJQInYWkFSKTSbd7NXg66D7MUZ2wg
+      short-id: "03d0fa9716a73af2"
+    server: 193.163.203.76
+    tls: true
+    type: vless
+    udp: true
+    uuid: c5563e04-daff-4fea-a8ce-8741ad0bc2cf
+    xudp: true
+    servername: kinopoisk.ru
+  - client-fingerprint: edge
+    flow: xtls-rprx-vision-udp443
+    name: "\U0001F1FA\U0001F1F8US_13|2.1MB/s|GPT⁺-NL|YT-US|NF-GE|GM-US|0%"
+    network: tcp
+    port: 443
+    server: 85.234.114.53
+    tls: true
+    type: vless
+    udp: true
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    xudp: true
+    servername: r1.mizulina.top
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs
+    name: "\U0001F1E9\U0001F1EADE_11|2.0MB/s|GPT⁺-DE|NF|GM-DE|60%"
+    network: xhttp
+    port: 443
+    server: 66.81.247.104
+    tls: true
+    type: vless
+    udp: true
+    uuid: 58225ed2-9017-4204-8852-1b5cc1311fb8
+    xhttp-opts:
+      mode: auto
+      path: /c544c1d5248bf014e3a8
+    xudp: true
+    servername: 1-cloudflare.lapis-lazuli.tech
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_12|2.2MB/s|GPT⁺-DE|YT-DE|NF|GM-DE"
+    network: tcp
+    port: 443
+    server: 91.107.128.90
+    type: vless
+    udp: true
+    uuid: 34986bb9-0175-416b-98b8-22dd78ebcc71
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F1\U0001F1FBLV_5|1.4MB/s|YT-RU"
+    network: tcp
+    port: 50556
+    reality-opts:
+      public-key: tqZ-C6M7YzjR_sJ-V3OgU3tLUAv-KnJ9BQfIYfnVOHo
+      short-id: "23a3dee422d0cd1c"
+    server: 193.163.203.76
+    tls: true
+    type: vless
+    udp: true
+    uuid: 44fcf3b7-7baf-4b73-9f50-9f47967f7b29
+    xudp: true
+    servername: api-maps.yandex.ru
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_14|3.0MB/s|GPT⁺-US|YT-CN|NF|25%"
+    port: 180
+    server: 82.198.246.37
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    network: tcp
 rule-providers:
   private:
     url: >-
