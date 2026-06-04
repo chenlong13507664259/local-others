@@ -1,285 +1,38 @@
 proxies:
-  - name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s|GPT⁺-SG|YT-SG|NF-SG|GM-SG|26%"
-    password: 16955d72-1794-11f0-a035-f23c95b6f51d
-    port: 3233
-    server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-    tls: true
-    type: http
+  - multiplexing: MULTIPLEXING_LOW
+    name: "\U0001F1FF\U0001F1E6ZA_1|4.8MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
+    password: dongtaiwang.com
+    port: 28866
+    server: 45.221.98.11
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
+  - cipher: 2022-blake3-aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_1|681KB/s|GPT⁺-US|YT-US|NF|GM-US|43%"
+    password: 'YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA=='
+    plugin: gost-plugin
+    plugin-opts:
+      host: one.local
+      mode: websocket
+      mux: true
+      path: /ws
+      tls: false
+    port: 80
+    server: 104.128.72.119
+    type: ss
     udp: true
-    username: 16955d72-1794-11f0-a035-f23c95b6f51d
-    sni: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_1|2.1MB/s|GPT⁺-NL|YT-NL|NF|GM-NL|4%"
-    network: xhttp
-    port: 443
-    server: turkey.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 28c5a701-06bd-47fb-a4fd-9ac5c51437b1
-    xhttp-opts:
-      host: nl2.gamelistak.com
-      mode: auto
-      path: /MrNexTV2RAY
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: nl2.gamelistak.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F7\U0001F1FARU_1|785KB/s|GPT⁺-US|YT-RU|GM-US|7%"
-    network: raw
-    port: 443
-    reality-opts:
-      public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
-      short-id: ''
-    server: 185.139.214.254
-    tls: true
-    type: vless
-    udp: true
-    uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
-    xudp: true
-    servername: cloudcdn-m9-15.cdn.yandex.net
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s|GPT⁺-DE|YT-DE|NF|GM-DE|26%"
-    network: xhttp
-    port: 443
-    server: www.speedtest.net.gamelistak.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: c129c997-119d-4177-a94b-ee1025383a6f
-    xhttp-opts:
-      host: de1.gamelistak.com
-      mode: auto
-      path: /MrNexTV2RAY
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: de1.gamelistak.com
-  - name: "\U0001F1ED\U0001F1F0HK_1|862KB/s|YT-CN|NF|1%"
-    password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-    port: 5228
-    server: df142108-t9zts0-tee612-2r82.cm4.oshuawei.com
-    tls: true
-    type: http
-    udp: true
-    username: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-    sni: df142108-t9zts0-tee612-2r82.cm4.oshuawei.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_2|2.3MB/s|GPT⁺-DE|YT-DE|NF|D+|GM-DE|30%"
-    obfs: ''
-    obfs-password: ''
-    password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-    port: 4433
-    server: 185.228.139.247
-    skip-cert-verify: true
-    sni: de2.xiaoliyu.cyou
-    type: hysteria2
-    up: ''
-  - delay: 1042
-    name: "\U0001F1EC\U0001F1EDGH_1|636KB/s|GPT⁺-TW|YT-GH|NF|D+|100%"
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    port: 48697
-    server: 155.117.198.82
-    skip-cert-verify: true
-    sni: gh.01.naiun.bilibili.com
-    type: trojan
-    udp: true
-    network: tcp
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_3|1.2MB/s|GPT-DE|YT-RU|NF"
-    network: xhttp
-    port: 443
-    server: 91.209.253.175
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_4|1.8MB/s|GPT⁺-DE|YT-RU|NF"
-    network: xhttp
-    port: 443
-    server: 5.175.141.113
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_5|2.1MB/s|GPT⁺-DE|NF"
-    network: xhttp
-    port: 443
-    server: 159.242.242.56
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_6|1.3MB/s|GPT⁺-DE|YT-RU|NF"
-    network: xhttp
-    port: 443
-    server: 185.207.197.241
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_7|928KB/s|GPT⁺-DE|NF"
-    network: xhttp
-    port: 443
-    server: 31.185.108.182
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_8|713KB/s|GPT⁺-DE|YT-RU|NF"
-    network: xhttp
-    port: 443
-    server: 154.81.141.177
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_9|1.5MB/s|GPT⁺-DE|YT-US|NF"
-    network: ws
-    port: 2095
-    server: kobe.ns.cloudflare.com
-    type: vless
-    udp: true
-    uuid: e833874b-b2e8-4efc-bf39-0b061890e30f
-    ws-opts:
-      headers:
-        Host: iran-fast.azazilvpn.sbs
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /ed=2560
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_10|1.3MB/s|GPT⁺-DE|NF"
-    network: xhttp
-    port: 443
-    server: 188.95.12.226
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-    xhttp-opts:
-      host: cloudflare.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: cloudflare.dns.xn--q9jyb4c
-  - name: "\U0001F1F9\U0001F1FCTW_1|3.6MB/s|GPT⁺-TW|YT-TW|NF|D+|GM-TW"
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
   - alpn:
       - h3
-    down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_11|2.9MB/s|GPT⁺-DE|YT-DE|NF"
-    obfs: ''
-    obfs-password: ''
-    password: 7ce9a8d0-2cb2-4b8d-8de9-262c1d6597ac
-    port: 443
-    server: gy.gotogle.com
-    skip-cert-verify: false
-    sni: gy.gotogle.com
-    type: hysteria2
-    up: ''
-  - alpn:
-      - h3
-    down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_12|2.6MB/s|GPT⁺-FI|YT-DE|NF|D+"
-    obfs: ''
-    obfs-password: ''
-    password: 7ce9a8d0-2cb2-4b8d-8de9-262c1d6597ac
-    port: 443
-    server: fd.gotogle.com
-    skip-cert-verify: false
-    sni: fd.gotogle.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_13|955KB/s|GPT⁺-DE|YT-DE|NF|D+|GM-DE|30%"
-    obfs: ''
-    obfs-password: ''
-    password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-    port: 4433
-    server: 185.228.139.247
+    auth-str: github.com/Alvin9999-newpac/fanqiang
+    down: '55'
+    name: "\U0001F1E9\U0001F1EADE_1|709KB/s|GPT⁺-DE|YT-DE|NF|D+|GM-DE|0%"
+    port: 10066
+    protocol: udp
+    server: 62.210.29.98
     skip-cert-verify: true
-    sni: ''
-    type: hysteria2
-    up: ''
-    disable-sni: true
+    sni: bing.com
+    type: hysteria
+    up: '11'
 rule-providers:
   private:
     url: >-
