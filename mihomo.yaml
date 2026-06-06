@@ -1,5 +1,5 @@
 proxies:
-  - name: "\U0001F1F8\U0001F1ECSG_1|591KB/s|GPT⁺-SG|YT-SG|NF-SG|GM-SG|26%"
+  - name: "\U0001F1F8\U0001F1ECSG_1|1.1MB/s|GPT⁺-SG|YT-SG|NF-SG|GM-SG|26%"
     password: 1b609740-eec2-11ef-8543-f23c93136cb3
     port: 3233
     server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
@@ -8,7 +8,7 @@ proxies:
     udp: true
     username: 1b609740-eec2-11ef-8543-f23c93136cb3
     sni: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
-  - name: "\U0001F1F8\U0001F1ECSG_2|765KB/s|GPT⁺-SG|YT-SG|NF-SG|GM-SG|26%"
+  - name: "\U0001F1F8\U0001F1ECSG_2|780KB/s|GPT⁺-SG|YT-SG|NF-SG|GM-SG|26%"
     password: 16955d72-1794-11f0-a035-f23c95b6f51d
     port: 3233
     server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
@@ -17,31 +17,7 @@ proxies:
     udp: true
     username: 16955d72-1794-11f0-a035-f23c95b6f51d
     sni: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-  - name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s|GPT⁺-FR|YT-FR|NF|D+"
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 64772
-    server: 62.210.26.173
-    skip-cert-verify: true
-    sni: bing.com
-    tfo: false
-    type: hysteria2
-  - name: "\U0001F1ED\U0001F1F0HK_1|560KB/s|YT-CN|NF|1%"
-    password: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
-    port: 5228
-    server: ec008a95-t9zts0-tryjtz-12ach.cm4.oshuawei.com
-    sni: ec008a95-t9zts0-tryjtz-12ach.cm4.oshuawei.com
-    tls: true
-    type: http
-    username: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
-  - name: "\U0001F1ED\U0001F1F0HK_2|504KB/s|YT-CN|NF|1%"
-    password: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-    port: 5228
-    server: e63dc03b-t9zts0-tg8syu-1nyy5.cm4.oshuawei.com
-    sni: e63dc03b-t9zts0-tg8syu-1nyy5.cm4.oshuawei.com
-    tls: true
-    type: http
-    username: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-  - name: "\U0001F1F7\U0001F1FARU_1|2.5MB/s|GPT-DE|YT-RU|NF|D+|0%"
+  - name: "\U0001F1F7\U0001F1FARU_1|869KB/s|GPT-DE|YT-RU|NF|D+|0%"
     obfs: salamander
     obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
     password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
@@ -51,20 +27,195 @@ proxies:
     sni: tunel1.washing.help
     tfo: false
     type: hysteria2
+  - name: "\U0001F1EF\U0001F1F5JP_1|588KB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|62%"
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
+    port: 3235
+    server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
+    tls: true
+    type: http
+    username: 1b609740-eec2-11ef-8543-f23c93136cb3
+    sni: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
+  - name: "\U0001F1F8\U0001F1ECSG_3|1003KB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|62%"
+    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    port: 3253
+    server: 05f9a953-te8ao0-tee5aa-1glq.fourtwo.cdnbytescm.com
+    tls: true
+    type: http
+    username: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    sni: 05f9a953-te8ao0-tee5aa-1glq.fourtwo.cdnbytescm.com
+  - name: "\U0001F1EF\U0001F1F5JP_2|754KB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|62%"
+    password: c870fe5a-0729-11f0-8cf9-f23c93136cb3
+    port: 3235
+    server: ffb0709d-te7og0-tgp57k-ddgs.fourtwo.cdnbytescm.com
+    tls: true
+    type: http
+    username: c870fe5a-0729-11f0-8cf9-f23c93136cb3
+    sni: ffb0709d-te7og0-tgp57k-ddgs.fourtwo.cdnbytescm.com
+  - multiplexing: MULTIPLEXING_LOW
+    name: "\U0001F1FF\U0001F1E6ZA_1|3.3MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
+    password: dongtaiwang.com
+    port: 28866
+    server: 45.221.98.11
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
+  - name: "\U0001F1F8\U0001F1ECSG_4|1.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|62%"
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    port: 3234
+    server: b23bd7c6-tea5c0-telzv3-4550.fourtwo.cdnbytescm.com
+    tls: true
+    type: http
+    username: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    sni: b23bd7c6-tea5c0-telzv3-4550.fourtwo.cdnbytescm.com
+  - name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s|GPT⁺-FR|YT-FR|NF|D+|GM-FR"
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 64772
+    server: 62.210.29.98
+    skip-cert-verify: true
+    sni: bing.com
+    tfo: false
+    type: hysteria2
+  - name: "\U0001F1F3\U0001F1F1NL_1|1.9MB/s|GPT⁺-NL|YT-NL|NF|GM-NL|6%"
+    obfs: salamander
+    obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
+    password: 'rstnnl2705:ZmRjX7MkeEqZ5GQUIT5VO53ARuy6nrmQ'
+    port: 8932
+    server: 144.31.224.163
+    skip-cert-verify: true
+    sni: nrealistic.nn-foto.ru
+    tfo: false
+    type: hysteria2
+  - name: "\U0001F1EE\U0001F1E9ID_1|521KB/s|GPT⁺-ID|YT-ID|NF|GM-ID|26%"
+    password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+    port: 32233
+    server: 9541dbe9-t9zts0-tcinla-hrtf.id.oshuawei.com
+    tls: true
+    type: http
+    udp: true
+    username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+    sni: 9541dbe9-t9zts0-tcinla-hrtf.id.oshuawei.com
+  - name: "\U0001F1ED\U0001F1F0HK_1|535KB/s|YT-CN|NF|1%"
+    password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
+    port: 5228
+    server: 1aa11ffa-teq740-tfzlyg-1kcpe.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
+    sni: 1aa11ffa-teq740-tfzlyg-1kcpe.cm4.oshuawei.com
+  - name: "\U0001F1ED\U0001F1F0HK_2|596KB/s|YT-CN|1%"
+    password: ae5338ae-9a70-58c9-3d47-7d54a5675715
+    port: 5228
+    server: 54df60fd-tekn40-tv7dx2-py5w.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: ae5338ae-9a70-58c9-3d47-7d54a5675715
+    sni: 54df60fd-tekn40-tv7dx2-py5w.cm4.oshuawei.com
+  - name: "\U0001F1ED\U0001F1F0HK_3|521KB/s|YT-CN|NF|1%"
+    password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
+    port: 5228
+    server: 1b486472-ta1og0-tcr22d-1rsuw.cm4.oshuawei.com
+    sni: 1b486472-ta1og0-tcr22d-1rsuw.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
+  - name: "\U0001F1ED\U0001F1F0HK_4|501KB/s|YT-CN|NF|1%"
+    password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+    port: 5228
+    server: 37d83587-t9zts0-tpftcp-13x18.cm4.oshuawei.com
+    sni: 37d83587-t9zts0-tpftcp-13x18.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+  - name: "\U0001F1ED\U0001F1F0HK_5|535KB/s|YT-CN|1%"
+    password: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+    port: 5228
+    server: e63dc03b-t9zts0-tg8syu-1nyy5.cm4.oshuawei.com
+    sni: e63dc03b-t9zts0-tg8syu-1nyy5.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+  - name: "\U0001F1ED\U0001F1F0HK_6|516KB/s|YT-CN|NF|1%"
+    password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+    port: 5228
+    server: e194379d-t9zts0-tq9o8d-1d3bw.cm4.oshuawei.com
+    sni: e194379d-t9zts0-tq9o8d-1d3bw.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+  - name: "\U0001F1ED\U0001F1F0HK_7|577KB/s|YT-CN|NF|1%"
+    password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+    port: 5228
+    server: baf98563-ta1og0-ta7ccz-1j0a4.cm4.oshuawei.com
+    sni: baf98563-ta1og0-ta7ccz-1j0a4.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+  - name: "\U0001F1ED\U0001F1F0HK_8|622KB/s|YT-CN|NF|1%"
+    password: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+    port: 5228
+    server: 2b35f6e1-t9zts0-tn57fp-5ifr.cm4.oshuawei.com
+    sni: 2b35f6e1-t9zts0-tn57fp-5ifr.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+  - name: "\U0001F1ED\U0001F1F0HK_9|506KB/s|YT-CN|NF|1%"
+    password: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
+    port: 5228
+    server: b87823b9-t9zts0-tb224g-1h0r9.cm4.oshuawei.com
+    sni: b87823b9-t9zts0-tb224g-1h0r9.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
+  - name: "\U0001F1ED\U0001F1F0HK_10|534KB/s|YT-CN|NF|1%"
+    password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+    port: 5228
+    server: a9fbf7cf-t9zts0-thv9l4-1jbj0.cm4.oshuawei.com
+    sni: a9fbf7cf-t9zts0-thv9l4-1jbj0.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_5|986KB/s|GPT⁺-SG|YT-CN|NF-SG|11%"
+    obfs: salamander
+    obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+    password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+    port: 443
+    server: sg2.yuntong.click
+    skip-cert-verify: false
+    sni: sg2.yuntong.click
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1EF\U0001F1F5JP_3|1.8MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|0%"
+    password: C6TpRY6HyT
+    port: 37749
+    server: vps-orange-jpn.maze-maker.com
+    skip-cert-verify: false
+    sni: vps-orange-jpn.maze-maker.com
+    tfo: false
+    type: hysteria2
+  - name: "\U0001F1E6\U0001F1FFAZ_1|929KB/s|GPT⁺-TW|NF|D+|42%"
+    network: tcp
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    port: 41943
+    server: 155.117.198.87
+    skip-cert-verify: true
+    sni: az.01.naiun.bilibili.com
+    type: trojan
   - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_1|585KB/s|GPT|YT-US|NF|D+|GM-US"
+    name: "\U0001F1ED\U0001F1F0HK_11|522KB/s|D+|100%"
     network: ws
+    packet-encoding: xudp
     port: 8880
-    server: 45.80.110.30
+    server: 172.66.44.211
+    skip-cert-verify: false
+    tls: false
     type: vless
     udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    uuid: 0a5ab719-2407-4398-b507-8437ef365023
     ws-opts:
       headers:
-        Host: vms.lifetime51.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        Host: underthegun.cfd
       path: /
     xudp: true
 proxy-groups:
