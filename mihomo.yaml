@@ -1,224 +1,159 @@
 proxies:
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_1|690KB/s|GPT⁺-DE|YT-CN|NF|D+|0%"
-    port: 20088
-    protocol: udp
-    server: 5.83.129.153
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '500'
-  - name: "\U0001F1F7\U0001F1F4RO_1|560KB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
-    port: 9002
-    server: 84.239.49.253
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 1000
-    name: "\U0001F1E9\U0001F1EADE_2|838KB/s|GPT⁺-DE|YT-CN|NF|D+|0%"
-    port: 54177
-    protocol: udp
-    server: 5.83.129.90
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 500
   - encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-    name: "\U0001F1E8\U0001F1EDCH_1|1.8MB/s|GPT⁺-CH|YT-CH|NF|GM-CH|13%"
-    network: http
-    port: 22
-    server: 172.65.111.43
+    name: "\U0001F1E9\U0001F1EADE_1|562KB/s|GPT⁺-DE|NF|GM-DE"
+    network: ws
+    port: 80
+    server: 151.101.0.1
     type: vless
     udp: true
-    uuid: monacoVPN
-    xudp: true
-  - client-fingerprint: firefox
-    name: "\U0001F1FA\U0001F1F8US_1|522KB/s|GPT⁺-US|NF|GM-US|67%"
-    port: 1004
-    reality-opts:
-      public-key: 437UW8qHz_L4qlOZ_AgufdsA9me_uS5MWM-eptxM3w4
-      short-id: "998ad2ef2d977802"
-    server: newyorkcity.instasup.ir
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
-    network: tcp
-    servername: yahoo.com
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_3|2.0MB/s|GPT⁺-DE|YT-DE|NF|GM-DE|8%"
-    network: xhttp
-    port: 2087
-    server: www.speedtest.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2330f424-ef1f-47ad-a42a-815e5c576820
-    xhttp-opts:
-      mode: stream-up
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/40.0.2214.111 Safari/537.36
       path: /
     xudp: true
-    servername: r1.firefly-service.com
-  - name: "\U0001F1E9\U0001F1EADE_4|571KB/s|GPT⁺|NF|D+"
-    network: tcp
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    port: 46424
-    server: 155.117.198.85
-    skip-cert-verify: true
-    sni: de.01.naiun.bilibili.com
-    type: trojan
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s|GPT⁺-US|YT-US|NF|GM-US|25%"
+  - name: "\U0001F1E9\U0001F1EADE_2|2.0MB/s|GPT⁺-DE|NF|GM-DE"
     network: ws
-    packet-encoding: xudp
-    port: 55380
-    server: 172.86.109.206
-    skip-cert-verify: false
+    port: 80
+    server: 151.101.2.219
     tls: false
     type: vless
     udp: true
-    uuid: 5e1f8cb7-5509-43c9-a417-1c65c0df5959
-    ws-opts:
-      path: /
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EEFI_1|506KB/s|GPT⁺-FI|YT-RU|NF|D+|GM-FI|0%"
-    network: xhttp
-    packet-encoding: xudp
-    port: 443
-    reality-opts:
-      _spider-x: /
-      public-key: EUK_ePvEKUGcezQYHqgJ5P462XxLPXPm9CZWGLaL33k
-      short-id: "f7a740fb5a1e9aef"
-    server: tiuop.loralden.com
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2065a8c9-8b3d-4dba-b0ce-90d649aa3da7
-    xhttp-opts:
-      mode: auto
-      path: /xhttp
-    servername: tiuop.loralden.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_3|2.6MB/s|GPT⁺-US|YT-US|NF|D+|100%"
-    obfs: salamander
-    obfs-password: gxXGwphUe6APbFFsWA
-    password: Nrqyc1GkGr
-    port: 54236
-    server: panel.cobalttoolsgithub.online
-    skip-cert-verify: true
-    sni: panel.cobalttoolsgithub.online
-    type: hysteria2
-    up: ''
-  - encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_1|604KB/s|GPT⁺-IS|YT-SG|NF-SG|D+|GM-SG|13%"
-    network: ws
-    port: 2052
-    server: 172.64.149.54
-    type: vless
-    udp: true
-    uuid: cdec8542-a21f-4377-9da3-ea60bb6d3a30
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
     ws-opts:
       headers:
-        Host: chosenflyesqt-q3y28ipf-v2.chosen-fly-esqt.workers.dev
+        Host: max-gb1.global.ssl.fastly.net
+      path: /
+    servername: max-gb1.global.ssl.fastly.net
+  - name: "\U0001F1E9\U0001F1EADE_3|775KB/s|GPT⁺-DE|YT-DE|GM-DE"
+    network: ws
+    port: 80
+    server: speedtest.net
+    tls: false
+    type: vless
+    udp: true
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+      path: /
+    servername: max-gb1.global.ssl.fastly.net
+  - name: "\U0001F1E9\U0001F1EADE_4|2.1MB/s|GPT⁺-DE|YT-DE|NF|GM-DE"
+    network: ws
+    port: 80
+    server: 151.101.0.1
+    tls: false
+    type: vless
+    udp: true
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+      path: /
+    servername: max-gb1.global.ssl.fastly.net
+  - name: "\U0001F1E9\U0001F1EADE_5|2.3MB/s|GPT-DE|YT-DE|GM-DE"
+    network: ws
+    port: 80
+    server: 151.101.194.219
+    tls: false
+    type: vless
+    udp: true
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+      path: /
+    servername: max-gb1.global.ssl.fastly.net
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_6|503KB/s|GPT⁺-DE|NF|GM-DE"
+    network: ws
+    port: 80
+    server: 151.101.66.219
+    type: vless
+    udp: true
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_7|541KB/s|GPT⁺-DE|YT-DE|NF|GM-DE"
+    network: ws
+    port: 80
+    server: speedtest.net
+    type: vless
+    udp: true
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /
+    xudp: true
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_8|2.1MB/s|GPT⁺-DE|NF|GM-DE"
+    network: ws
+    port: 80
+    server: 151.101.194.219
+    type: vless
+    udp: true
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.94 Safari/537.36
-      path: / @ProxyVPN11
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /
     xudp: true
-  - name: "\U0001F1FA\U0001F1F8US_4|1.9MB/s|YT-US|NF|D+|GM-US"
-    network: ws
-    port: 8880
-    server: 130.250.137.30
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime05.workers.dev
-      path: /
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_5|767KB/s|YT-US|NF|D+|GM-US"
-    network: ws
-    port: 8880
-    server: 184.174.80.30
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime42.workers.dev
-      path: /
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_6|2.4MB/s|GPT-TR|YT-US|NF|D+|GM-US|100%"
-    network: ws
-    port: 8880
-    server: 185.225.195.30
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime18.workers.dev
-      path: /
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_7|545KB/s|GPT⁺-NL|YT-US|NF|0%"
-    network: ws
+  - name: "\U0001F1ED\U0001F1F0HK_1|639KB/s|YT-CN|NF|D+|1%"
+    password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+    port: 5228
+    server: 19fdb0e3-t9zts0-tbck4p-mv7m.cm4.oshuawei.com
+    sni: 19fdb0e3-t9zts0-tbck4p-mv7m.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+  - name: "\U0001F1ED\U0001F1F0HK_2|1.0MB/s|YT-CN|NF|D+|1%"
+    password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+    port: 5228
+    server: 2a162951-tetwg0-tga61j-mv7m.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+    sni: 2a162951-tetwg0-tga61j-mv7m.cm4.oshuawei.com
+  - name: "\U0001F1FA\U0001F1F8US_1|555KB/s|GPT⁺-US|YT-US|NF|GM-US|0%"
+    password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
     port: 443
-    security: tls
-    server: cdn.veilvpn.fans
-    skip-cert-verify: true
+    server: 77c39aeb-tetwg0-tga61j-mv7m.sj.hyhuawei.com
     tls: true
-    type: vless
-    uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+    type: http
+    username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+    sni: 77c39aeb-tetwg0-tga61j-mv7m.sj.hyhuawei.com
+  - alterId: 0
+    cipher: auto
+    client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_9|2.2MB/s|GPT⁺-DE|YT-DE|NF|D+|GM-DE|0%"
+    network: ws
+    port: 8080
+    server: jd.103672.xyz
+    tls: false
+    type: vmess
+    uuid: c14a83db-f333-452e-acff-93b8f7160b10
     ws-opts:
       headers:
-        Host: cdn.veilvpn.fans
-      path: /vpnhu
-      v2ray-http-upgrade: true
-    servername: cdn.veilvpn.fans
-  - name: "\U0001F1EB\U0001F1F7FR_1|626KB/s|GPT⁺-TW|NF|D+|58%"
-    network: tcp
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    port: 45619
-    server: 155.117.198.85
-    skip-cert-verify: true
-    sni: fr.01.naiun.bilibili.com
-    type: trojan
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F1\U0001F1F9LT_1|769KB/s|GPT⁺-LT|YT-RU|NF-LT|D+|16%"
-    network: tcp
-    packet-encoding: xudp
-    port: 2443
-    reality-opts:
-      public-key: wa00o0wO4pEn9ki565dMNkzt0SBcuJ4aRyz6tpTYmQw
-      short-id: "9d35004ad989e412"
-    server: 185.151.241.186
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 129400e5-7d1b-4720-bf3e-f877c3e5021e
-    servername: www.microsoft.com
+        Host: dedasabo.103466.xyz
+      path: /
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
