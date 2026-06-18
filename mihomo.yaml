@@ -1,276 +1,6 @@
 proxies:
-  - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FA\U0001F1F8US_1|583KB/s|GPT⁺-US|YT-CN|NF|D+|0%"
-    password: dongtaiwang.com
-    port: 34567
-    server: 157.254.223.44
-    transport: TCP
-    type: mieru
-    username: dongtaiwang.com
-  - encryption: none
-    headerType: none
-    name: "\U0001F1ED\U0001F1F0HK_1|3.3MB/s|YT-HK|NF|D+|0%"
-    network: tcp
-    port: 10000
-    security: none
-    server: 207.174.133.169
-    type: vless
-    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|3.0MB/s|GPT⁺-US|YT-US|NF|D+|GM-US"
-    network: ws
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    port: 443
-    server: 154.26.186.78
-    sni: tjsp.hhxaf.cc.cd
-    type: trojan
-    ws-opts:
-      headers:
-        Host: tjsp.hhxaf.cc.cd
-      path: /
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_1|683KB/s|GPT⁺-DE|YT-CN|NF|D+|0%"
-    port: 20088
-    protocol: udp
-    server: 5.83.129.153
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '500'
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_1|5.8MB/s|GPT⁺-KR|YT-KR|NF|GM-KR"
-    network: tcp
-    packet-encoding: xudp
-    port: 443
-    reality-opts:
-      public-key: DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw
-      short-id: "6ba85179e30d4fc2"
-    server: 47.80.4.49
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5c183802-747d-4d2f-a6f1-aff2d5d78401
-    servername: get.adobe.com
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: moktana.net.v1.StreamService
-    name: "\U0001F1F3\U0001F1F1NL_1|554KB/s|GPT⁺-NL|YT-US|NF|GM-US|0%"
-    network: grpc
-    port: 443
-    reality-opts:
-      public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-      short-id: "a1b2c3d4e5f6a7b8"
-    server: 186.246.9.142
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2cfb47db-5b73-43cf-be67-6e28d73df7d4
-    xudp: true
-    servername: nl.moktana.app
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: moktana.net.v1.StreamService
-    name: "\U0001F1F1\U0001F1F9LT_1|1.8MB/s|GPT⁺-LT|YT-RU|NF-LT|0%"
-    network: grpc
-    port: 443
-    reality-opts:
-      public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-      short-id: "3f8e2d1c9b4a7e6f"
-    server: lt.moktana.app
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2cc9f9ae-657b-43fc-916f-049690c4e07a
-    xudp: true
-    servername: lt.moktana.app
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_3|2.4MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|14%"
-    network: ws
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    port: 443
-    server: 154.17.28.152
-    skip-cert-verify: false
-    sni: tjsp.hhxaf.cc.cd
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_2|2.1MB/s|GPT-SG|14%"
-    network: ws
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    port: 443
-    server: 8.210.29.68
-    skip-cert-verify: false
-    sni: tjsp.hhxaf.cc.cd
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /
-  - alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_2|914KB/s|GPT⁺-NL|YT-NL|NF|D+|GM-NL|61%"
-    network: ws
-    port: 443
-    server: client.jison.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 64647238-c6a2-4142-8c74-c1be239140ab
-    ws-opts:
-      headers:
-        Host: sdt.jison.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: /ws
-    xudp: true
-    servername: fty.jison.ir
-  - name: "\U0001F1F9\U0001F1FCTW_1|2.4MB/s|GPT⁺-TW|YT-TW|NF|D+"
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-  - name: "\U0001F1F9\U0001F1FCTW_2|3.2MB/s|GPT⁺-TW|YT-TW|NF|D+"
-    password: mrwdfNTD8M79LCukCieldrqZWqs=
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: true
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-  - name: "\U0001F1FA\U0001F1F8US_4|922KB/s|GPT|YT-US|GM-US"
-    password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-    port: 443
-    server: 7d355a42-t9zts0-tbeopq-1s0a7.sj.oshuawei.com
-    sni: 7d355a42-t9zts0-tbeopq-1s0a7.sj.oshuawei.com
-    tls: true
-    type: http
-    username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_5|1.9MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|14%"
-    network: ws
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    port: 443
-    server: 69.63.217.6
-    sni: hhcm.hhxaf.cc.cd
-    type: trojan
-    ws-opts:
-      headers:
-        Host: hhcm.hhxaf.cc.cd
-      path: /
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_6|1.5MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|14%"
-    network: ws
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    port: 443
-    server: 154.17.28.152
-    sni: hhcm.hhxaf.cc.cd
-    type: trojan
-    ws-opts:
-      headers:
-        Host: hhcm.hhxaf.cc.cd
-      path: /
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_7|770KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|14%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 154.26.190.112
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_8|2.5MB/s|YT-US|NF|D+|GM-US"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 67.230.174.48
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-    ws-opts:
-      headers:
-        Host: s5.868001.xyz
-      path: /proxyip
-    servername: s5.868001.xyz
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_1|2.5MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|14%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 154.83.95.129
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_2|627KB/s|GPT⁺-US|YT-JP|NF|D+|GM-JP|14%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 45.192.242.10
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-    ws-opts:
-      headers:
-        Host: s5.868001.xyz
-      path: /proxyip=ProxyIP.CMLiussss.net
-    servername: s5.868001.xyz
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_2|3.7MB/s|YT-KR|NF|D+|GM-KR"
+    name: "\U0001F1F0\U0001F1F7KR_1|3.8MB/s|YT-KR|NF|D+|GM-KR"
     network: ws
     packet-encoding: xudp
     port: 443
@@ -285,6 +15,287 @@ proxies:
         Host: s5.868001.xyz
       path: /proxyip
     servername: s5.868001.xyz
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 1000
+    name: "\U0001F1E9\U0001F1EADE_1|961KB/s|GPT⁺-DE|YT-CN|NF|D+|0%"
+    port: 54177
+    protocol: udp
+    server: 5.83.129.90
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 500
+  - multiplexing: MULTIPLEXING_LOW
+    name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
+    password: dongtaiwang.com
+    port: 34567
+    server: 157.254.223.44
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: '1000'
+    name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s|GPT⁺-DE|YT-CN|NF|D+|0%"
+    port: 20088
+    protocol: udp
+    server: 5.83.129.153
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '500'
+  - name: "\U0001F1FA\U0001F1F8US_2|706KB/s|GPT⁺-US|YT-US|NF|GM-US|100%"
+    password: 5d1a1744-0d9d-42d0-b014-28b1bfc6a7e8
+    port: 25565
+    server: 64.69.32.8
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_1|2.7MB/s|GPT-JP|YT-JP|NF|D+|GM-JP|14%"
+    network: ws
+    port: 443
+    server: 212.135.211.16
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+    ws-opts:
+      headers:
+        Host: s5.868001.xyz
+      path: /proxyip=ProxyIP.CMLiussss.net
+    servername: s5.868001.xyz
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_3|3.2MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|14%"
+    network: ws
+    password: eeb6823c-b926-4ea2-866a-5542edd26e59
+    port: 443
+    server: 199.193.125.72
+    sni: hhcm.hhxaf.cc.cd
+    type: trojan
+    ws-opts:
+      headers:
+        Host: hhcm.hhxaf.cc.cd
+      path: /
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|14%"
+    network: ws
+    password: eeb6823c-b926-4ea2-866a-5542edd26e59
+    port: 443
+    server: 67.230.176.136
+    sni: hhcm.hhxaf.cc.cd
+    type: trojan
+    ws-opts:
+      headers:
+        Host: hhcm.hhxaf.cc.cd
+      path: /
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_5|1.0MB/s|GPT⁺-US|YT-US|NF|D+|GM-US"
+    network: ws
+    password: eeb6823c-b926-4ea2-866a-5542edd26e59
+    port: 443
+    server: 154.17.4.26
+    sni: hhcm.hhxaf.cc.cd
+    type: trojan
+    ws-opts:
+      headers:
+        Host: hhcm.hhxaf.cc.cd
+      path: /
+  - encryption: none
+    name: "\U0001F1F8\U0001F1EASE_1|1012KB/s|GPT⁺-SE|YT-RU|NF|GM-SE|62%"
+    network: tcp
+    packet-encoding: xudp
+    port: 8443
+    server: 45.159.12.26
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+  - name: "\U0001F1F7\U0001F1F4RO_1|1.5MB/s|GPT⁺-RO|YT-US|NF|0%"
+    port: 9002
+    server: 84.239.49.212
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_6|3.2MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|14%"
+    network: ws
+    password: eeb6823c-b926-4ea2-866a-5542edd26e59
+    port: 443
+    server: 154.26.187.6
+    sni: hhcm.hhxaf.cc.cd
+    type: trojan
+    ws-opts:
+      headers:
+        Host: hhcm.hhxaf.cc.cd
+      path: /
+  - encryption: none
+    name: "\U0001F1F8\U0001F1EASE_2|1.3MB/s|GPT⁺-SE|NF|GM-SE|0%"
+    network: tcp
+    packet-encoding: xudp
+    port: 8443
+    server: 45.159.12.2
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+  - encryption: none
+    name: "\U0001F1F8\U0001F1EASE_3|981KB/s|GPT⁺-SE|YT-RU|NF|GM-SE|0%"
+    network: tcp
+    packet-encoding: xudp
+    port: 8443
+    server: 45.159.12.16
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    servername: ams1.fromblancwithlove.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F0\U0001F1F7KR_2|3.7MB/s|YT-KR|NF|D+|GM-KR"
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 211.49.57.175
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
+    ws-opts:
+      headers:
+        Host: s5.868001.xyz
+      path: /proxyip
+    servername: s5.868001.xyz
+  - name: "\U0001F1F3\U0001F1F1NL_1|984KB/s|GPT⁺-NL|YT-RU|NF|GM-NL|0%"
+    port: 8443
+    server: 185.229.191.49
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    servername: ams1.fromblancwithlove.com
+  - name: "\U0001F1F3\U0001F1F1NL_2|568KB/s|GPT⁺-NL|YT-RU|NF|GM-NL|0%"
+    port: 8443
+    server: 185.229.191.46
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    servername: ams1.fromblancwithlove.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_3|581KB/s|GPT⁺-NL|YT-RU|NF|GM-NL|0%"
+    port: 8443
+    server: 79.127.227.215
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    servername: ams1.fromblancwithlove.com
+  - name: "\U0001F1F3\U0001F1F1NL_4|714KB/s|GPT⁺-NL|YT-RU|NF|GM-NL|0%"
+    port: 8443
+    server: 185.229.191.184
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    servername: ams1.fromblancwithlove.com
+  - name: "\U0001F1F3\U0001F1F1NL_5|975KB/s|YT-RU|NF|0%"
+    port: 8443
+    server: 185.229.191.93
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    servername: ams1.fromblancwithlove.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EASE_4|513KB/s|GPT⁺-SE|YT-RU|NF|GM-SE|0%"
+    port: 8443
+    server: 79.127.249.221
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    servername: ams1.fromblancwithlove.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EASE_5|616KB/s|GPT⁺-SE|YT-RU|NF|GM-SE|0%"
+    port: 8443
+    server: 45.159.12.134
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    servername: ams1.fromblancwithlove.com
+  - delay: 1442
+    name: "\U0001F1F7\U0001F1F4RO_2|945KB/s|GPT⁺-RO|YT-US|NF|GM-TM|0%"
+    port: 9002
+    server: 84.239.49.40
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1NL_6|614KB/s|GPT⁺-NL|YT-US|NF|100%"
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    port: 443
+    server: 82.38.31.15
+    type: ss
+  - name: "\U0001F1F3\U0001F1F1NL_7|720KB/s|GPT-NL|YT-RU|NF|GM-NL|0%"
+    port: 8443
+    server: 185.229.191.14
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    servername: ams1.fromblancwithlove.com
+  - name: "\U0001F1F3\U0001F1F1NL_8|518KB/s|YT-RU|NF|0%"
+    port: 8443
+    server: 185.229.191.22
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    servername: ams1.fromblancwithlove.com
+  - name: "\U0001F1F7\U0001F1F4RO_3|631KB/s|GPT⁺-RO|YT-RU|NF|GM-RO|45%"
+    port: 8443
+    server: 95.173.199.117
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+    network: tcp
+    servername: ams1.fromblancwithlove.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
