@@ -1,309 +1,17 @@
 proxies:
-  - name: "\U0001F1E9\U0001F1EADE_1|840KB/s|GPT⁺-DE|YT-US|NF"
-    network: ws
-    port: 80
-    server: 151.101.2.219
-    type: vless
-    udp: true
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    ws-opts:
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_1|502KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 64.186.246.93
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - name: "\U0001F1F7\U0001F1F4RO_1|824KB/s|GPT⁺-RO|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.253
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_2|520KB/s|GPT⁺-RO|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.199
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_3|922KB/s|GPT⁺-RO|YT-US|NF|GM-TM|0%"
-    port: 9002
-    server: 84.239.49.42
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1E9\U0001F1EADE_2|836KB/s|GPT⁺-DE|YT-US|NF"
-    network: ws
-    port: 80
-    server: 151.101.2.219
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    ws-opts:
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-      path: /
-    servername: max-gb1.global.ssl.fastly.net
-  - delay: 2021
-    name: "\U0001F1F7\U0001F1F4RO_4|648KB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
-    port: 9002
-    server: 84.239.14.148
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_3|562KB/s|GPT⁺-DE|YT-DE|NF|GM-DE|0%"
-    network: ws
-    port: 8443
-    server: ip.servfa98.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8da1b971-3145-40e4-91f4-190745a9f770
-    ws-opts:
-      headers:
-        Host: connect.ox3iiin.filegear-sg.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-      path: /cdn
-    xudp: true
-    servername: connect.ox3iiin.filegear-sg.me
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_4|2.1MB/s|GPT⁺-DE|YT-US|NF"
-    network: ws
-    port: 80
-    server: de1-111.466688.xyz
-    type: vless
-    udp: true
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    ws-opts:
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 8888
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_5|3.6MB/s|GPT⁺-DE|YT-DE|NF|GM-DE|0%"
-    network: xhttp
-    port: 1345
-    reality-opts:
-      public-key: WOkrI86DwKtvjBOD_FwKKyGuW_Sj3zpF6fLd6Ua47GI
-      short-id: "3b8f4f457e8d91"
-    server: 18.153.74.54
-    tls: true
-    type: vless
-    udp: true
-    uuid: NAMEDZADIM
-    xhttp-opts:
-      mode: auto
-      path: /@namedzadim
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: is1-ssl.mzstatic.com
-  - alpn:
-      - h2
-      - http/1.1
-      - h3
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_6|1.7MB/s|GPT⁺-DE|YT-DE|NF|GM-DE|0%"
-    network: xhttp
-    port: 443
-    server: itsshadyvpn-production.up.railway.app
-    tls: true
-    type: vless
-    udp: true
-    uuid: e692da68-3bb0-4716-909a-9918acfcef42
-    xhttp-opts:
-      mode: auto
-      path: /api
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: itsshadyvpn-production.up.railway.app
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_7|1.6MB/s|GPT⁺-DE|YT-US|NF"
-    network: xhttp
-    port: 443
-    server: auth.qeshmdiyar.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8b5965d9-0b6b-4550-b319-1f17d1cbcdb1
-    xhttp-opts:
-      mode: auto
-      path: /xh-83bsjkdv4bhv
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: auth.qeshmdiyar.ir
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_8|1.3MB/s|GPT⁺-DE|YT-US|NF"
-    network: ws
-    port: 80
-    server: 151.101.120.151
-    type: vless
-    udp: true
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    ws-opts:
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1EDCH_1|557KB/s|GPT⁺-CH|YT-CH|NF|GM-DE|68%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: sT3IlhEi8k7BA0jYkn5TkJ8HcX3_FZ7USnfnqCAGrhw
-      short-id: "1750fe7d"
-    server: 138.199.20.4
-    tls: true
-    type: vless
-    udp: true
-    uuid: 92e41c23-4b39-464a-bbff-63ef84f317da
-    xudp: true
-    servername: api-maps.yandex.ru
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_9|687KB/s|GPT⁺-DE|YT-US|NF"
-    network: ws
-    port: 80
-    server: 151.101.170.151
-    type: vless
-    udp: true
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    ws-opts:
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-        User-Agent: >-
-          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko)
-          Chrome/11.0.696.3 Safari/534.24
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - client-fingerprint: firefox
-    encryption: none
-    name: "\U0001F1E8\U0001F1FFCZ_1|1.4MB/s|GPT⁺-DE|YT-DE|NF|D+|0%"
-    network: xhttp
-    port: 443
-    reality-opts:
-      public-key: Np5eNpCJdcXe4IvMs0stzE-sMtlphhTnZeuCkhjQXzQ
-      short-id: "a8389289e18af5f4"
-    server: de-01.gni-daed.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c0f30a2-a7c1-43b1-bc51-20f07036a76e
-    xhttp-opts:
-      mode: auto
-      path: /
-    xudp: true
-    servername: de-01.gni-daed.ru
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E8\U0001F1FFCZ_2|844KB/s|GPT⁺-DE|YT-DE|NF|D+|0%"
-    network: xhttp
-    port: 443
-    reality-opts:
-      public-key: Np5eNpCJdcXe4IvMs0stzE-sMtlphhTnZeuCkhjQXzQ
-      short-id: "a8389289e18af5f4"
-    server: 95.85.232.195
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c0f30a2-a7c1-43b1-bc51-20f07036a76e
-    xhttp-opts:
-      mode: auto
-      path: /
-    xudp: true
-    servername: de-01.gni-daed.ru
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EEFI_1|1.2MB/s|GPT⁺-FI|YT-DE|NF|GM-DE"
-    network: xhttp
-    port: 443
-    server: 8.6.112.121
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1c3927cb-6141-4473-a17d-4b290f7c6980
-    xhttp-opts:
-      host: fi.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: ProxyVPN11.dns.xn--q9jyb4c
   - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FA\U0001F1F8US_2|2.4MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
+    name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
     password: dongtaiwang.com
     port: 34567
     server: 157.254.223.44
     transport: TCP
     type: mieru
     username: dongtaiwang.com
-  - http-opts:
-      method: GET
-      path:
-        - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-    name: "\U0001F1E8\U0001F1EDCH_2|1.2MB/s|GPT⁺-CH|YT-CH|NF|GM-CH|13%"
-    network: http
-    port: 22
-    server: 172.65.111.43
-    skip-cert-verify: false
-    tfo: false
-    tls: false
-    type: vless
-    uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_10|1.1MB/s|GPT⁺-DE|YT-CN|NF|D+|0%"
+    name: "\U0001F1E9\U0001F1EADE_1|1.4MB/s|GPT⁺-DE|YT-CN|NF|D+|0%"
     port: 20088
     protocol: udp
     server: 5.83.129.153
@@ -311,772 +19,52 @@ proxies:
     sni: apple.com
     type: hysteria
     up: '500'
-  - name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s|GPT⁺-FR|YT-FR|NF|D+|GM-FR"
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 18066
-    server: hy2.313186.xyz
-    skip-cert-verify: false
-    sni: hy2.313186.xyz
-    tfo: false
-    type: hysteria2
-  - name: "\U0001F1FA\U0001F1F8US_3|3.3MB/s|GPT⁺-US|YT-US|NF|GM-US|0%"
-    obfs: salamander
-    obfs-password: JynMarket
-    password: jkcnkc84dvggvi2n
-    port: 54040
-    server: 38.107.232.146
-    skip-cert-verify: false
-    sni: 38.107.232.146
-    tfo: false
-    type: hysteria2
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_1|2.1MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.35.206
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_1|876KB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.53.27
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_2|3.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.153.159
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_2|3.3MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 172.64.52.152
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_4|2.3MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.66.41.245
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 615b457e-fb2a-4bb7-854b-99c0e2c16b2a
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: zedu.abcxyz.dns.army
-      max-early-data: 2560
-      path: /ajax
-    servername: zedu.abcxyz.dns.army
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_1|721KB/s|GPT⁺-NL|YT-NL|NF|D+|GM-NL|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.67.173.177
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 615b457e-fb2a-4bb7-854b-99c0e2c16b2a
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: zedu.abcxyz.dns.army
-      max-early-data: 2560
-      path: /htm/season
-    servername: zedu.abcxyz.dns.army
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_3|2.5MB/s|GPT⁺|YT-JP|NF|D+|GM-JP|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.53.34
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_3|2.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 162.159.4.2
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_4|1.4MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 172.64.52.134
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_5|2.1MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 162.159.38.90
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_6|2.1MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 108.162.198.43
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_4|3.2MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    packet-encoding: xudp
-    port: 2083
-    server: 108.162.196.3
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_7|1.9MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|50%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.52.240
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_8|1.7MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.53.65
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_5|2.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 172.64.35.37
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_6|2.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.41.202
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_7|2.2MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 162.159.46.226
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_8|1.7MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 162.159.36.166
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_9|1.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.145.186
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_10|1.6MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 162.159.32.29
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_9|1.5MB/s|GPT-JP|YT-JP|NF|D+|GM-JP|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 2083
-    server: 162.159.45.201
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_11|2.1MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 162.159.14.252
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_12|2.1MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    packet-encoding: xudp
-    port: 2083
-    server: 162.159.21.206
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_10|3.4MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 162.159.44.180
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_13|1.3MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 2083
-    server: 162.159.11.57
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_11|1.4MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.52.18
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_12|1.9MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP"
-    network: ws
-    packet-encoding: xudp
-    port: 2083
-    server: 162.159.44.172
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_14|2.3MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 162.159.13.196
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_15|1.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    packet-encoding: xudp
-    port: 2083
-    server: 172.64.40.79
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_16|2.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.40.84
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_17|1.6MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.40.49
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_11|876KB/s|GPT⁺-DE|YT-US|NF"
-    network: ws
-    packet-encoding: xudp
-    port: 80
-    server: de1-4.466688.xyz
-    skip-cert-verify: false
-    type: vless
-    udp: true
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-      max-early-data: 8888
-      path: '/?https://t.me/daily_free_vpn'
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_12|509KB/s|GPT⁺-DE|YT-US|NF"
-    network: ws
-    packet-encoding: xudp
-    port: 80
-    server: 151.101.100.151
-    skip-cert-verify: false
-    type: vless
-    udp: true
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-      max-early-data: 2560
-      path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - encryption: none
-    name: "\U0001F1E8\U0001F1E6CA_1|524KB/s|GPT⁺-CA|YT-CA|NF-CA|GM-CA|43%"
-    network: ws
-    packet-encoding: xudp
-    port: 2052
-    server: suolar.yellowsky.ir
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: a4548d7f-8e0f-4780-9f5a-30cbd2754550
-    ws-opts:
-      headers:
-        Host: CAdaba.amki.IR.
-      path: /graphql
-      v2ray-http-upgrade: true
-  - grpc-opts:
-      grpc-service-name: mobile.api.Event
-    name: "\U0001F1FA\U0001F1F8US_5|2.3MB/s|GPT⁺-GB|YT-GB|NF-GB|GM-GB|0%"
-    network: grpc
-    packet-encoding: xudp
-    port: 443
-    server: gb2.univesalsrv.com
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: e4468d51-2528-4d40-a92d-5cf409d00dac
-    servername: gb2.univesalsrv.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s|GPT⁺-NL|YT-NL|NF|GM-NL|0%"
+    name: "\U0001F1E9\U0001F1EADE_2|787KB/s|GPT⁺-DE|YT-DE|NF|GM-DE"
     network: xhttp
-    packet-encoding: xudp
     port: 8443
-    reality-opts:
-      _spider-x: /AxAwcambWvqpZlG
-      public-key: Q_u5jQ1JI7ZKOliDvsaXGd899R4ybleSp5bMqUtg2y4
-      short-id: "e616ea5c2046"
-    server: 109.106.244.163
-    skip-cert-verify: false
+    server: mci.mgvip.ir
     tls: true
     type: vless
     udp: true
-    uuid: SoonTeam
+    uuid: 6d9d01fc-6842-4d8b-989d-459579e5ae14
     xhttp-opts:
+      host: mdmhi.mgvip.ir
       mode: auto
       path: /
       x-padding-bytes: 100-1000
-    servername: aws.amazon.com
+    xudp: true
+    servername: mdmhi.mgvip.ir
+  - name: "\U0001F1EF\U0001F1F5JP_1|684KB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|0%"
+    password: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+    port: 443
+    server: da296b87-t9zts0-thd0h1-1rz5s.jp.oshuawei.com
+    sni: da296b87-t9zts0-thd0h1-1rz5s.jp.oshuawei.com
+    tls: true
+    type: http
+    username: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+  - name: "\U0001F1FA\U0001F1F8US_2|2.5MB/s|GPT⁺-US|YT-US|NF|GM-US|4%"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-us-004.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-004.fastervpn.world
+    type: hysteria2
   - client-fingerprint: chrome
     ech-opts:
       _dns: 'https://dns.alidns.com/dns-query'
       enable: true
       query-server-name: cloudflare-ech.com
     encryption: none
-    name: "\U0001F1FA\U0001F1F8US_6|1.8MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|13%"
+    name: "\U0001F1F8\U0001F1ECSG_1|3.1MB/s|GPT⁺|YT-SG|NF-SG|D+|GM-SG|13%"
     network: ws
     packet-encoding: xudp
-    port: 8443
-    server: 64.186.242.138
+    port: 443
+    server: 198.41.223.238
     skip-cert-verify: false
     tls: true
     type: vless
@@ -1087,228 +75,34 @@ proxies:
         Host: t1s1.rittbo.kdns.fr
       path: /
     servername: t1s1.rittbo.kdns.fr
-  - name: "\U0001F1F7\U0001F1F4RO_5|1014KB/s|GPT⁺-RO|YT-RO|NF|GM-RO"
-    port: 9002
-    server: 193.176.84.20
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_13|1.4MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 2053
-    server: 156.246.93.48
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: qq
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_13|737KB/s|GPT⁺-DE|YT-RU|NF|20%"
-    network: tcp
-    packet-encoding: xudp
-    port: 443
-    reality-opts:
-      public-key: u1QltI2SnUX48F-cqulaVojcSLadC9I1Vt8gOqnFTB4
-      short-id: "0123456789abcdef"
-    server: auto-2.barryvpn.com
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0afe8434-7b68-48a3-a96f-509f7af15e5e
-    servername: ru-streaming.barryvpn.com
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK_1|2.8MB/s|YT-CN|1%"
-    network: ws
-    port: 18243
-    server: imghk302.igcaches.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
-    ws-opts:
-      path: /
-      headers:
-        HOST: bce.bdstatic.com
-        Host: imghk302.igcaches.com
-    servername: bce.bdstatic.com
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK_2|1.5MB/s|YT-CN|NF|D+|1%"
-    network: ws
-    port: 60852
-    server: hkgb707.ifastcdncache.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
-    ws-opts:
-      path: /
-      headers:
-        HOST: g.autoimg.cn
-        Host: hkgb707.ifastcdncache.com
-    servername: g.autoimg.cn
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_7|1.2MB/s|GPT⁺-US|YT-US|NF|D+|GM-US"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 69.63.211.169
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1EEFI_2|524KB/s|GPT⁺-FI|YT-FI|NF|GM-FI|0%"
-    network: tcp
-    packet-encoding: xudp
-    port: 443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: "6ba85179e30d4fc2"
-    server: 217.217.247.249
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
-    servername: enterprisekitten.com
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1EEFI_3|847KB/s|GPT⁺-FI|YT-FI|NF|GM-FI|0%"
-    network: tcp
-    packet-encoding: xudp
-    port: 443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: "6ba85179e30d4fc2"
-    server: 217.217.247.246
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
-    servername: enterprisekitten.com
-  - name: "\U0001F1F7\U0001F1F4RO_6|1.2MB/s|GPT⁺-RO|NF|0%"
-    port: 9002
-    server: 84.239.49.156
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_7|761KB/s|GPT⁺-RO|YT-US|NF|0%"
-    port: 9002
-    server: 84.239.49.57
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_8|1.7MB/s|GPT⁺-RO|YT-US|NF|0%"
-    port: 9002
-    server: 84.239.49.239
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_9|1.5MB/s|GPT⁺-RO|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.234
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_10|1.0MB/s|GPT⁺-RO|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.176
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_11|735KB/s|GPT⁺-RO|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.224
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_12|1.3MB/s|GPT⁺-RO|YT-US|NF|0%"
-    port: 9002
-    server: 84.239.49.170
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_13|630KB/s|GPT⁺-RO|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.225
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_14|2.4MB/s|GPT⁺-RO|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.157
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_15|1.4MB/s|GPT⁺-RO|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.219
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1E9\U0001F1EADE_14|1.4MB/s|GPT⁺-DE|YT-US|NF"
-    network: ws
-    port: 80
-    server: 151.101.194.219
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    ws-opts:
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-      path: /
-    servername: max-gb1.global.ssl.fastly.net
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US_3|1.6MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|25%"
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    plugin: obfs
+    plugin-opts:
+      host: '817aa69.default.nintendo.com:112719'
+      mode: tls
+    port: 2377
+    server: 134.195.101.125
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US_4|659KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|25%"
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    plugin: obfs
+    plugin-opts:
+      host: '817aa69.default.nintendo.com:112719'
+      mode: tls
+    port: 2377
+    server: 134.195.101.115
+    type: ss
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 1000
-    name: "\U0001F1E9\U0001F1EADE_15|1.1MB/s|GPT⁺-DE|YT-CN|NF|D+|0%"
+    name: "\U0001F1E9\U0001F1EADE_3|1.2MB/s|GPT⁺-DE|YT-CN|NF|D+|0%"
     port: 54177
     protocol: udp
     server: 5.83.129.90
@@ -1317,29 +111,209 @@ proxies:
     type: hysteria
     udp: true
     up: 500
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_16|549KB/s|GPT⁺-DE|YT-DE|NF|D+|GM-DE|17%"
-    network: ws
-    password: B7X8C5rOaZ
-    port: 443
-    server: 104.17.108.1
-    skip-cert-verify: false
-    sni: a1.aananas.ir
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.71 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_17|3.0MB/s|GPT⁺-DE|NF"
+  - name: "\U0001F1E9\U0001F1EADE_4|516KB/s|YT-DE|NF|D+|GM-DE|13%"
     network: ws
     port: 80
-    server: 151.101.0.1
+    server: 104.25.118.238
+    type: vless
+    udp: true
+    uuid: 6cd78ec7-b715-471c-92b4-0c3842caea4b
+    ws-opts:
+      headers:
+        Host: billowing-cloud-d339.sospanel.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko)
+          Chrome/11.0.696.3 Safari/534.24
+      path: >-
+        /eyJqdW5rIjoiOFRwTjlPWHgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_5|533KB/s|GPT⁺-DE|YT-DE|NF|GM-DE"
+    network: ws
+    port: 80
+    server: mci.nexuschat.fun
+    type: vless
+    udp: true
+    uuid: 73bb419b-743f-4502-bfb5-08211272a325
+    ws-opts:
+      headers:
+        Host: your.nexuschat.fun
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.63 Safari/537.36
+      path: /nexus
+    xudp: true
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_6|727KB/s|GPT⁺-DE|YT-DE|NF|GM-DE"
+    network: ws
+    port: 80
+    server: mkh.nexuschat.fun
+    type: vless
+    udp: true
+    uuid: 73bb419b-743f-4502-bfb5-08211272a325
+    ws-opts:
+      headers:
+        Host: your.nexuschat.fun
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: /nexus
+    xudp: true
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_7|601KB/s|GPT⁺-DE|YT-DE|NF|GM-DE"
+    network: ws
+    port: 80
+    server: 199.181.197.176
+    type: vless
+    udp: true
+    uuid: 73bb419b-743f-4502-bfb5-08211272a325
+    ws-opts:
+      headers:
+        Host: your.nexuschat.fun
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /nexus
+    xudp: true
+  - name: "\U0001F1E9\U0001F1EADE_8|1.2MB/s|GPT⁺-DE|YT-DE|NF"
+    network: ws
+    port: 80
+    server: 151.101.131.151
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+      path: "/?https:/t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_9|2.1MB/s|GPT⁺-DE|YT-US|NF"
+    network: ws
+    packet-encoding: xudp
+    port: 80
+    server: 151.101.2.151
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+      path: /
+  - name: "\U0001F1E9\U0001F1EADE_10|1.2MB/s|GPT⁺-DE|NF"
+    network: ws
+    port: 80
+    server: 151.101.3.151
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+      path: "/?https:/t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1E9\U0001F1EADE_11|2.4MB/s|GPT⁺-DE|YT-US|NF"
+    network: ws
+    port: 80
+    server: 151.101.194.151
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+      path: "/?https:/t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1ED\U0001F1F0HK_1|726KB/s|YT-HK|NF|D+|2%"
+    network: tcp
+    password: BxceQaOe
+    port: 39414
+    server: 43.199.31.72
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - name: "\U0001F1E9\U0001F1EADE_12|741KB/s|GPT⁺-DE|YT-DE|NF"
+    network: ws
+    port: 80
+    server: 151.101.193.151
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+      path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1E9\U0001F1EADE_13|2.1MB/s|GPT⁺-DE|YT-DE|NF"
+    network: ws
+    port: 80
+    server: 151.101.2.219
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+      path: /
+    servername: max-gb1.global.ssl.fastly.net
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5JP_2|3.8MB/s|GPT⁺-JP|YT-CN|NF|D+|2%"
+    port: 443
+    reality-opts:
+      public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
+    security: reality
+    server: t13.qifei.app
+    tls: true
+    type: vless
+    uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+    network: tcp
+    servername: www.amazon.com
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8US_5|794KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|25%"
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    plugin: obfs
+    plugin-opts:
+      host: '817aa69.default.nintendo.com:112719'
+      mode: tls
+    port: 2377
+    server: 134.195.101.127
+    type: ss
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_6|607KB/s|GPT⁺-US|YT-US|NF|GM-US|0%"
+    password: 32315324-cf6b-11ed-979b-f23c9164ca5d
+    port: 443
+    server: 6e28045a-te09s0-tfgtqm-nx3b.sj.hyhuawei.com
+    sni: 6e28045a-te09s0-tfgtqm-nx3b.sj.hyhuawei.com
+    tls: true
+    type: http
+    username: 32315324-cf6b-11ed-979b-f23c9164ca5d
+  - name: "\U0001F1F0\U0001F1F7KR_1|795KB/s|GPT⁺-KR|YT-KR|NF|5%"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: test
+    sni: testkr3.ssv.vc
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_14|2.5MB/s|GPT⁺-DE|YT-US|NF"
+    network: ws
+    port: 80
+    server: 151.101.130.151
     type: vless
     udp: true
     uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -1347,318 +321,88 @@ proxies:
       headers:
         Host: max-gb1.global.ssl.fastly.net
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    xudp: true
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_15|2.1MB/s|GPT⁺-DE|YT-US|NF"
+    network: ws
+    port: 80
+    server: 151.101.66.151
+    type: vless
+    udp: true
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    ws-opts:
+      headers:
+        Host: max-gb1.global.ssl.fastly.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
           Safari/537.36
-      path: /
+      path: "/?https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EEFI_4|3.0MB/s|GPT⁺-FI|YT-DE|NF|GM-DE"
-    network: xhttp
-    port: 443
-    server: 159.112.235.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1c3927cb-6141-4473-a17d-4b290f7c6980
-    xhttp-opts:
-      host: fi.dns.xn--q9jyb4c
-      mode: packet-up
-      path: /xn--q9jyb4c
-      x-padding-bytes: 100-1000
-    xudp: true
-    servername: ProxyVPN11.dns.xn--q9jyb4c
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_18|1.7MB/s|GPT⁺-DE|YT-DE|NF|GM-DE"
-    network: xhttp
-    port: 8443
-    reality-opts:
-      public-key: VrWXAqq3fCtgo-VTe35BHHXme2kMsSWqopmac-GzOlQ
-      short-id: "be8318"
-    server: 162.55.98.167
-    tls: true
-    type: vless
-    udp: true
-    uuid: c9f829a6-2f60-4bd9-8189-06df479d0488
-    xhttp-opts:
-      mode: auto
-      path: /cdn-data
-    xudp: true
-    servername: www.yahoo.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_19|1014KB/s|GPT⁺-DE|YT-DE|NF|GM-DE|0%"
-    network: tcp
-    port: 9443
-    reality-opts:
-      public-key: ydtP6Nv3EqKvbnCYoozfIk5q7ihoNWQsdd8UPqGFu2M
-      short-id: "ffaa1a2421f17932"
-    server: germnode.dostupnet.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: ebcb836a-ab7a-424f-a07c-aba25c70da69
-    xudp: true
-    servername: germnode.dostupnet.ru
-  - client-fingerprint: qq
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_3|677KB/s|GPT⁺-NL|YT-RU|NF|D+|6%"
-    network: ws
-    port: 9443
-    server: 176.109.94.202
-    tls: true
-    type: vless
-    udp: true
-    uuid: 71b03803-5dfe-4dac-8406-a06e94b1bd70
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.106 Safari/537.36
-      path: /ws
-    xudp: true
-    servername: mms-2tets.hysteria.ltd
-  - encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_4|2.1MB/s|GPT⁺-NL|YT-NL|NF|GM-NL|6%"
-    network: ws
-    port: 443
-    server: 195.63.133.145
-    type: vless
-    udp: true
-    uuid: 36562b99-aadd-4e38-b566-24e0d219b1d6
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1FAHU_1|2.1MB/s|GPT⁺-HU|YT-RU|NF|GM-FR|60%"
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-      short-id: "2715592069f36fe7"
-    server: 45.198.87.27
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7896c501-248f-4068-bc2f-363c91ba5122
-    xudp: true
-    servername: storage.yandex.net
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_20|812KB/s|GPT⁺-DE|YT-DE|NF|D+|GM-DE|33%"
-    network: ws
-    password: iKmZWib7Mb
-    port: 443
-    server: 104.17.108.1
-    skip-cert-verify: false
-    sni: a2.aananas.ir
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-  - cipher: aes-128-gcm
-    name: "\U0001F1EC\U0001F1E7GB_1|1.0MB/s|GPT"
-    password: shadowsocks
-    port: 443
-    server: 158.173.24.73
-    type: ss
-    udp: true
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_8|529KB/s|YT-US|NF|D+|GM-US"
-    network: ws
-    port: 8880
-    server: 89.116.180.30
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime09.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
-      path: /
-    xudp: true
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_9|840KB/s|GPT-AM|YT-US|NF|D+|GM-US"
-    network: ws
-    port: 8880
-    server: 45.131.4.30
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime59.workers.dev
-      path: /
-  - name: "\U0001F1FA\U0001F1F8US_10|2.2MB/s|GPT|YT-US|NF|D+|GM-US"
-    network: ws
-    port: 8880
-    server: 192.0.54.30
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime35.workers.dev
-      path: /
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: ws
-    name: "\U0001F1F5\U0001F1F1PL_1|1.1MB/s|GPT⁺-PL|YT-RU|NF|GM-PL|0%"
-    network: grpc
-    port: 43439
-    reality-opts:
-      public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-      short-id: "84d5e248cb91dca0"
-    security: reality
-    server: cl-1.perecm.ru
-    tls: true
-    type: vless
-    uuid: fa4d12f8-4d4f-4fdf-a8a6-7ced1db6cf91
-    servername: www.amd.com
-  - name: "\U0001F1F7\U0001F1F4RO_16|885KB/s|GPT⁺-RO|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.225
-    skip-cert-verify: true
-    sni: www.bing.com
-    tls: true
-    type: http
-  - name: "\U0001F1F7\U0001F1F4RO_17|572KB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
-    port: 9002
-    server: 84.239.14.157
-    skip-cert-verify: true
-    sni: www.bing.com
-    tls: true
-    type: http
-  - name: "\U0001F1FA\U0001F1F8US_11|2.1MB/s|GPT-TR|YT-US|NF|D+|GM-US"
-    network: ws
-    port: 8880
-    server: 8.34.70.30
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime09.workers.dev
-      path: /
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_2|1.3MB/s|GPT⁺-DE|YT-DE|NF|GM-DE|0%"
-    obfs: salamander
-    obfs-password: 3sv5vpdl9xr84lyb
-    password: 7roz68utnk7wgogj
-    port: 443
-    server: social.klipp.su
+    name: "\U0001F1E9\U0001F1EADE_16|1.0MB/s|GPT⁺-DE|YT-DE|NF|D+|GM-DE|13%"
+    obfs: ''
+    obfs-password: ''
+    password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+    port: 4433
+    server: 202.61.205.86
     skip-cert-verify: false
-    sni: social.klipp.su
+    sni: de1.xiaoliyu.cyou
     type: hysteria2
     up: ''
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_18|3.2MB/s|GPT-SG|YT-SG|GM-SG"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 162.159.42.182
+  - name: "\U0001F1EF\U0001F1F5JP_3|725KB/s|GPT⁺-JP|YT-CN|NF|D+|0%"
+    password: BxceQaOe
+    port: 10624
+    server: 18.183.54.150
+    skip-cert-verify: true
+    sni: t.me%252Fripaojiedian
+    type: trojan
+    network: tcp
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s|GPT⁺-NL|YT-NL|NF|D+|GM-NL"
+    obfs: salamander
+    obfs-password: YzgyOTkdNDk4ZTU2NTd65A==
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+    port: 40000
+    server: nl.9966690.xyz
+    skip-cert-verify: true
+    sni: nl.9966690.xyz
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EE\U0001F1F1IL_1|1.6MB/s|GPT⁺-IL|YT-IL|NF|GM-IL"
+    obfs: salamander
+    obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+    port: 50000
+    server: il.9966690.xyz
+    skip-cert-verify: true
+    sni: il.9966690.xyz
+    type: hysteria2
+    up: ''
+  - fingerprint: 652664a8689f6c45f7083c46c6e1dd02b26f0a45ab08e2c7c5f458a10602ce7a
+    name: "\U0001F1F0\U0001F1F7KR_2|759KB/s|GPT⁺-KR|YT-KR|GM-KR|2%"
+    password: C0DD7bgChaltqnh/T2az6ijM
+    port: 20000
+    ports: 20000-30000
+    server: 193.123.228.188
     skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
+    sni: www.bing.com
+    tfo: false
+    type: hysteria2
   - client-fingerprint: chrome
     ech-opts:
       _dns: 'https://dns.alidns.com/dns-query'
       enable: true
       query-server-name: cloudflare-ech.com
     encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_19|2.4MB/s|GPT-SG|GM-SG|13%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 162.159.42.163
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_20|1.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 162.159.46.24
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_21|4.2MB/s|GPT-SG|YT-SG"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 162.159.1.170
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_22|2.4MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
+    name: "\U0001F1F8\U0001F1ECSG_2|2.7MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
     network: ws
     packet-encoding: xudp
     port: 2083
@@ -1679,7 +423,70 @@ proxies:
       enable: true
       query-server-name: cloudflare-ech.com
     encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_23|3.5MB/s|GPT-SG"
+    name: "\U0001F1F8\U0001F1ECSG_3|2.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 172.64.35.37
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_4|1.8MB/s|GPT-SG|YT-SG|NF-SG|D+|GM-SG|13%"
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 162.159.46.24
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_5|2.7MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 162.159.41.198
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_6|5.2MB/s|GPT|GM-SG"
     network: ws
     packet-encoding: xudp
     port: 443
@@ -1700,11 +507,11 @@ proxies:
       enable: true
       query-server-name: cloudflare-ech.com
     encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_24|4.8MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|13%"
+    name: "\U0001F1EF\U0001F1F5JP_4|1.1MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP"
     network: ws
     packet-encoding: xudp
-    port: 8443
-    server: 162.159.41.198
+    port: 2083
+    server: 162.159.44.172
     skip-cert-verify: false
     tls: true
     type: vless
@@ -1715,443 +522,398 @@ proxies:
         Host: t1s1.rittbo.kdns.fr
       path: /
     servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1EASE_1|672KB/s|GPT⁺-FR|YT-FR|NF|GM-FR|0%"
-    network: tcp
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_7|2.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
+    network: ws
     packet-encoding: xudp
-    port: 14302
-    reality-opts:
-      public-key: lw7-Msn5E2O6HbBdqMw9SvoDJgbDIvHss0UVQ9iZFRc
-      short-id: "106f1604d65bb70c"
-    server: 46.226.161.161
+    port: 443
+    server: 172.64.42.44
     skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: 1dd5f2be-f124-4f35-9239-8abc042829c2
-    servername: www.samsung.com
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E7\U0001F1FEBY_1|1.2MB/s|YT-RU"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: XP021Gnd6DIRMV_-JmMw50SPWQRWRcLrke5Uq_-OMk8
-      short-id: "e3170c535dcdd117"
-    server: 134.17.94.163
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5JP_5|1.5MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|13%"
+    network: ws
+    packet-encoding: xudp
+    port: 2083
+    server: 162.159.45.201
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: 2b569745-25b5-4da1-bb86-0f02f87ca4b3
-    xudp: true
-    servername: deepl.com
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1FAHU_2|635KB/s|GPT⁺-HU|YT-RU|NF|GM-FR|60%"
-    network: tcp
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_8|1.3MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|13%"
+    network: ws
+    packet-encoding: xudp
     port: 8443
-    reality-opts:
-      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-      short-id: "2715592069f36fe7"
-    server: 45.198.87.34
+    server: 162.159.32.29
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: 7896c501-248f-4068-bc2f-363c91ba5122
-    xudp: true
-    servername: storage.yandex.net
-  - name: "\U0001F1F8\U0001F1ECSG_25|522KB/s|YT-SG|NF-SG|D+|GM-SG|13%"
-    network: ws
-    port: 80
-    server: 172.64.146.211
-    type: vless
-    udp: true
-    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
     ws-opts:
       headers:
-        Host: zyzzzoao.xn--fiqv8j.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/60.0.3112.116 Mobile Safari/537.36
+        Host: t1s1.rittbo.kdns.fr
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_26|5.2MB/s|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    port: 80
-    server: 172.64.147.210
-    type: vless
-    udp: true
-    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-    ws-opts:
-      headers:
-        Host: zyzzzoao.xn--fiqv8j.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
+    servername: t1s1.rittbo.kdns.fr
   - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_21|670KB/s|GPT⁺-US|YT-DE|NF|D+|GM-DE|13%"
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5JP_6|2.5MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|13%"
     network: ws
+    packet-encoding: xudp
     port: 443
-    server: 172.66.213.38
+    server: 172.64.52.240
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: 50b43435-6bb5-45ef-aff7-85f3844ba039
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
     ws-opts:
       headers:
-        Host: click.snapchat.com.r3xxe.eu.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.186 Safari/537.36
-      path: /au-mt
-    xudp: true
-    servername: click.snapchat.com.r3xxe.eu.cc
-  - name: "\U0001F1FA\U0001F1F8US_12|678KB/s|YT-US|NF|D+|GM-US|13%"
-    network: ws
-    port: 80
-    server: cfip.1323123.xyz
-    type: vless
-    udp: true
-    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-    ws-opts:
-      headers:
-        Host: zyzzzoao.xn--fiqv8j.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        Host: t1s1.rittbo.kdns.fr
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_27|5.3MB/s|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    port: 80
-    server: 172.64.146.127
-    type: vless
-    udp: true
-    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-    ws-opts:
-      headers:
-        Host: zyzzzoao.xn--fiqv8j.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
+    servername: t1s1.rittbo.kdns.fr
   - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5JP_7|1.2MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|13%"
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.53.34
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5JP_8|2.0MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP"
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.53.27
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5JP_9|2.2MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|13%"
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.52.18
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_9|2.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
+    network: ws
+    packet-encoding: xudp
+    port: 2083
+    server: 172.64.40.79
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5JP_10|2.6MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|13%"
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 108.162.198.43
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5JP_11|3.3MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP"
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 172.64.52.134
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_10|2.9MB/s|0%"
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 162.159.3.141
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_11|3.3MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+    network: ws
+    packet-encoding: xudp
+    port: 443
+    server: 172.64.40.49
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_12|2.1MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 162.159.46.226
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_13|1.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 162.159.4.221
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_14|2.4MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 162.159.13.196
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_7|712KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|13%"
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 64.186.242.138
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_1|749KB/s|GPT⁺-FI|YT-RU|NF"
+    network: xhttp
+    packet-encoding: xudp
+    port: 443
+    server: 31.76.251.59
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 96c49118-4e1d-4c42-bb0e-a23102e7598e
+    xhttp-opts:
+      mode: auto
+      path: /y64dg77dnk7xzr5k
+    servername: 65.21.66.44
+  - client-fingerprint: chrome
+    ech-opts:
+      _dns: 'https://dns.alidns.com/dns-query'
+      enable: true
+      query-server-name: cloudflare-ech.com
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5JP_12|1.3MB/s|GPT⁺-JP|YT-JP|NF|GM-JP"
+    network: ws
+    packet-encoding: xudp
+    port: 8443
+    server: 158.101.132.216
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    ws-opts:
+      headers:
+        Host: t1s1.rittbo.kdns.fr
+      path: /
+    servername: t1s1.rittbo.kdns.fr
+  - client-fingerprint: edge
+    encryption: none
     grpc-opts:
-      grpc-service-name: moktana.net.v1.StreamService
-    name: "\U0001F1F1\U0001F1F9LT_1|564KB/s|GPT⁺-LT|YT-RU|NF-LT|0%"
+      grpc-service-name: grpc
+    name: "\U0001F1EA\U0001F1EAEE_1|977KB/s|GPT⁺-EE|YT-RU|NF-EE|D+|20%"
     network: grpc
+    packet-encoding: xudp
     port: 443
     reality-opts:
-      public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-      short-id: "6f3c1b8e5d2a4f7c"
-    server: lt.moktana.app
+      _spider-x: /
+      public-key: hLx8TLJmiERzIkXT1rpRgV8S1oN-i9cE2N5o7Wi_0TQ
+      short-id: "7a3f9e2b1c8d4f6a"
+    server: g.ee.s3-rus.ru
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: 97dc60fb-31cf-4156-be16-a3815ce64b60
-    xudp: true
-    servername: lt.moktana.app
-  - name: "\U0001F1F3\U0001F1F1NL_5|2.2MB/s|GPT⁺-AU|YT-NL|NF|D+|GM-NL"
-    network: ws
-    port: 80
-    server: 188.114.97.6
-    type: vless
-    udp: true
-    uuid: 6faeb6a0-5055-4e4b-8fb1-ffd77e57aefa
-    ws-opts:
-      headers:
-        Host: somersby.pt.r3xxe.eu.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/55.0.2883.87 Safari/537.36
-      path: /au-do
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_28|5.2MB/s|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    port: 8880
-    server: 104.18.37.228
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime29.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_29|3.9MB/s|GPT|YT-SG|NF-SG|D+|GM-SG|13%"
-    network: ws
-    port: 8880
-    server: 172.64.150.28
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime29.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_6|614KB/s|YT-NL|NF|D+|GM-NL|13%"
-    network: ws
-    port: 443
-    server: 104.21.72.233
-    tls: true
-    type: vless
-    udp: true
-    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-    ws-opts:
-      headers:
-        Host: zyzzzoao.xn--fiqv8j.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.99 Safari/537.36
-      path: /?ed=2048fp=randomized
-    xudp: true
-    servername: zyzzzoao.xn--fiqv8j.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_13|1.2MB/s|YT-US|NF|D+|GM-US"
-    network: ws
-    port: 8880
-    server: 154.194.12.50
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime35.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
-      path: "/?https://t.me/youtube@ZYFXS\U0001F1E8\U0001F1F3"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1EF\U0001F1F5JP_14|3.7MB/s|YT-JP|NF|D+|GM-JP|13%"
-    network: ws
-    port: 80
-    server: cloudflare-ip.mofashi.ltd
-    type: vless
-    udp: true
-    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-    ws-opts:
-      headers:
-        Host: zyzzzoao.xn--fiqv8j.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/40.0.2214.111 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - name: "\U0001F1F3\U0001F1F1NL_7|637KB/s|YT-NL|NF|D+|GM-NL"
-    network: ws
-    port: 80
-    server: 104.21.80.180
-    type: vless
-    udp: true
-    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-    ws-opts:
-      headers:
-        Host: zyzzzoao.xn--fiqv8j.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.102 Safari/537.36
-      path: /
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_30|5.4MB/s|YT-SG|NF-SG|D+|GM-SG|13%"
-    network: ws
-    port: 80
-    server: 172.64.147.29
-    type: vless
-    udp: true
-    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-    ws-opts:
-      headers:
-        Host: zyzzzoao.xn--fiqv8j.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_22|543KB/s|YT-DE|NF|D+|GM-DE|13%"
-    network: ws
-    port: 443
-    server: cf.877771.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-    ws-opts:
-      headers:
-        Host: zyzzzoao.xn--fiqv8j.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-      path: /?ed=2048fp=randomized
-    xudp: true
-    servername: zyzzzoao.xn--fiqv8j.eu.org
-  - name: "\U0001F1F8\U0001F1ECSG_31|6.0MB/s|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    port: 80
-    server: 172.64.146.1
-    type: vless
-    udp: true
-    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-    ws-opts:
-      headers:
-        Host: zyzzzoao.xn--fiqv8j.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_32|5.4MB/s|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    port: 80
-    server: 172.64.146.198
-    type: vless
-    udp: true
-    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-    ws-opts:
-      headers:
-        Host: zyzzzoao.xn--fiqv8j.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/36.0.1985.125 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_23|860KB/s|GPT⁺-DE|YT-RU|NF|D+|GM-DE|0%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-      short-id: "e1f8a3b6"
-    server: 5.253.66.31
-    tls: true
-    type: vless
-    udp: true
-    uuid: b97e287f-a24e-4028-a103-7e7ecef83139
-    xudp: true
-    servername: www.amd.com
-  - name: "\U0001F1E9\U0001F1EADE_24|2.7MB/s|GPT⁺-DE|YT-US|NF"
-    network: ws
-    port: 80
-    server: 151.101.66.219
-    type: vless
-    udp: true
-    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-    ws-opts:
-      headers:
-        Host: max-gb1.global.ssl.fastly.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
-      path: /
-    xudp: true
-  - name: "\U0001F1F3\U0001F1F1NL_8|946KB/s|GPT⁺-NL|YT-NL|NF|D+|GM-NL|0%"
-    network: ws
-    port: 80
-    server: 104.21.15.55
-    type: vless
-    udp: true
-    uuid: 09e81f69-b010-4f31-8752-8cefbdc30f9d
-    ws-opts:
-      headers:
-        Host: ez-09ed80.test-env-52424b.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.101 Safari/537.36
-      path: /
-    xudp: true
-  - name: "\U0001F1FA\U0001F1F8US_14|2.4MB/s|GPT|YT-US|NF|D+|GM-US"
-    network: ws
-    port: 8880
-    server: 50.62.198.30
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime39.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.94 Safari/537.36
-      path: "/?https://t.me/youtube@ZYFXS\U0001F1E8\U0001F1F3"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - name: "\U0001F1F3\U0001F1F1NL_9|1.4MB/s|GPT⁺-NL|YT-NL|NF|D+|GM-NL|13%"
-    network: ws
-    port: 80
-    server: 172.67.161.185
-    type: vless
-    udp: true
-    uuid: 09e81f69-b010-4f31-8752-8cefbdc30f9d
-    ws-opts:
-      headers:
-        Host: ez-09ed80.test-env-52424b.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /
-    xudp: true
-  - name: "\U0001F1F8\U0001F1ECSG_33|1.6MB/s|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    port: 80
-    server: 172.64.144.82
-    type: vless
-    udp: true
-    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-    ws-opts:
-      headers:
-        Host: zyzzzoao.xn--fiqv8j.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - name: "\U0001F1F3\U0001F1F1NL_10|1.0MB/s|YT-NL|NF|D+|GM-NL"
-    network: ws
-    port: 8880
-    server: 104.21.25.168
-    type: vless
-    udp: true
-    uuid: abd3678b-f654-404c-adc7-1355865197e1
-    ws-opts:
-      headers:
-        Host: vless.a-amr79.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like
-          Gecko) Chrome/5.0.342.1 Safari/533.2
-      path: >-
-        /eyJqdW5rIjoiNUZVWmdPNWNpTW5LOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
-    xudp: true
+    uuid: 02dd2e7c-77c6-4384-9b16-453fd4e95a4c
+    servername: www.microsoft.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
