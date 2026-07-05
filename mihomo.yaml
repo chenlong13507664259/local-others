@@ -1,184 +1,5 @@
 proxies:
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_1|1.5MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 162.159.5.231
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_1|5.1MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|15%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.52.18
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_2|3.6MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 162.159.1.37
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
-    password: dongtaiwang.com
-    port: 34567
-    server: 157.254.223.44
-    transport: TCP
-    type: mieru
-    username: dongtaiwang.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_1|1.4MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.223
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1F7\U0001F1F4RO_1|638KB/s|GPT⁺-RO|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.58
-    skip-cert-verify: true
-    sni: www.bing.com
-    tls: true
-    type: http
-  - name: "\U0001F1FA\U0001F1F8US_2|932KB/s|GPT⁺-US|YT-CN|NF|0%|R002-260618"
-    password: 16955d72-1794-11f0-a035-f23c95b6f51d
-    port: 443
-    server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-    sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    username: 16955d72-1794-11f0-a035-f23c95b6f51d
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_3|1.1MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|P002-260618"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 162.159.21.235
-    skip-cert-verify: false
-    sub_tag: P002-260618
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_2|3.1MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|15%|P002-260618"
-    network: ws
-    packet-encoding: xudp
-    port: 2083
-    server: 162.159.44.172
-    skip-cert-verify: false
-    sub_tag: P002-260618
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - name: "\U0001F1FA\U0001F1F8US_3|536KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|15%|R002-260618"
-    password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-    port: 443
-    server: ba60169b-t9zts0-tfi5fd-1imi4.sjc.oshuawei.com
-    sni: ba60169b-t9zts0-tfi5fd-1imi4.sjc.oshuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    username: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-  - name: "\U0001F1EF\U0001F1F5JP_3|609KB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|0%|R002-260618"
-    password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-    port: 443
-    server: 2f5c3ade-tegxs0-tighxj-12hj8.jp.oshuawei.com
-    sni: 2f5c3ade-tegxs0-tighxj-12hj8.jp.oshuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-  - name: "\U0001F1FA\U0001F1F8US_4|943KB/s|GPT⁺-US|YT-US|NF|GM-US|9%|R002-260618"
-    password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-    port: 443
-    server: eafe0745-t9zts0-tarsld-1gevg.sj.oshuawei.com
-    sni: eafe0745-t9zts0-tarsld-1gevg.sj.oshuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  - name: "\U0001F1FA\U0001F1F8US_5|864KB/s|GPT⁺-US|YT-US|NF|GM-US|0%|R002-260618"
-    password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-    port: 443
-    server: 096037df-t9zts0-tcw58g-1p0be.sj.oshuawei.com
-    sni: 096037df-t9zts0-tcw58g-1p0be.sj.oshuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-  - name: "\U0001F1FA\U0001F1F8US_6|761KB/s|GPT⁺-US|YT-US|NF|GM-US|9%|R002-260618"
+  - name: "\U0001F1FA\U0001F1F8US_1|995KB/s|GPT⁺-US|YT-US|NF|GM-US|9%|R002-260618"
     password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
     port: 443
     server: 5a4bdbc5-t9zts0-tairte-1m0fq.sj.oshuawei.com
@@ -187,78 +8,37 @@ proxies:
     tls: true
     type: http
     username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-  - name: "\U0001F1FA\U0001F1F8US_7|538KB/s|GPT⁺-US|YT-US|NF|GM-US|50%|R002-260618"
-    password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-    port: 443
-    server: 51371bc2-te3z40-tip01z-1gevg.se.oshuawei.com
-    sni: 51371bc2-te3z40-tip01z-1gevg.se.oshuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  - name: "\U0001F1FA\U0001F1F8US_8|568KB/s|GPT⁺-US|YT-US|NF|GM-US|50%|R002-260618"
-    password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-    port: 443
-    server: b19ca737-t9zts0-tarubk-1qkeg.se.oshuawei.com
-    sni: b19ca737-t9zts0-tarubk-1qkeg.se.oshuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  - name: "\U0001F1FA\U0001F1F8US_9|502KB/s|GPT⁺-US|YT-US|NF|GM-US|50%|R002-260618"
-    password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-    port: 443
-    server: f839d080-tegxs0-tnsc3a-1f0gu.se.oshuawei.com
-    sni: f839d080-tegxs0-tnsc3a-1f0gu.se.oshuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-  - name: "\U0001F1FA\U0001F1F8US_10|573KB/s|GPT⁺-US|YT-US|NF|GM-US|50%|R002-260618"
-    password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-    port: 443
-    server: 228ab6e4-ta1og0-tarubk-1qkeg.se.oshuawei.com
-    sni: 228ab6e4-ta1og0-tarubk-1qkeg.se.oshuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  - name: "\U0001F1FA\U0001F1F8US_11|978KB/s|GPT⁺-US|YT-US|NF|GM-US|0%|R002-260618"
-    password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-    port: 443
-    server: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
-    sni: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-  - name: "\U0001F1FA\U0001F1F8US_12|582KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|15%|R002-260618"
-    password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-    port: 443
-    server: 56924745-t9zts0-tb016b-1m7l4.sjc.oshuawei.com
-    sni: 56924745-t9zts0-tb016b-1m7l4.sjc.oshuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    username: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: api.v1.StreamService
-    name: "\U0001F1F8\U0001F1EASE_1|2.0MB/s|GPT⁺-GB|YT-RU|NF-GB|D+|0%"
-    network: grpc
-    port: 443
-    reality-opts:
-      public-key: AmAdR0vhSJczokH8dMt81F-6BGFyKPtBwuxqbuPlyAk
-      short-id: "1c63aa937542d3c0"
-    server: app.oneoker.com
-    tls: true
-    type: vless
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1FA\U0001F1F8US_2|2.9MB/s|GPT⁺-US|YT-US|NF|GM-US|54%"
+    password: 383737a2-a196-44b6-a9ac-4f8cc23c9637
+    port: 11393
+    server: 107.173.7.186
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: tuic
     udp: true
-    uuid: 564397f8-4805-4433-ab5b-a24aa133bac2
-    xudp: true
-    servername: app.oneoker.com
-  - name: "\U0001F1FA\U0001F1F8US_13|672KB/s|GPT⁺-US|YT-US|NF|GM-US|0%"
+    udp-relay-mode: native
+    uuid: 383737a2-a196-44b6-a9ac-4f8cc23c9637
+    version: 5
+  - name: "\U0001F1F0\U0001F1F7KR_1|10.7MB/s|GPT⁺-KR|YT-KR|NF|GM-KR|2%"
+    password: d5m-5bGOsVbFgRlxsEyO3pCF
+    port: 55020
+    server: 140.245.74.46
+    skip-cert-verify: true
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1EB\U0001F1F7FR_1|3.2MB/s|GPT⁺-FR|YT-FR|NF|GM-FR|6%"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: vpn-fr-001.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-fr-001.fastervpn.world
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_3|610KB/s|GPT⁺-US|YT-US|NF|GM-US|0%"
     password: 0b869f32-657e-11ee-a90c-f23c9313b177
     port: 3443
     server: 6a6fc92d-t9zts0-ta9qsh-24c4.seadc2.cdnbytescm.com
@@ -266,27 +46,27 @@ proxies:
     tls: true
     type: http
     username: 0b869f32-657e-11ee-a90c-f23c9313b177
-  - name: "\U0001F1FA\U0001F1F8US_14|633KB/s|GPT⁺-US|YT-US|NF|GM-US|0%"
-    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-    port: 5443
-    server: 09775d44-tea5c0-tee5aa-1glq.fmtdc1.sghuawei.com
-    tls: true
-    type: http
-    username: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-    sni: 09775d44-tea5c0-tee5aa-1glq.fmtdc1.sghuawei.com
-  - name: "\U0001F1FA\U0001F1F8US_15|509KB/s|GPT⁺-US|YT-US|NF|GM-US|50%"
-    password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+  - name: "\U0001F1FA\U0001F1F8US_4|1005KB/s|GPT⁺-US|YT-US|NF|GM-US|9%"
+    password: 398e0d38-8649-11ef-959c-f23c9164ca5d
     port: 443
-    server: 3f496269-ta1og0-tdq4vj-1l0qa.se.oshuawei.com
-    sni: 3f496269-ta1og0-tdq4vj-1l0qa.se.oshuawei.com
+    server: 6a9a5485-t9zts0-thzbn1-1gxvd.sj.oshuawei.com
+    sni: 6a9a5485-t9zts0-thzbn1-1gxvd.sj.oshuawei.com
     tls: true
     type: http
-    username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+    username: 398e0d38-8649-11ef-959c-f23c9164ca5d
+  - name: "\U0001F1FA\U0001F1F8US_5|1.0MB/s|GPT⁺-US|YT-US|NF|GM-US|0%"
+    password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+    port: 443
+    server: 45da9ca8-tegxs0-tvb36r-1qwom.sj.hyhuawei.com
+    sni: 45da9ca8-tegxs0-tvb36r-1qwom.sj.hyhuawei.com
+    tls: true
+    type: http
+    username: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_1|1.4MB/s|GPT⁺-DE|YT-NL|NF|D+|GM-NL|0%"
+    name: "\U0001F1E9\U0001F1EADE_1|2.1MB/s|GPT⁺-DE|YT-NL|NF|D+|GM-NL|0%"
     port: 20088
     protocol: udp
     server: 5.83.129.153
@@ -294,21 +74,785 @@ proxies:
     sni: apple.com
     type: hysteria
     up: '500'
+  - name: "\U0001F1F7\U0001F1F4RO_1|543KB/s|GPT⁺-RO|YT-UA|NF|GM-UA|0%"
+    password: ''
+    port: 9002
+    server: 84.239.49.247
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1F7\U0001F1F4RO_2|511KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    password: ''
+    port: 9002
+    server: 84.239.49.235
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1F7\U0001F1F4RO_3|753KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    password: ''
+    port: 9002
+    server: 84.239.49.178
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1F7\U0001F1F4RO_4|634KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    password: ''
+    port: 9002
+    server: 84.239.49.39
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1F7\U0001F1F4RO_5|675KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    password: ''
+    port: 9002
+    server: 84.239.49.157
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_2|546KB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
+    name: "\U0001F1F3\U0001F1F1NL_1|2.7MB/s|GPT⁺-NL|YT-NL|NF|GM-NL|11%"
     obfs: ''
     obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.129
+    password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
+    port: 443
+    server: 5.255.102.165
+    skip-cert-verify: true
+    sni: 5.255.102.165
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1F7\U0001F1F4RO_6|892KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.225
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_7|593KB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
+    port: 9002
+    server: 84.239.14.159
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_8|647KB/s|GPT⁺-RO|YT-US|NF|D+|0%"
+    port: 9002
+    server: 84.239.49.154
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_9|563KB/s|GPT⁺-RO|YT-RO|NF|D+|GM-RO|0%"
+    port: 9002
+    server: 84.239.14.149
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_10|921KB/s|GPT⁺-RO|YT-CN|NF|D+|0%"
+    port: 9002
+    server: 84.239.49.227
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_11|598KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.207
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_12|896KB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
+    port: 9002
+    server: 84.239.49.42
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_13|648KB/s|GPT⁺-RO|YT-RO|NF|0%"
+    port: 9002
+    server: 84.239.49.196
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_14|525KB/s|GPT⁺-RO|YT-US|NF|0%"
+    port: 9002
+    server: 84.239.49.211
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_15|538KB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
+    port: 9002
+    server: 84.239.49.204
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_16|1.2MB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
+    port: 9002
+    server: 84.239.49.239
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_17|886KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.234
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_18|608KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.57
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_19|1.5MB/s|GPT⁺-RO|YT-US|NF|0%"
+    port: 9002
+    server: 84.239.49.175
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_20|519KB/s|GPT⁺-RO|YT-US|NF|0%"
+    port: 9002
+    server: 84.239.49.219
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - delay: 2258
+    name: "\U0001F1F9\U0001F1F7TR_1|2.5MB/s|GPT⁺-TR|YT-TR|NF|D+|GM-TR"
+    network: ws
+    password: dfdse334053vuohm
+    port: 443
+    server: auto.mhjstudio.ir
+    skip-cert-verify: true
+    sni: alternative.mhjstudio.ir
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: alternative.mhjstudio.ir
+      path: /
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - fn.fifapes.monster
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1EEFI_1|858KB/s|GPT⁺-FI|YT-US|NF"
+    network: http
+    port: 2090
+    server: fn.fifapes.monster
+    type: vless
+    udp: true
+    uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E8\U0001F1FECY_1|2.4MB/s|GPT⁺-IT|YT-RU|NF|34%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: lZf2K14GxiyyUM4zovDM20iuvkYQcGrXbPd18F3Jyzo
+      short-id: "1ab2"
+    server: it-just.dataload-cdn.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: a2415a12-3f92-4636-9823-9828d3ceb818
+    xudp: true
+    servername: www.sony.com
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_2|608KB/s|YT-RU|GM-DE|54%"
+    network: tcp
+    port: 1111
+    reality-opts:
+      public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
+      short-id: ''
+    server: 78.159.250.189
+    tls: true
+    type: vless
+    udp: true
+    uuid: 72edcaa1-685e-4022-9576-273746529e1f
+    xudp: true
+    servername: api-maps.yandex.ru
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7FR_2|762KB/s|GPT⁺-LU|YT-FR|NF|GM-FR"
+    network: tcp
+    port: 7009
+    reality-opts:
+      public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+      short-id: ''
+    server: luemborgclouding.iranlast.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
+    xudp: true
+    servername: yahoo.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EE\U0001F1F9IT_1|512KB/s|GPT⁺-IT|YT-FR|NF-GB|D+|GM-FR"
+    network: tcp
+    port: 7009
+    reality-opts:
+      public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+      short-id: ''
+    server: talianaccentclouding.iranlast.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3f298aca-2412-49ac-9f20-235f0e448d31
+    xudp: true
+    servername: yahoo.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_3|1.2MB/s|GPT⁺-DE|YT-US|NF"
+    network: ws
+    port: 443
+    server: 8.133.176.42
+    tls: true
+    type: vless
+    udp: true
+    uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: octopusss5.info
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/39.0.2171.95 Safari/537.36
+      max-early-data: 2560
+      path: /udfyfws
+    xudp: true
+    servername: octopusss5.info
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8US_6|2.0MB/s|GPT⁺-US|YT-US|NF|D+|GM-US|0%"
+    password: b3813e01-e131-4ed2-98fd-c3a805fc515f
+    port: 43211
+    server: us07.network-cdn-gw-yd.net
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1NL_2|3.1MB/s|GPT⁺-NL|YT-US|NF|100%"
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    port: 443
+    server: 82.38.31.35
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1EB\U0001F1F7FR_3|2.6MB/s|GPT⁺-FR|YT-FR|NF|3%"
+    password: amazonskr05
+    port: 443
+    server: 51.44.220.197
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FA\U0001F1F8US_7|1.7MB/s|GPT⁺-US|YT-US|NF|GM-US|3%"
+    password: amazonskr05
+    port: 443
+    server: 3.17.162.229
+    type: ss
+  - name: "\U0001F1E6\U0001F1FAAU_1|2.5MB/s|GPT⁺-AU|YT-CN|NF-AU|22%"
+    password: 3213f4a7-4817-45b8-bfff-59e5836a78bc
+    port: 55000
+    server: 103.106.231.238
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK_1|2.8MB/s|GPT⁺-TW|YT-HK|NF|D+|12%"
+    password: af223a34-e37f-41c8-8467-26474a3ac9d8
+    port: 55000
+    server: 45.202.248.138
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK_2|2.2MB/s|YT-HK|NF|D+|0%"
+    network: ws
+    port: 2096
+    server: wawov6.ombre.qzz.io
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: c7251b62-d162-44a5-9d90-bf26a340ad40
+    ws-opts:
+      headers:
+        Host: wawov6.ombre.qzz.io
+      path: /luluchan
+    servername: wawov6.ombre.qzz.io
+  - alpn:
+      - h3
+    name: "\U0001F1FA\U0001F1F8US_8|1.7MB/s|GPT⁺-US|YT-US|NF|GM-US|54%"
+    password: Unb9YTYVSw
+    port: 11573
+    server: oracle1.chenlan.top
+    skip-cert-verify: true
+    sni: oracle1.chenlan.top
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_9|3.5MB/s|YT-US|NF|D+|GM-US"
+    network: ws
+    port: 443
+    server: 8.133.176.42
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+    ws-opts:
+      headers:
+        Host: nbhhh.mrcool.kdns.fr
+      path: /proxyip=3cfb8e26.tp30304.ip.090227.xyz
+    servername: nbhhh.mrcool.kdns.fr
+  - name: "\U0001F1ED\U0001F1F0HK_3|727KB/s|YT-CN|NF|D+|0%"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: 202.146.222.29
     skip-cert-verify: true
     sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     type: hysteria2
-    up: ''
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_10|2.5MB/s|YT-US|NF|D+|GM-US"
+    network: ws
+    port: 443
+    server: 39.107.252.182
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+    ws-opts:
+      headers:
+        Host: nbhhh.mrcool.kdns.fr
+      path: "/proxyip=Telegram-WangCai2\U0001F1E8\U0001F1F3"
+    servername: nbhhh.mrcool.kdns.fr
+  - name: "\U0001F1FA\U0001F1F8US_11|738KB/s|GPT⁺-US|YT-US|GM-US|42%"
+    password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
+    port: 50581
+    server: 172.96.141.4
+    skip-cert-verify: true
+    sni: api.push.apple.com
+    type: hysteria2
+    udp: true
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_12|5.3MB/s|GPT⁺|YT-CA|NF-SG|GM-CA"
+    network: tcp
+    port: 30845
+    server: v45.hdacd.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    xudp: true
+  - cc: 1
+    client-fingerprint: chrome
+    delay: 315
+    name: "\U0001F1FA\U0001F1F8US_13|2.6MB/s|GPT⁺-US|YT-US|NF|GM-US|0%"
+    network: ws
+    port: 2096
+    server: news.zoom.us
+    tls: true
+    type: vless
+    udp: true
+    uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
+    vv: 260626.144
+    ws-opts:
+      headers:
+        Host: primelinelk.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/65.0.3325.181 Safari/537.36
+      path: /xprolk-primeline
+    xudp: true
+    servername: primelinelk.me
+  - multiplexing: MULTIPLEXING_LOW
+    name: "\U0001F1FA\U0001F1F8US_14|4.7MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
+    password: dongtaiwang.com
+    port: 34567
+    server: 157.254.223.44
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
+  - name: "\U0001F1F7\U0001F1F4RO_21|637KB/s|GPT⁺-RO|YT-RO|NF|GM-RO"
+    port: 9002
+    server: 193.176.84.36
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_22|1.9MB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.209
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_15|1.3MB/s|GPT⁺-US|YT-US|NF|GM-US|50%"
+    password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+    port: 443
+    server: 7f312055-teisg0-tsdg75-tlhh.se.hyhuawei.com
+    skip-cert-verify: true
+    sni: 7f312055-teisg0-tsdg75-tlhh.se.hyhuawei.com
+    type: anytls
+    udp: true
+  - name: "\U0001F1F7\U0001F1F4RO_23|715KB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
+    port: 9002
+    server: 84.239.49.204
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1EC\U0001F1E7GB_1|526KB/s|GPT⁺|NF|GM-GB|64%"
+    password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+    port: 443
+    server: cd9e4889-t9zts0-tarubk-1qkeg.uk.oshuawei.com
+    sni: cd9e4889-t9zts0-tarubk-1qkeg.uk.oshuawei.com
+    tls: true
+    type: http
+    username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  - name: "\U0001F1FA\U0001F1F8US_16|606KB/s|GPT⁺-US|YT-US|GM-US|0%"
+    password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+    port: 443
+    server: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
+    sni: e4d5368d-tegxs0-ts40sw-14g76.sj.hyhuawei.com
+    tls: true
+    type: http
+    username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+  - name: "\U0001F1F7\U0001F1F4RO_24|2.6MB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
+    port: 9002
+    server: 84.239.49.212
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_25|671KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.155
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_26|550KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.163
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_27|2.3MB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.176
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_28|572KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.39
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_29|1.1MB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.207
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_30|835KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.160
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_17|640KB/s|GPT⁺-US|YT-US|NF|GM-US|0%"
+    password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+    port: 443
+    server: bfaf39fb-tegxs0-tujecz-1qkeg.sj.hyhuawei.com
+    sni: bfaf39fb-tegxs0-tujecz-1qkeg.sj.hyhuawei.com
+    tls: true
+    type: http
+    username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  - name: "\U0001F1F7\U0001F1F4RO_31|813KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.238
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_32|1.7MB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.191
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_33|635KB/s|GPT⁺-RO|YT-UA|NF|GM-UA|0%"
+    port: 9002
+    server: 84.239.49.215
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_34|1.5MB/s|GPT⁺-RO|YT-US|NF|GM-TM|0%"
+    port: 9002
+    server: 84.239.49.166
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_35|567KB/s|GPT⁺-RO|YT-RO|NF|GM-RO"
+    port: 9002
+    server: 193.176.84.37
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_36|608KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.57
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_37|530KB/s|GPT⁺-RO|YT-RU|NF|0%"
+    port: 9002
+    server: 84.239.49.180
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_38|845KB/s|GPT⁺-RO|YT-RU|NF|0%"
+    port: 9002
+    server: 84.239.49.249
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_39|740KB/s|GPT⁺-RO|YT-US|NF|GM-TM|0%"
+    port: 9002
+    server: 84.239.49.242
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_40|503KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.173
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_41|1.0MB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.164
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_18|604KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|0%"
+    password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+    port: 8443
+    server: de5cfe05-tegxs0-tiv91g-1l0qa.isp.cdnkuaishou.com
+    sni: de5cfe05-tegxs0-tiv91g-1l0qa.isp.cdnkuaishou.com
+    tls: true
+    type: http
+    username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+  - name: "\U0001F1F7\U0001F1F4RO_42|880KB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
+    port: 9002
+    server: 84.239.14.157
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_19|521KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|0%"
+    password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+    port: 8443
+    server: 049efad1-teisg0-tw2fdz-1s824.isp.cdnkuaishou.com
+    sni: 049efad1-teisg0-tw2fdz-1s824.isp.cdnkuaishou.com
+    tls: true
+    type: http
+    username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  - name: "\U0001F1FA\U0001F1F8US_20|506KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|0%"
+    password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+    port: 8443
+    server: 09fb7a75-teisg0-tvk1qn-19les.isp.cdnkuaishou.com
+    sni: 09fb7a75-teisg0-tvk1qn-19les.isp.cdnkuaishou.com
+    tls: true
+    type: http
+    username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  - name: "\U0001F1FA\U0001F1F8US_21|608KB/s|GPT⁺-US|YT-US|NF|D+|GM-US"
+    password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+    port: 8443
+    server: b45e9721-te9j40-tfpmu9-1m0fq.isp.cdnkuaishou.com
+    sni: b45e9721-te9j40-tfpmu9-1m0fq.isp.cdnkuaishou.com
+    tls: true
+    type: http
+    username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+  - name: "\U0001F1F7\U0001F1F4RO_43|1.4MB/s|GPT⁺-RO|YT-RO|NF|GM-RO"
+    port: 9002
+    server: 193.176.84.27
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_44|851KB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
+    port: 9002
+    server: 84.239.14.160
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_22|511KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|0%"
+    password: b02327ac-a49a-11ef-a673-f23c913c8d2b
+    port: 8443
+    server: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
+    sni: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
+    tls: true
+    type: http
+    username: b02327ac-a49a-11ef-a673-f23c913c8d2b
+  - name: "\U0001F1FA\U0001F1F8US_23|531KB/s|GPT⁺-US|YT-US|NF|D+|GM-PS"
+    password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+    port: 8443
+    server: 5cf83a8c-teisg0-tyt0e8-1mh67.isp.cdnkuaishou.com
+    tls: true
+    type: http
+    username: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+    sni: 5cf83a8c-teisg0-tyt0e8-1mh67.isp.cdnkuaishou.com
+  - name: "\U0001F1F7\U0001F1F4RO_45|851KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.170
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1ED\U0001F1F0HK_4|657KB/s|YT-CN|NF|D+|1%"
+    password: <password>
+    port: 8443
+    server: 15b72b06-ta1og0-ts3rye-mrtr.hkt.cdnhuawei.com
+    sni: 15b72b06-ta1og0-ts3rye-mrtr.hkt.cdnhuawei.com
+    tls: true
+    type: http
+    username: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+  - name: "\U0001F1F7\U0001F1F4RO_46|659KB/s|GPT⁺-RO|YT-RO|GM-RO|0%"
+    port: 9002
+    server: 84.239.14.148
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_47|720KB/s|GPT⁺-RO|YT-RO|NF|GM-RO"
+    port: 9002
+    server: 193.176.84.19
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_24|537KB/s|GPT⁺-US|YT-US|NF|D+|GM-US"
+    password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+    port: 8443
+    server: a96b7cc1-tegxs0-txfm0f-1qxa1.isp.cdnkuaishou.com
+    sni: a96b7cc1-tegxs0-txfm0f-1qxa1.isp.cdnkuaishou.com
+    tls: true
+    type: http
+    username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  - name: "\U0001F1F7\U0001F1F4RO_48|605KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.184
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_25|595KB/s|GPT⁺-US|YT-US|NF|D+|GM-US"
+    password: de003c72-0157-11ef-86da-f23c91cfbbc9
+    port: 8443
+    server: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
+    sni: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
+    tls: true
+    type: http
+    username: de003c72-0157-11ef-86da-f23c91cfbbc9
+  - name: "\U0001F1F7\U0001F1F4RO_49|610KB/s|GPT⁺-RO|YT-CN|NF|D+|0%"
+    port: 9002
+    server: 84.239.49.227
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1FA\U0001F1F8US_26|604KB/s|GPT⁺-US|YT-CN|NF|D+"
+    password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+    port: 8443
+    server: 29d3e631-tegxs0-thv9l4-1jbj0.isp.cdnkuaishou.com
+    sni: 29d3e631-tegxs0-thv9l4-1jbj0.isp.cdnkuaishou.com
+    tls: true
+    type: http
+    username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  - name: "\U0001F1F0\U0001F1F7KR_2|1.8MB/s|GPT⁺-KR|YT-KR|GM-KR|33%"
+    password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+    port: 31433
+    server: 2a556b99-t9zts0-tkka1f-1k25p.kr.oshuawei.com
+    sni: 2a556b99-t9zts0-tkka1f-1k25p.kr.oshuawei.com
+    tls: true
+    type: http
+    username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+  - name: "\U0001F1FA\U0001F1F8US_27|730KB/s|GPT"
+    password: 398e0d38-8649-11ef-959c-f23c9164ca5d
+    port: 443
+    server: 43ab2040-t9zts0-thzbn1-1gxvd.se.oshuawei.com
+    sni: 43ab2040-t9zts0-thzbn1-1gxvd.se.oshuawei.com
+    tls: true
+    type: http
+    username: 398e0d38-8649-11ef-959c-f23c9164ca5d
+  - alpn:
+      - ''
+    alterId: '2'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_28|2.5MB/s|GPT⁺-US|YT-US|NF|GM-US|57%"
+    network: tcp
+    port: 30829
+    server: v29.hdacd.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    xudp: true
+  - alpn:
+      - ''
+    alterId: '2'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_29|3.3MB/s|GPT⁺-US|YT-US|NF|GM-US|26%"
+    network: tcp
+    port: 30808
+    server: v8.hdacd.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    xudp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_3|1.3MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
+    name: "\U0001F1EB\U0001F1EEFI_2|2.5MB/s|GPT⁺-FI|YT-RU|GM-FR"
     obfs: ''
     obfs-password: ''
     password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
@@ -320,139 +864,7 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_4|1.9MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.139
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_5|1.7MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.150
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_6|2.3MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.152
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_7|668KB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.166
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_8|586KB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.178
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_9|2.1MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.179
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_10|1.0MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.243
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_11|1.5MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.245
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_12|2.1MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.246
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_13|699KB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 66.234.150.244
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_14|1.9MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 66.234.150.249
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_15|557KB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
+    name: "\U0001F1EB\U0001F1EEFI_3|3.4MB/s|GPT⁺-FI|YT-RU|GM-FR"
     obfs: ''
     obfs-password: ''
     password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
@@ -462,118 +874,9 @@ proxies:
     sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     type: hysteria2
     up: ''
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_4|3.6MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|15%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.53.27
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_16|1.1MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.186
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_17|621KB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.196
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_18|926KB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.204
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_19|1.4MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.205
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_20|1.2MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.207
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - client-fingerprint: firefox
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_1|983KB/s|GPT⁺-NL|YT-NL|NF|46%"
-    network: xhttp
-    port: 2053
-    server: cd3.videobazi.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: b2d343bc-75f9-4a2f-b1ac-36fa93b4885c
-    xhttp-opts:
-      host: nlp.lezzatbase.ir
-      mode: auto
-      path: /
-    xudp: true
-    servername: nlp.lezzatbase.ir
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_21|1.2MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
-    obfs: ''
-    obfs-password: ''
-    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-    port: 8449
-    server: 45.196.182.206
-    skip-cert-verify: true
-    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_22|795KB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
+    name: "\U0001F1EB\U0001F1EEFI_4|2.6MB/s|GPT⁺-FI|YT-RU|GM-FR"
     obfs: ''
     obfs-password: ''
     password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
@@ -585,31 +888,115 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_23|678KB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
+    name: "\U0001F1EB\U0001F1EEFI_5|2.0MB/s|GPT⁺-FI|YT-RU|GM-FR"
     obfs: ''
     obfs-password: ''
     password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
     port: 8449
-    server: 45.196.182.210
+    server: 45.196.182.186
     skip-cert-verify: true
     sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_24|2.2MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
+    name: "\U0001F1EB\U0001F1EEFI_6|2.6MB/s|GPT⁺-FI|YT-RU|GM-FR"
     obfs: ''
     obfs-password: ''
     password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
     port: 8449
-    server: 45.196.182.211
+    server: 45.196.182.152
     skip-cert-verify: true
     sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_25|1.5MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
+    name: "\U0001F1EB\U0001F1EEFI_7|2.6MB/s|GPT⁺-FI|YT-RU|GM-FR"
+    obfs: ''
+    obfs-password: ''
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    port: 8449
+    server: 45.196.182.204
+    skip-cert-verify: true
+    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1EEFI_8|2.9MB/s|GPT⁺-FI|YT-RU|GM-FR"
+    obfs: ''
+    obfs-password: ''
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    port: 8449
+    server: 45.196.182.129
+    skip-cert-verify: true
+    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1EEFI_9|2.5MB/s|GPT⁺-FI|YT-RU|GM-FR"
+    obfs: ''
+    obfs-password: ''
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    port: 8449
+    server: 45.196.182.150
+    skip-cert-verify: true
+    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1EEFI_10|4.1MB/s|GPT⁺-FI|YT-RU|GM-FR"
+    obfs: ''
+    obfs-password: ''
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    port: 8449
+    server: 45.196.182.166
+    skip-cert-verify: true
+    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1EEFI_11|2.5MB/s|GPT⁺-FI|YT-RU|GM-FR"
+    obfs: ''
+    obfs-password: ''
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    port: 8449
+    server: 45.196.182.179
+    skip-cert-verify: true
+    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1EEFI_12|2.5MB/s|GPT⁺-FI|YT-RU|GM-FR"
+    obfs: ''
+    obfs-password: ''
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    port: 8449
+    server: 45.196.182.196
+    skip-cert-verify: true
+    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1EEFI_13|2.7MB/s|GPT⁺-FI|YT-RU|GM-FR"
+    obfs: ''
+    obfs-password: ''
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    port: 8449
+    server: 45.196.182.208
+    skip-cert-verify: true
+    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1EEFI_14|2.7MB/s|GPT⁺-FI|YT-RU|GM-FR"
     obfs: ''
     obfs-password: ''
     password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
@@ -621,7 +1008,7 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_26|2.2MB/s|GPT⁺-FI|YT-RU|NF|GM-FR"
+    name: "\U0001F1EB\U0001F1EEFI_15|2.6MB/s|GPT⁺-FI|YT-RU|GM-FR"
     obfs: ''
     obfs-password: ''
     password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
@@ -631,194 +1018,181 @@ proxies:
     sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     type: hysteria2
     up: ''
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_4|5.2MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 172.64.35.37
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: qq
-    encryption: none
-    grpc-opts:
-      grpc-service-name: neurex
-    name: "\U0001F1E8\U0001F1EDCH_1|1.4MB/s|GPT⁺-CH|YT-CH|NF|GM-CH|67%"
-    network: grpc
-    port: 16923
-    reality-opts:
-      public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-      short-id: "10ffb85da1c2d986"
-    server: 152.233.31.71
-    tls: true
-    type: vless
-    udp: true
-    uuid: 732a3a5c-5dee-42c7-a898-139e35b78c5d
-    xudp: true
-    servername: api-maps.yandex.ru
-  - name: "\U0001F1FA\U0001F1F8US_16|1.9MB/s|YT-US|NF|D+|GM-US"
-    network: ws
-    port: 8880
-    server: 63.141.128.30
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime42.workers.dev
-      path: /
-  - name: "\U0001F1FA\U0001F1F8US_17|709KB/s|GPT⁺|YT-US|NF|GM-US|0%"
-    password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-    port: 443
-    server: 11d590c0-tekn40-tubliy-1la7v.u12.oshuawei.com
-    sni: 11d590c0-tekn40-tubliy-1la7v.u12.oshuawei.com
-    tls: true
-    type: http
-    username: 460749c2-bcef-11ee-89fc-f23c913c8d2b
   - down: ''
     fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_2|824KB/s|GPT⁺-DE|D+|GM-DE|100%"
-    obfs: salamander
-    obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-    password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-    port: 443
-    server: ff2.yuntong.click
-    skip-cert-verify: false
-    sni: ff2.yuntong.click
+    name: "\U0001F1EB\U0001F1EEFI_16|2.6MB/s|GPT⁺-FI|YT-RU|GM-FR"
+    obfs: ''
+    obfs-password: ''
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    port: 8449
+    server: 45.196.182.243
+    skip-cert-verify: true
+    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
     type: hysteria2
     up: ''
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F1\U0001F1F9LT_1|519KB/s|GPT⁺-LT|YT-RU|NF-LT|GM-FR|0%"
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-      short-id: "2cfb5a0ae8ab0cb0"
-    server: 45.194.10.67
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1EEFI_17|2.8MB/s|GPT⁺-FI|YT-RU|GM-FR"
+    obfs: ''
+    obfs-password: ''
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    port: 8449
+    server: 45.196.182.245
+    skip-cert-verify: true
+    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1EEFI_18|2.8MB/s|GPT⁺-FI|YT-RU|GM-FR"
+    obfs: ''
+    obfs-password: ''
+    password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+    port: 8449
+    server: 66.234.150.231
+    skip-cert-verify: true
+    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F3\U0001F1F1NL_3|3.7MB/s|GPT⁺-NL|YT-NL|NF|GM-NL|11%"
+    obfs: ''
+    obfs-password: ''
+    password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
+    port: 443
+    server: 5.255.102.165
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+    up: ''
+  - cipher: aes-256-cfb
+    name: "\U0001F1F0\U0001F1F7KR_3|2.6MB/s|GPT⁺-KR|YT-CN|NF|D+|0%"
+    password: qwerREWQ@@
+    port: 2078
+    server: 27.255.82.134
+    skip-cert-verify: false
+    type: ss
+    udp: false
+  - name: "\U0001F1F7\U0001F1F4RO_50|2.1MB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.58
+    skip-cert-verify: true
     tls: true
-    type: vless
-    udp: true
-    uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
-    xudp: true
-    servername: storage.yandex.net
-  - client-fingerprint: chrome
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_51|629KB/s|GPT⁺-RO|YT-RO|NF|GM-RO"
+    port: 9002
+    server: 193.176.84.20
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_52|978KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.241
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - alpn:
+      - h2
+    client-fingerprint: ios
     encryption: none
-    name: ❓Other_1|4.3MB/s|GPT⁺|NF-SG
+    name: "\U0001F1EC\U0001F1E7GB_2|1.2MB/s|GPT⁺-DE|YT-DE|NF|D+|GM-DE|8%"
     network: ws
     port: 443
-    server: 172.64.41.202
+    server: 194.238.79.150.fwqfw783rg2dad.website
     tls: true
     type: vless
     udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    uuid: 5bf12aea-0a92-41fb-ab2d-0e034b9f57a2
     ws-opts:
       headers:
-        Host: t1s1.rittbo.kdns.fr
+        Host: ''
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /sequre/ws
     xudp: true
-    servername: t1s1.rittbo.kdns.fr
-  - insecure: '1'
-    mport: 10000-19999
-    name: "\U0001F1F2\U0001F1E6MA_1|1.3MB/s|GPT⁺-MA|YT-MA|NF|GM-MA"
-    obfs: salamander
-    obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 10000
-    server: ma-ybu7mswk.9966690.xyz
+    servername: 194.238.79.150.fwqfw783rg2dad.website
+  - name: "\U0001F1FA\U0001F1F8US_30|2.3MB/s|GPT⁺-US|YT-US|NF|GM-US|78%"
+    password: ''
+    port: 9002
+    server: 138.199.35.199
     skip-cert-verify: true
-    sni: ma-ybu7mswk.9966690.xyz
-    type: hysteria2
-  - insecure: '1'
-    mport: 20000-29999
-    name: "\U0001F1F2\U0001F1E6MA_2|1.4MB/s|GPT⁺-MA|YT-MA|NF|GM-MA"
-    obfs: salamander
-    obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
-    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-    port: 20000
-    server: ma-ybu7mswk.9966690.xyz
+    tls: true
+    type: http
+    username: ''
+  - name: "\U0001F1FA\U0001F1F8US_31|639KB/s|GPT⁺-US|YT-US|NF|GM-US|59%"
+    password: ''
+    port: 9002
+    server: 156.146.59.49
     skip-cert-verify: true
-    sni: ma-ybu7mswk.9966690.xyz
-    type: hysteria2
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_5|3.4MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|15%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 172.64.52.240
-    skip-cert-verify: false
     tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_5|4.7MB/s|GPT⁺-SG|D+|0%"
-    network: ws
-    packet-encoding: xudp
-    port: 443
-    server: 162.159.36.73
-    skip-cert-verify: false
+    type: http
+    username: ''
+  - name: "\U0001F1F7\U0001F1F4RO_53|2.0MB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.223
+    skip-cert-verify: true
+    sni: www.bing.com
     tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_6|4.7MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP"
-    network: ws
-    packet-encoding: xudp
-    port: 8443
-    server: 172.64.52.152
-    skip-cert-verify: false
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_54|960KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.233
+    skip-cert-verify: true
+    sni: www.bing.com
     tls: true
-    type: vless
-    udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-    ws-opts:
-      headers:
-        Host: t1s1.rittbo.kdns.fr
-      path: /
-    servername: t1s1.rittbo.kdns.fr
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_55|1.7MB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
+    port: 9002
+    server: 84.239.14.156
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_56|726KB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
+    port: 9002
+    server: 84.239.14.159
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_57|1.2MB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.214
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_58|832KB/s|GPT⁺-RO|YT-US|NF|0%"
+    port: 9002
+    server: 84.239.49.211
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_59|535KB/s|GPT⁺-RO|YT-CN|NF|0%"
+    port: 9002
+    server: 84.239.49.37
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_60|557KB/s|GPT⁺-RO|YT-RO|NF|GM-RO|0%"
+    port: 9002
+    server: 84.239.49.208
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
+  - name: "\U0001F1F7\U0001F1F4RO_61|918KB/s|GPT⁺-RO|YT-US|NF|0%"
+    port: 9002
+    server: 84.239.49.185
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+    type: http
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
