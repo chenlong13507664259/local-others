@@ -1,36 +1,167 @@
 proxies:
-  - client-fingerprint: chrome
-    ech-opts:
-      _dns: 'https://dns.alidns.com/dns-query'
-      enable: true
-      query-server-name: cloudflare-ech.com
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_1|5.0MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|16%"
-    network: ws
-    packet-encoding: xudp
+    name: "\U0001F1FA\U0001F1F8US_1|843KB/s|GPT⁺-NL|YT-NL|NF|D+|0%"
+    network: xhttp
     port: 443
-    server: 172.64.52.240
-    skip-cert-verify: false
+    server: abolsolo-timazadi-tele.up.railway.app
     tls: true
     type: vless
     udp: true
-    uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+    uuid: a316a3b4-388b-acd1-99bf-d3f0e5032ba8
+    xhttp-opts:
+      host: abolsolo-timazadi-tele.up.railway.app
+      mode: stream-up
+      path: /xhttp-siz10/stream-up/a316a3b4-388b-acd1-99bf-d3f0e5032ba8
+    xudp: true
+    servername: abolsolo-timazadi-tele.up.railway.app
+  - encryption: none
+    name: "\U0001F1EB\U0001F1F7FR_1|506KB/s|GPT⁺-DE|NF"
+    network: ws
+    port: 80
+    server: 104.16.72.110
+    type: vless
+    udp: true
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
     ws-opts:
       headers:
-        Host: t1s1.rittbo.kdns.fr
+        Host: de.vpnbase.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: /http
+    xudp: true
+  - encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_1|687KB/s|GPT-SG|YT-SG|NF-SG"
+    network: ws
+    port: 8880
+    server: 162.159.46.0
+    type: vless
+    udp: true
+    uuid: b19b768d-bc57-4d03-9bea-61129ed5fef9
+    ws-opts:
+      headers:
+        Host: new.106-79e.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
+      path: /pyip=ProxyIP.SG.CMLiussss.net
+    xudp: true
+  - name: "\U0001F1F0\U0001F1F7KR_1|2.1MB/s|GPT⁺-KR|YT-KR|NF|D+|GM-KR|0%"
+    password: H7mP2xY9kJ4nQ9wR5tF6vB3z
+    port: 443
+    server: vpn-kr-002.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-kr-002.fastervpn.world
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK_1|5.8MB/s|YT-CN|NF|D+|0%"
+    password: 1df3ece1218bedba28c6c6ac726a07bb
+    port: 39001
+    server: 114.80.8.128
+    skip-cert-verify: true
+    sni: www.yrtok.com
+    type: trojan
+    udp: true
+    network: tcp
+  - name: "\U0001F1EF\U0001F1F5JP_1|2.3MB/s|GPT|YT-JP|NF|D+|GM-JP"
+    network: ws
+    port: 8880
+    server: download.yunzhongzhuan.com
+    type: vless
+    udp: true
+    uuid: 70ca8aec-42ba-41df-a874-ec9517053dec
+    ws-opts:
+      headers:
+        Host: rough-mouse-2a3a.424-e94.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
+      path: /pyip=ProxyIP.JP.CMLiussss.net
+    xudp: true
+  - name: "\U0001F1ED\U0001F1F0HK_2|3.5MB/s|YT-CN|NF|D+|0%"
+    network: tcp
+    password: 1df3ece1218bedba28c6c6ac726a07bb
+    port: 39001
+    server: 114.80.8.128
+    skip-cert-verify: true
+    sni: 114.80.8.128
+    type: trojan
+    udp: true
+  - name: "\U0001F1EF\U0001F1F5JP_2|1.3MB/s|GPT⁺-US|YT-JP|NF|D+|GM-JP"
+    network: ws
+    port: 8880
+    server: download.yunzhongzhuan.com
+    type: vless
+    udp: true
+    uuid: 3aaabf99-32c6-4032-8695-c9f0eb28be6f
+    ws-opts:
+      headers:
+        Host: divine-sound-9e93.22-be2.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
+      path: /pyip=ProxyIP.US.CMLiussss.net
+    xudp: true
+  - multiplexing: MULTIPLEXING_LOW
+    name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
+    password: dongtaiwang.com
+    port: 34567
+    server: 157.254.223.44
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
+  - encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_2|3.9MB/s|GPT⁺-JP|YT-SG|NF-SG|D+|GM-SG|16%"
+    network: ws
+    port: 8880
+    server: www.shopify.com
+    type: vless
+    udp: true
+    uuid: ce977d82-824b-4209-87f1-0719f78d6a2e
+    ws-opts:
+      headers:
+        Host: royal-mode-cf74.210-62d.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: /pyip=ProxyIP.JP.CMLiussss.net
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_3|599KB/s|YT-SG|NF-SG|D+|GM-SG"
+    network: ws
+    port: 443
+    server: 162.159.7.11
+    tls: true
+    type: vless
+    udp: true
+    uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+    ws-opts:
+      headers:
+        Host: 2026071203.yzqiang.qzz.io
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
       path: /
-    servername: t1s1.rittbo.kdns.fr
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+    servername: 2026071203.yzqiang.qzz.io
   - client-fingerprint: chrome
     ech-opts:
       _dns: 'https://dns.alidns.com/dns-query'
       enable: true
       query-server-name: cloudflare-ech.com
     encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_2|3.7MB/s|GPT⁺-JP|YT-JP|NF|D+|GM-JP|16%"
+    name: "\U0001F1F8\U0001F1ECSG_4|3.7MB/s|GPT-SG|YT-SG|NF-SG|D+|GM-SG|0%"
     network: ws
     packet-encoding: xudp
     port: 8443
-    server: 172.64.52.152
+    server: 172.64.35.37
     skip-cert-verify: false
     tls: true
     type: vless
@@ -41,43 +172,36 @@ proxies:
         Host: t1s1.rittbo.kdns.fr
       path: /
     servername: t1s1.rittbo.kdns.fr
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_1|2.0MB/s|GPT⁺-DE|YT-NL|NF|D+|GM-NL|0%"
-    port: 54177
-    server: 5.83.129.90
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: '500'
-    auth-str: dongtaiwang.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1E7GB_1|519KB/s|GPT⁺-PL|YT-PL|NF|D+|GM-PL|0%"
-    port: 443
-    reality-opts:
-      public-key: nfkwd9xJCoNuWrvvieBB9VfpcDldsARAdFPL0dF5A1Q
-      short-id: "305570274c0c72cc"
-    server: 82.40.62.17
-    skip-cert-verify: true
-    tls: true
+  - name: "\U0001F1F8\U0001F1ECSG_5|2.7MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG"
+    network: ws
+    packet-encoding: xudp
+    port: 8880
+    server: 162.159.48.193
+    skip-cert-verify: false
+    tls: false
     type: vless
     udp: true
-    uuid: 7499f0a0-3670-4cf6-a31c-ad4cd943cf18
-    network: tcp
-    servername: pl.hagrid-connected.com
-  - name: "\U0001F1F9\U0001F1FCTW_1|3.3MB/s|GPT⁺-TW|YT-TW|NF|D+"
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    uuid: e74e8806-06b5-4fb0-a89e-cf79d88cfd02
+    ws-opts:
+      headers:
+        Host: wild-frog-54a9.170-dcc.workers.dev
+      path: /pyip=ProxyIP.SG.CMLiussss.net
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_3|594KB/s|GPT⁺-US|YT-US|NF|D+|GM-US"
+    network: ws
+    port: 2095
+    server: 172.66.1.242
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: cnmfangbinxing.cnmfangbinxing-q.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /
+    xudp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
