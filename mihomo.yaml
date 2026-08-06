@@ -1,28 +1,190 @@
 proxies:
-  - name: "\U0001F1FA\U0001F1E6UA_1|1.8MB/s|GPT⁺-UA|YT-CN|NF|0%"
-    password: 41c406e2-12b5-41f2-a329-d0621052d675
-    port: 20066
-    server: hkdcrtc-e.catcat321.com
+  - auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+    name: "\U0001F1FA\U0001F1F8US_1|2.8MB/s|GPT⁺-US|YT-CA|NF|GM-CA|39%"
+    password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+    port: 8443
+    server: 172.245.233.237
     skip-cert-verify: true
+    sni: hopp-us.yyuyy.com
+    type: hysteria2
+  - auth: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+    name: "\U0001F1F3\U0001F1F1NL_1|2.6MB/s|GPT⁺-NL|YT-RO|NF|GM-RO|18%"
+    password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+    port: 8443
+    server: 86.107.178.66
+    skip-cert-verify: true
+    sni: grape-zet-turbo-nl.yyuyy.com
+    type: hysteria2
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F3\U0001F1F1NL_2|1.8MB/s|GPT⁺-NL|YT-RU|NF|D+|5%"
+    obfs: ''
+    obfs-password: ''
+    password: 'gf1:gfhysteria2024'
+    port: 443
+    server: 5.129.235.85
+    skip-cert-verify: true
+    sni: www.linux.com
+    type: hysteria2
+    up: ''
+  - auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+    name: "\U0001F1F7\U0001F1F4RO_1|2.8MB/s|GPT⁺-DE|YT-US|NF|GM-US|0%"
+    password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+    port: 8443
+    server: 76.164.202.215
+    skip-cert-verify: true
+    sni: mercedes-grape.yyuyy.com
+    type: hysteria2
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '1000'
+    name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s|GPT⁺-DE|YT-NL|NF|D+|0%"
+    obfs: ''
+    port: 20088
+    protocol: udp
+    server: 5.83.129.153
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '500'
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s|GPT⁺-US|YT-CN|NF|GM-US|10%|R002-260618"
+    password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
+    port: 443
+    server: f04881e1-tcxds0-tqx9ef-1k0yf.sj.oshuawei.com
+    sni: f04881e1-tcxds0-tqx9ef-1k0yf.sj.oshuawei.com
+    sub_tag: R002-260618
+    tls: true
+    type: http
+    udp: true
+    username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
+  - name: "\U0001F1F0\U0001F1F7KR_1|1.7MB/s|GPT⁺-KR|YT-KR|NF|GM-KR|5%|R002-260618"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
+    skip-cert-verify: true
+    sni: testkr3.ssv.vc
+    sub_tag: R002-260618
+    tls: true
+    type: http
+    udp: true
+    username: test
+  - client-fingerprint: chrome
+    name: "\U0001F1F2\U0001F1F4MO_1|617KB/s|YT-CN|0%"
+    network: tcp
+    password: 41c406e2-12b5-41f2-a329-d0621052d675
+    port: 20068
+    server: oplosgru-c.catcat321.com
+    skip-cert-verify: false
     sni: hk.catxstar.com
     type: trojan
     udp: true
-    network: tcp
-  - name: "\U0001F1FA\U0001F1E6UA_2|1.5MB/s|GPT⁺-UA|YT-CN|NF|0%"
-    password: 41c406e2-12b5-41f2-a329-d0621052d675
-    port: 20066
-    server: oplosgru-c.catcat321.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E6\U0001F1F9AT_1|1.3MB/s|GPT⁺-AT|YT-AT|NF|GM-AT|14%"
+    obfs: salamander
+    obfs-password: ielzukpwth087afx
+    password: ik0zt621uw9iqvsi
+    port: 52002
+    server: assets.gateway-stream.com
+    skip-cert-verify: false
+    sni: assets.gateway-stream.com
+    type: hysteria2
+    up: ''
+  - fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_1|5.7MB/s|GPT⁺-SG|YT-CN|NF-SG|D+|GM-JP|14%"
+    password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+    port: 17967
+    server: jjz.jjznodenode.top
+    skip-cert-verify: false
+    sni: jjz.jjznodenode.top
+    type: anytls
+    udp: true
+    username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_2|638KB/s|GPT-DE"
+    obfs: ''
+    obfs-password: ''
+    password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+    port: 2056
+    server: dg1.mangshe.xyz
     skip-cert-verify: true
-    sni: hk.catxstar.com
+    sni: dg1.mangshe.xyz
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F3\U0001F1F4NO_1|2.4MB/s|GPT⁺-NO|YT-NO|NF|0%"
+    obfs: salamander
+    obfs-password: l6l4n5a0q9epnr5k
+    password: ik0zt621uw9iqvsi
+    port: 52051
+    server: 95.217.96.131
+    skip-cert-verify: false
+    sni: assets.gateway-stream.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FF\U0001F1E6ZA_1|797KB/s|GPT⁺-ES|NF|D+|GM-US|25%"
+    obfs: ''
+    obfs-password: ''
+    password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+    port: 2056
+    server: xby.mangshe.xyz
+    skip-cert-verify: true
+    sni: mg2.mangshe.xyz
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1F9\U0001F1FCTW_1|1.5MB/s|GPT⁺-TW|YT-TW|NF|D+|GM-TW"
+    password: 55354c2b8ee339571bd657a9bb9858cc
+    port: 26822
+    server: 106.75.132.91
+    skip-cert-verify: true
+    sni: 106.75.132.91
     type: trojan
     udp: true
     network: tcp
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7FR_1|2.6MB/s|GPT⁺-FR|YT-FR|NF|GM-FR|0%"
+    name: "\U0001F1F8\U0001F1ECSG_2|544KB/s|YT-SG|NF-SG|D+|GM-SG"
+    network: ws
+    port: 443
+    server: 104.18.32.47
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: da78f96e-01d3-4289-9d0b-fbbe3f0a5472
+    ws-opts:
+      headers:
+        Host: aio.zxcore.biz.id
+      path: /aioproxybot/124.153.168.248-50001
+    servername: aio.zxcore.biz.id
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_3|1.9MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|100%"
+    network: tcp
+    password: 55354c2b8ee339571bd657a9bb9858cc
+    port: 29072
+    server: 106.75.132.91
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK_1|987KB/s|GPT⁺-JP|YT-CN|GM-JP|0%"
+    password: ''
+    port: 20000
+    server: 59.38.113.185
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_1|3.2MB/s|GPT⁺-FR|YT-FR|NF|GM-FR|0%"
     network: ws
     port: 443
     server: paul.ns.cloudflare.com
+    skip-cert-verify: true
     tls: true
     type: vless
     udp: true
@@ -30,316 +192,52 @@ proxies:
     ws-opts:
       headers:
         Host: ziro.skin
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
       path: /xxvclws
-    xudp: true
     servername: ziro.skin
-  - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
-    password: dongtaiwang.com
-    port: 34567
-    server: 157.254.223.44
-    transport: TCP
-    type: mieru
-    username: dongtaiwang.com
-  - name: "\U0001F1FA\U0001F1F8US_2|545KB/s|GPT⁺-US|YT-US|NF|GM-US|57%|P002-260618"
-    password: ''
-    port: 9002
-    server: 156.146.59.5
-    skip-cert-verify: true
-    sub_tag: P002-260618
-    tls: true
-    type: http
-    udp: true
-    username: ''
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1E6UA_3|2.1MB/s|GPT⁺-UA|YT-CN|NF|0%"
-    network: tcp
-    password: 41c406e2-12b5-41f2-a329-d0621052d675
-    port: 20066
-    server: oplosgru-c.catcat321.com
-    skip-cert-verify: false
-    sni: hk.catxstar.com
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1E6UA_4|2.1MB/s|GPT-UA|YT-CN|NF"
-    network: raw
-    password: 41c406e2-12b5-41f2-a329-d0621052d675
-    port: 20066
-    server: hkdcrtc-e.catcat321.com
-    skip-cert-verify: false
-    sni: hk.catxstar.com
-    type: trojan
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s|GPT⁺-GB|YT-GB|NF-GB|GM-GB|2%"
-    password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-    port: 61312
-    server: 129.151.82.75
-    type: ss
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FB\U0001F1F3VN_1|2.4MB/s|GPT⁺-VN|YT-VN"
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: 0QOg0Zo5ap0n33VXkkN1-k9R9IOkI3igM5Nlg5cRdDQ
-      short-id: "aa"
-    server: hia.waols.click
-    tls: true
-    type: vless
-    udp: true
-    uuid: teymur_vpn
-    xudp: true
-    servername: cdn.ir
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F9\U0001F1F7TR_1|580KB/s|GPT⁺-FI|YT-RU|NF|D+|GM-US|0%"
-    network: xhttp
-    port: 443
-    reality-opts:
-      public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-      short-id: ''
-    server: 170.168.97.3
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
-    xhttp-opts:
-      host: download.nvidia.com
-      mode: auto
-      path: /
-    xudp: true
-    servername: download.nvidia.com
-  - client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: grpc
-    name: "\U0001F1E9\U0001F1EADE_1|2.1MB/s|GPT⁺-DE|YT-DE|NF|GM-DE|10%"
-    network: grpc
-    port: 443
-    reality-opts:
-      public-key: ycW5LB_qsf61SQrWr6eIbPfNCzb5_J3rD9QFlN8TIEc
-      short-id: "9a44c802e4756255"
-    server: 79.137.203.64
-    tls: true
-    type: vless
-    udp: true
-    uuid: d1e816db-0dc6-4b44-8037-c59700028214
-    xudp: true
-    servername: www.ibm.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1EEFI_1|1.8MB/s|GPT⁺-FI|YT-FI|NF|0%"
-    obfs: salamander
-    obfs-password: 8zzng75tz4tf82pj
-    password: 22j0d00lev7mq0yv
-    port: 8443
-    server: musicclips.videolinks.ru
-    skip-cert-verify: true
-    sni: musicclips.videolinks.ru
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_2|2.5MB/s|GPT⁺-IT|YT-RU|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 71cada65-d23e-418c-88e4-a06188d14689
-    port: 443
-    server: it-one.quiet-rogue.site
-    skip-cert-verify: false
-    sni: it-one.quiet-rogue.site
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1F9\U0001F1FCTW_1|1.9MB/s|GPT⁺-TW|YT-TW|NF|D+"
-    password: 55354c2b8ee339571bd657a9bb9858cc
-    port: 39221
-    server: speed-01.aliyun-web-tracker.cn
-    skip-cert-verify: true
-    sni: speed-01.aliyun-web-tracker.cn
-    type: trojan
-    network: tcp
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_3|698KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|0%"
-    port: 23253
-    server: los.chihirokk.online
-    tls: true
-    type: vless
-    uuid: 0c946396-6336-40c3-a161-fcb6bec776ce
-    network: tcp
-    servername: los.chihirokk.online
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_1|1014KB/s|GPT⁺-NL|YT-NL|NF|GM-NL|2%"
-    password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-    port: 45819
-    server: 92.5.233.51
-    type: ss
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_2|2.0MB/s|GPT⁺-DE|YT-DE|NF|0%"
-    network: ws
-    password: ersi13mjahoao8e6
-    port: 443
-    server: cctvhikvision.center
-    skip-cert-verify: false
-    sni: ramz.xuithree.dpdns.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /dksk
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_3|1.0MB/s|GPT-DE|YT-DE|NF|0%"
-    network: ws
-    password: ersi13mjahoao8e6
-    port: 443
-    server: hikvision-plus.com
-    skip-cert-verify: false
-    sni: ramz.xuithree.dpdns.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
-      path: /dksk
-  - name: "\U0001F1FF\U0001F1E6ZA_1|1.7MB/s|NF-ZA|0%|R002-260618"
-    password: aa
-    port: 89
-    server: 160.124.240.188
-    sub_tag: R002-260618
-    type: http
-    udp: true
-    username: aa
-  - name: "\U0001F1FA\U0001F1F8US_4|743KB/s|GPT⁺-US|YT-CN|NF|D+|GM-US|19%|R002-260618"
-    password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-    port: 443
-    server: 4ed8c2e7-tcxds0-tdh9w7-ahsb.sjc.oshuawei.com
-    sni: 4ed8c2e7-tcxds0-tdh9w7-ahsb.sjc.oshuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    udp: true
-    username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-  - name: ❓Other_1|727KB/s
-    password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-    port: 443
-    server: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
-    tls: true
-    type: http
-    udp: true
-    username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-    sni: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
-  - name: ❓Other_2|760KB/s
-    password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-    port: 443
-    server: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
-    tls: true
-    type: http
-    udp: true
-    username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-    sni: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_5|1.6MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
-    obfs: ''
-    obfs-password: ''
-    password: c7d6c12d-64b4-4915-b9ec-c4286abe2bfd
-    port: 25379
-    server: uswx4.wxgqlfx.vip
-    skip-cert-verify: true
-    sni: 144.225.187.153
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1FA\U0001F1F8US_6|870KB/s|GPT⁺-US|YT-US|NF|GM-US|67%"
-    password: None
-    port: 9002
-    server: 138.199.35.196
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - client-fingerprint: qq
-    encryption: none
-    grpc-opts:
-      grpc-service-name: 5post.gate.v1
-    name: "\U0001F1E9\U0001F1EADE_4|1.7MB/s|GPT⁺-FI|YT-RU|NF|0%"
-    network: grpc
-    port: 443
-    reality-opts:
-      public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-      short-id: "abcd"
-    server: 95.163.232.183
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1691261e-1f25-4f75-b84d-5fc982bf08f2
-    xudp: true
-    servername: 5post-gate.x5.ru
-  - name: "\U0001F1F8\U0001F1ECSG_1|2.6MB/s|GPT⁺-SG|YT-CN|NF-SG|GM-SG"
-    network: tcp
-    password: BxceQaOe
-    port: 26704
-    server: 95.40.205.94
-    skip-cert-verify: true
-    sni: t.me%252Fripaojiedian
-    type: trojan
-  - name: "\U0001F1FA\U0001F1F8US_7|548KB/s|GPT⁺-US|YT-HK|NF|D+|0%"
-    network: tcp
-    password: BxceQaOe
-    port: 53001
-    server: 16.162.3.64
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - name: "\U0001F1FA\U0001F1F8US_8|811KB/s|GPT⁺-US|YT-US|NF|GM-US|57%|P002-260618"
-    password: ''
-    port: 9002
-    server: 156.146.59.19
-    skip-cert-verify: true
-    sub_tag: P002-260618
-    tls: true
-    type: http
-    udp: true
-    username: ''
-  - name: "\U0001F1F7\U0001F1F4RO_1|557KB/s|GPT⁺-RO|NF|0%|P002-260618"
-    password: None
-    port: 9002
-    server: 84.239.49.59
-    skip-cert-verify: true
-    sub_tag: P002-260618
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_9|1.1MB/s|GPT⁺-US|YT-US|NF|GM-US|63%|P002-260618"
-    password: None
-    port: 9002
-    server: 138.199.35.213
-    skip-cert-verify: true
-    sub_tag: P002-260618
-    tls: true
-    type: http
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_2|1.0MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|100%"
+    name: "\U0001F1F8\U0001F1ECSG_4|562KB/s|GPT⁺-SG|YT-SG|NF-SG|GM-SG|100%"
     network: tcp
     password: 55354c2b8ee339571bd657a9bb9858cc
-    port: 40783
+    port: 29072
     server: 106.75.132.91
     skip-cert-verify: true
     sni: 106.75.132.91
     type: trojan
     udp: true
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: /43588/G43plZahWW
+    name: "\U0001F1E7\U0001F1F7BR_1|580KB/s|GPT⁺-BR|YT-BR|NF|D+|GM-BR|19%"
+    network: grpc
+    password: 581e14a5fcc14107b9326cc54f047891
+    port: 443
+    server: 177.3.208.169
+    skip-cert-verify: false
+    sni: titandarkness.mooo.com
+    type: trojan
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_3|1.4MB/s|GPT⁺-DE|YT-DE|NF|GM-DE|43%"
+    obfs: salamander
+    obfs-password: detgimgm8qh8i2g2
+    password: ik0zt621uw9iqvsi
+    port: 52023
+    server: assets.gateway-stream.com
+    skip-cert-verify: false
+    sni: assets.gateway-stream.com
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_4|690KB/s|GPT⁺-DE|YT-CN|D+|0%"
+    password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+    port: 20041
+    server: Hkdcrtc-e.catcat321.com
+    skip-cert-verify: true
+    sni: de.catxstar.com
+    type: trojan
+    udp: true
+    network: tcp
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
