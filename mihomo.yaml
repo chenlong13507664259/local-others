@@ -1,10 +1,10 @@
 proxies:
   - alpn:
       - h3
+    auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1E9\U0001F1EADE_1|1.4MB/s|GPT⁺-DE|YT-NL|NF|D+|GM-NL|25%"
-    obfs: ''
+    name: "\U0001F1E9\U0001F1EADE_1|743KB/s|GPT⁺-DE|YT-US|NF|D+|GM-NL|25%"
     port: 26691
     protocol: udp
     server: 5.83.129.143
@@ -12,17 +12,12 @@ proxies:
     sni: apple.com
     type: hysteria
     up: 11 Mbps
-    auth-str: dongtaiwang.com
-  - alpn:
-      - http/1.1
-      - h2
-      - h3
-    client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_1|2.6MB/s|GPT⁺-FR|YT-US|NF|D+|GM-FR"
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_1|807KB/s|GPT⁺-FR|NF|D+|GM-FR"
     network: ws
     password: humanity
     port: 443
-    server: 198.41.223.96
+    server: 104.18.152.108
     skip-cert-verify: false
     sni: www.ignitelimit.com
     type: trojan
@@ -30,175 +25,16 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/58.0.3029.81 Safari/537.36
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F2\U0001F1FEMY_1|2.1MB/s|GPT⁺-MY|YT-MY|NF|1%"
-    network: tcp
-    port: 29707
-    reality-opts:
-      public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-      short-id: "bc8e3658db7d1323"
-    server: 155.117.199.12
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-    xudp: true
-    servername: cdnjs.cloudflare.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F0\U0001F1F7KR_1|1000KB/s|GPT⁺-KR|YT-CN|NF|GM-KR|0%"
-    network: tcp
-    port: 38559
-    reality-opts:
-      public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-      short-id: "bc8e3658db7d1323"
-    server: 188.253.123.164
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-    xudp: true
-    servername: cdnjs.cloudflare.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F0\U0001F1F7KR_2|2.6MB/s|GPT⁺-KR|YT-CN|NF|GM-KR|0%"
-    network: tcp
-    port: 39213
-    reality-opts:
-      public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-      short-id: "bc8e3658db7d1323"
-    server: 155.117.199.12
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-    xudp: true
-    servername: cdnjs.cloudflare.com
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_1|2.8MB/s|YT-CN|NF|25%"
-    network: ws
-    port: 16622
-    server: planb.mojcn.com.linuxlh.xin
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-    ws-opts:
-      headers:
-        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-      path: /
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP_1|3.5MB/s|GPT⁺-JP|YT-CN|NF|0%"
-    network: ws
-    port: 16617
-    server: planb.mojcn.com.linuxlh.xin
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-    ws-opts:
-      headers:
-        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-      path: /
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_1|3.3MB/s|GPT-TW|YT-TW|NF|GM-TW|25%"
-    network: ws
-    port: 16616
-    server: planb.mojcn.com.linuxlh.xin
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-    ws-opts:
-      headers:
-        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-      path: /
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s|GPT⁺-IN|YT-CN|NF-IN"
-    network: ws
-    port: 16626
-    server: planb.mojcn.com.linuxlh.xin
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-    ws-opts:
-      headers:
-        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-      path: /
-  - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: update
-    name: "\U0001F1EF\U0001F1F5JP_2|870KB/s|GPT⁺-US|YT-JP|NF-SG|D+|GM-JP|1%"
-    network: grpc
-    port: 10035
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: "686c0ef0"
-    server: jp5-r.link-t7.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
-    xudp: true
-    servername: s0.awsstatic.com
-  - name: "\U0001F1EF\U0001F1F5JP_3|2.0MB/s|GPT⁺-JP|YT-CN|NF|D+|GM-JP|11%"
-    password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-    port: 443
-    server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
-    tls: true
-    type: http
-    username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-    sni: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1F0HK_2|2.5MB/s|YT-HK|NF|D+|0%"
-    network: tcp
-    port: 9713
-    reality-opts:
-      public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-      short-id: "bc8e3658db7d1323"
-    server: 155.117.199.12
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-    xudp: true
-    servername: cdnjs.cloudflare.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1ECSG_1|2.1MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: tcp
-    port: 31877
-    reality-opts:
-      public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-      short-id: "bc8e3658db7d1323"
-    server: 155.117.199.12
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-    xudp: true
-    servername: cdnjs.cloudflare.com
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_2|612KB/s|GPT⁺-FR|YT-US|NF|D+|GM-FR"
+    name: "\U0001F1EB\U0001F1F7FR_2|899KB/s|GPT⁺-FR|YT-US|NF|D+|GM-FR"
     network: ws
     password: humanity
     port: 443
-    server: 104.18.152.140
+    server: 104.17.111.8
     skip-cert-verify: false
     sni: www.ignitelimit.com
     type: trojan
@@ -207,356 +43,180 @@ proxies:
       headers:
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.102 Safari/537.36
+          Gecko) Chrome/51.0.2704.63 Safari/537.36
       path: /assignment
-  - alpn:
-      - h3
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F7\U0001F1FARU_1|2.1MB/s|GPT-RU|YT-RU"
-    network: xhttp
-    port: 443
-    server: 104.18.32.47
-    tls: true
-    type: vless
-    udp: true
-    uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-    xhttp-opts: {}
-    xudp: true
-    servername: rus.aba-hum.store
-  - name: "\U0001F1E8\U0001F1EDCH_1|552KB/s|GPT⁺-CH|YT-CH|NF|GM-CH|R002-260618"
-    port: 9443
-    server: 37.120.213.210
-    skip-cert-verify: true
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_2|953KB/s|GPT⁺-US|YT-US|NF|GM-US|17%|R002-260618"
-    password: 32315324-cf6b-11ed-979b-f23c9164ca5d
-    port: 443
-    server: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
-    sni: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
-    sub_tag: R002-260618
-    tls: true
-    type: http
-    udp: true
-    username: 32315324-cf6b-11ed-979b-f23c9164ca5d
-  - name: "\U0001F1F8\U0001F1E8SC_1|884KB/s|R002-260618"
-    password: None
-    port: 1080
-    server: 27.155.93.29
-    sub_tag: R002-260618
-    type: http
-    udp: true
   - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: update
-    name: "\U0001F1EF\U0001F1F5JP_4|1.1MB/s|GPT⁺-US|YT-JP|NF-SG|D+|GM-JP|1%"
-    network: grpc
-    packet-encoding: xudp
-    port: 10035
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: "686c0ef0"
-    server: 18.179.40.96
+    name: "\U0001F1EB\U0001F1F7FR_3|1.2MB/s|GPT⁺-FR|YT-US|NF|GM-FR|S004-260618"
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.26.15.137
     skip-cert-verify: false
-    tls: true
-    type: vless
+    sni: www.ignitelimit.com
+    sub_tag: S004-260618
+    type: trojan
     udp: true
-    uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
-    servername: s0.awsstatic.com
-  - name: "\U0001F1EB\U0001F1F7FR_3|531KB/s|GPT⁺-FR|YT-FR|NF|D+|GM-FR"
-    password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /assignment
+  - name: "\U0001F1ED\U0001F1F0HK_1|981KB/s|GPT⁺-JP|YT-CN|NF|GM-JP|0%"
+    password: Og==
+    port: 20000
+    server: 59.38.113.185
+    type: socks5
+    username: Og==
+  - cipher: aes-256-cfb
+    name: "\U0001F1FA\U0001F1F8US_1|586KB/s|GPT-US|NF|GM-US|3%"
+    password: amazonskr05
     port: 443
-    server: eac88fe8-t9zts0-tonrmx-8n27.fr.oshuawei.com
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-    sni: eac88fe8-t9zts0-tonrmx-8n27.fr.oshuawei.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1F0HK_3|1.4MB/s|YT-HK|NF|D+|0%"
-    network: tcp
-    port: 29715
-    reality-opts:
-      public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-      short-id: "bc8e3658db7d1323"
-    server: 188.253.123.164
-    tls: true
-    type: vless
+    server: 18.188.213.207
+    type: ss
     udp: true
-    uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-    xudp: true
-    servername: cdnjs.cloudflare.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1ECSG_2|2.7MB/s|GPT⁺-SG|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: tcp
-    port: 39561
-    reality-opts:
-      public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-      short-id: "bc8e3658db7d1323"
-    server: 188.253.123.164
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-    xudp: true
-    servername: cdnjs.cloudflare.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_3|1.7MB/s|GPT⁺-US|YT-CN|NF|35%"
+    name: "\U0001F1F7\U0001F1FARU_1|2.5MB/s|YT-CN"
     obfs: ''
     obfs-password: ''
-    password: 1427eb10-7529-4d38-a6a2-01b337868b37
-    port: 4433
-    server: us4.xiaoliyu.cyou
+    password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+    port: 2056
+    server: els1.mangshe.xyz
     skip-cert-verify: true
-    sni: us4.xiaoliyu.cyou
+    sni: els1.mangshe.xyz
     type: hysteria2
     up: ''
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F2\U0001F1FEMY_2|1.9MB/s|GPT⁺-MY|YT-MY|1%"
-    network: tcp
-    port: 29709
-    reality-opts:
-      public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-      short-id: "bc8e3658db7d1323"
-    server: 155.117.199.12
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-    xudp: true
-    servername: cdnjs.cloudflare.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1ECSG_3|2.4MB/s|GPT⁺-SG|YT-SG|D+|GM-SG|0%"
-    network: tcp
-    port: 31875
-    reality-opts:
-      public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-      short-id: "bc8e3658db7d1323"
-    server: 155.117.199.12
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-    xudp: true
-    servername: cdnjs.cloudflare.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1ECSG_4|2.3MB/s|GPT⁺-SG|YT-SG|D+|GM-SG|0%"
-    network: tcp
-    port: 31871
-    reality-opts:
-      public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-      short-id: "bc8e3658db7d1323"
-    server: 155.117.199.12
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-    xudp: true
-    servername: cdnjs.cloudflare.com
-  - name: "\U0001F1FA\U0001F1F8US_4|879KB/s|NF|D+|0%|R002-260618"
-    password: gs4BXwT6SW
-    port: 10988
-    server: 154.26.192.123
-    sub_tag: R002-260618
-    tls: false
-    type: http
-    udp: true
-    username: fQ67Dpe5dU
-  - name: "\U0001F1F8\U0001F1E8SC_2|1.1MB/s|0%|R002-260618"
-    port: 1080
-    server: 27.155.93.29
-    sub_tag: R002-260618
-    type: http
-    udp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_5|2.2MB/s|GPT⁺-US|YT-US|NF|GM-US|6%"
-    network: tcp
-    port: 51360
-    server: lt.badns.help
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_5|3.9MB/s|GPT|YT-SG|NF-SG|D+|GM-SG"
+    name: "\U0001F1EB\U0001F1F7FR_4|642KB/s|GPT⁺-FR|YT-US|NF|D+|GM-FR"
     network: ws
-    port: 2087
-    server: 188.164.248.32
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5b06a1b1-8839-4969-874a-3b501528275b
-    ws-opts:
-      headers:
-        Host: jcxjcnasvip.jcdenas.top
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.162 Safari/537.36
-      path: /
-    xudp: true
-    servername: jcxjcnasvip.jcdenas.top
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_6|2.5MB/s|GPT|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    port: 8443
-    server: 8.35.211.224
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2c029086-e4b3-4f22-82d8-b84dd70f243c
-    ws-opts:
-      headers:
-        Host: pphmsubs.911388.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.63 Safari/537.36
-      path: /
-    xudp: true
-    servername: pphmsubs.911388.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_7|3.9MB/s|YT-SG|NF-SG|D+|GM-SG|0%"
-    network: ws
-    port: 2083
-    server: 8.39.125.209
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2c029086-e4b3-4f22-82d8-b84dd70f243c
-    ws-opts:
-      headers:
-        Host: pphmsubs.911388.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /
-    xudp: true
-    servername: pphmsubs.911388.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_8|1.4MB/s|GPT-SG|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
-    port: 2083
-    server: 188.164.248.72
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5b06a1b1-8839-4969-874a-3b501528275b
-    ws-opts:
-      headers:
-        Host: jcxjcnasvip.jcdenas.top
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /
-    xudp: true
-    servername: jcxjcnasvip.jcdenas.top
-  - name: "\U0001F1F8\U0001F1ECSG_9|2.6MB/s|YT-SG|NF-SG|D+|GM-SG"
-    network: ws
+    password: humanity
     port: 443
-    server: 108.162.192.64
+    server: 104.17.111.4
     skip-cert-verify: false
-    tfo: false
-    tls: true
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /assignment
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s|GPT⁺-GB|NF-GB|D+|GM-GB"
+    obfs: ''
+    obfs-password: ''
+    password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+    port: 2056
+    server: yg3.mangshe.xyz
+    skip-cert-verify: true
+    sni: yg3.mangshe.xyz
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E6\U0001F1EAAE_1|2.7MB/s|GPT⁺-EE|YT-RU|NF-EE|0%"
+    obfs: salamander
+    obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+    password: cd74c0a406664a5bc0bac098220a2468
+    port: 443
+    server: ee2.sferavpn.pro
+    skip-cert-verify: false
+    sni: ee2.sferavpn.pro
+    type: hysteria2
+    up: ''
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_2|605KB/s|YT-US|NF|D+|GM-US"
+    network: ws
+    port: 8880
+    server: 63.141.128.30
     type: vless
     udp: true
-    uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: 2026081000.yja.de5.net
-      path: /
-    servername: 2026081000.yja.de5.net
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7FR_4|1.1MB/s|GPT⁺-DE|YT-US|NF"
-    network: ws
-    port: 16644
-    server: m.cnmjin.net.xiaoyan.io
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-    ws-opts:
-      headers:
-        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+        Host: vms.lifetime42.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
       path: /
     xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_4|3.0MB/s|YT-CN|NF|D+|25%"
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_5|681KB/s|GPT⁺-FR|YT-US|NF|D+|GM-FR"
     network: ws
-    port: 16622
-    server: m.cnmjin.net.xiaoyan.io
+    password: humanity
+    port: 443
+    server: 104.18.152.97
     skip-cert-verify: false
-    tls: false
-    type: vmess
+    sni: www.ignitelimit.com
+    type: trojan
     udp: true
-    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
     ws-opts:
       headers:
-        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_5|1.6MB/s|GPT⁺-TW|NF|D+|15%"
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_6|740KB/s|GPT⁺-FR|YT-US|NF|D+|GM-FR"
     network: ws
-    port: 16632
-    server: m.cnmjin.net.xiaoyan.io
+    password: humanity
+    port: 443
+    server: 104.26.14.137
     skip-cert-verify: false
-    tls: false
-    type: vmess
+    sni: www.ignitelimit.com
+    type: trojan
     udp: true
-    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
     ws-opts:
       headers:
-        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_2|3.2MB/s|YT-TW|NF|GM-TW|25%"
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
+          Mobile Safari/537.36
+      path: /assignment
+  - name: "\U0001F1ED\U0001F1F0HK_2|879KB/s|GPT⁺-JP|YT-CN|NF|GM-JP|0%"
+    password: ''
+    port: 20000
+    server: 59.38.113.185
+    skip-cert-verify: true
+    type: socks5
+    username: Og
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_7|2.5MB/s|GPT⁺-FR|YT-US|NF|D+|GM-FR|B007-260618"
     network: ws
-    port: 16616
-    server: m.cnmjin.net.xiaoyan.io
+    password: humanity
+    port: 443
+    server: 104.19.229.21
     skip-cert-verify: false
-    tls: false
-    type: vmess
+    sni: www.ignitelimit.com
+    sub_tag: B007-260618
+    type: trojan
     udp: true
-    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
     ws-opts:
       headers:
-        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_6|1.1MB/s|GPT⁺-US|YT-CN|NF|GM-YE|0%"
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_8|862KB/s|GPT⁺-FR|YT-US|NF|D+|GM-FR|C002-260622"
     network: ws
-    port: 16648
-    server: m.cnmjin.net.xiaoyan.io
+    password: humanity
+    port: 443
+    server: 104.18.152.144
     skip-cert-verify: false
-    tls: false
-    type: vmess
+    sni: www.ignitelimit.com
+    sub_tag: C002-260622
+    type: trojan
     udp: true
-    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
     ws-opts:
       headers:
-        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-      path: /
-    xudp: true
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      path: /assignment
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
