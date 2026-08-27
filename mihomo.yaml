@@ -1,202 +1,199 @@
 proxies:
-  - auth: github.com/Alvin9999-newpac/fanqiang
-    name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s|GPT⁺-FR|YT-US|NF|D+|GM-FR"
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 43115
-    server: 62.210.147.2
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-    udp: true
   - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8US_1|4.6MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
+    name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s|GPT⁺-US|YT-CN|NF|0%"
     password: 7eadc6dbe2ae
     port: 65443
     server: 121.46.230.233
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F4NO_1|3.0MB/s|GPT⁺-NO|YT-CN|NF|20%"
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    port: 20085
-    server: kkvlvvq-a.catcat321.com
-    skip-cert-verify: true
-    sni: hk.catxstar.com
-    type: trojan
-    udp: true
-    network: tcp
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F4NO_2|3.2MB/s|GPT⁺-NO|YT-CN|NF|20%"
-    network: tcp
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    port: 20085
-    server: kkvlvvq-a.catcat321.com
-    skip-cert-verify: true
-    sni: hk.catxstar.com
-    type: trojan
-    udp: true
-  - name: "\U0001F1FA\U0001F1E6UA_1|2.0MB/s|GPT⁺-UA|YT-CN|NF|0%"
-    network: tcp
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    port: 20066
-    server: hkdcrtc-e.catcat321.com
-    skip-cert-verify: true
-    sni: hk.catxstar.com
-    type: trojan
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1E6UA_2|1.8MB/s|GPT⁺-UA|YT-CN|NF|0%"
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    port: 20066
-    server: hkdcrtc-e.catcat321.com
-    skip-cert-verify: true
-    sni: hk.catxstar.com
-    type: trojan
-    udp: true
-    network: tcp
-  - name: "\U0001F1FA\U0001F1F8US_2|955KB/s|GPT⁺-US|YT-US|NF|D+|0%"
-    password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
-    port: 4433
-    server: us2.xiaoliyu.cyou
-    skip-cert-verify: true
-    type: hysteria2
-    sni: us2.xiaoliyu.cyou
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s|GPT⁺-NL|YT-RO|NF|GM-RO|15%"
-    obfs: ''
-    obfs-password: ''
-    password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-    port: 8443
-    server: 46.229.243.143
+  - name: "\U0001F1EC\U0001F1E7GB_1|3.6MB/s|GPT⁺-NL|YT-RU|NF-GB|GM-US|4%"
+    password: 'hysteria2_fastlane_fyo5j4e7k:AF4HTpKlMZdNBsrVhdwr4GCHNptUaVT0'
+    port: 1935
+    server: 91.132.160.243
     skip-cert-verify: false
-    sni: grape-turbo-fr.roxa.org
+    sni: de6.h.fastlanehosting.ru
     type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1E8SC_1|782KB/s|GPT⁺-CH|YT-CH|NF-RS|GM-CH|6%"
-    obfs: ''
-    obfs-password: ''
-    password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-    port: 8080
-    server: 46.229.243.142
-    skip-cert-verify: false
-    sni: grape-turbo-fr.roxa.org
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_1|649KB/s|GPT⁺-NL|YT-RU|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 2b3e8750-b944-42fc-b36e-ec2c64b48a98
+  - name: "\U0001F1EC\U0001F1E7GB_2|3.3MB/s|GPT⁺-PL|YT-RU|NF|7%"
+    password: 146e49e3-c86d-4607-b5ac-acc1997f025e
     port: 443
-    server: 31.177.111.213
-    skip-cert-verify: true
-    sni: hy222.routeon.pro
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1F3\U0001F1F4NO_3|2.7MB/s|GPT|YT-CN|NF|20%"
-    network: tcp
-    password: a126f35c-e832-4115-8593-b723ade3f7be
-    port: 20085
-    server: hkdcrtc-e.catcat321.com
-    skip-cert-verify: true
-    sni: hk.catxstar.com
-    type: trojan
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EC\U0001F1F1GL_1|780KB/s|GPT⁺-GB|YT-RU|NF|6%"
-    obfs: ''
-    obfs-password: ''
-    password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-    port: 8080
-    server: 103.246.248.229
+    server: 2.26.148.207
     skip-cert-verify: false
-    sni: hopp-legend-se.roxa.org
+    sni: yula.ultimagamest.com
     type: hysteria2
-    up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F7\U0001F1F4RO_1|1.6MB/s|GPT⁺-NL|YT-RO|NF|GM-RO|0%"
+    name: "\U0001F1F3\U0001F1F1NL_1|2.6MB/s|GPT⁺-NL|YT-NL|NF|GM-NL|0%"
     obfs: ''
     obfs-password: ''
-    password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-    port: 8443
-    server: 205.237.109.163
+    password: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+    port: 443
+    server: srvhy1.ezcon24.online
     skip-cert-verify: true
-    sni: hopp-netherland-new.dynuddns.net
+    sni: srvhy1.ezcon24.online
     type: hysteria2
     up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E8\U0001F1EDCH_1|2.2MB/s|GPT⁺-DE|YT-RU|NF|D+|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 5a7655f8-969e-4738-a7f8-12f327dd1b65
-    port: 9443
-    server: edge.nordcache.ru
+  - name: "\U0001F1FA\U0001F1F8US_2|868KB/s|GPT⁺-US|YT-US|NF|GM-US|52%|R002-260618"
+    password: 'null'
+    port: 9002
+    server: 138.199.35.210
     skip-cert-verify: true
-    sni: edge.nordcache.ru
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E8\U0001F1EDCH_2|2.0MB/s|GPT⁺-DE|YT-RU|NF|D+|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 6203363b-6c41-4558-b503-526c5c949822
-    port: 9443
-    server: edge.nordcache.ru
-    skip-cert-verify: true
-    sni: edge.nordcache.ru
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E8\U0001F1EDCH_3|1.3MB/s|GPT⁺-DE|D+|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 1c8206c7-231c-41a8-b807-ad23a354cc69
-    port: 9443
-    server: edge.nordcache.ru
-    skip-cert-verify: true
-    sni: edge.nordcache.ru
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E8\U0001F1EDCH_4|1.2MB/s|GPT⁺-DE|YT-RU|NF|D+|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 39679f52-1d9a-4843-9c1d-7f9c0ee9491e
-    port: 9443
-    server: edge.nordcache.ru
-    skip-cert-verify: true
-    sni: edge.nordcache.ru
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E8\U0001F1F3CN_1|585KB/s|GPT-DE|YT-RU|9%"
-    obfs: ''
-    obfs-password: ''
-    password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
-    port: 9080
-    server: 139.28.168.57
-    skip-cert-verify: false
-    sni: grape-honk.yyuyy.com
-    type: hysteria2
-    up: ''
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG_1|510KB/s|GPT⁺-SG|YT-CN|NF-SG|53%"
-    network: tcp
-    port: 30845
-    server: v45.hdacd.com
-    type: vmess
+    sub_tag: R002-260618
+    tls: true
+    type: http
     udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    username: 'null'
+  - name: "\U0001F1E9\U0001F1EADE_1|856KB/s|R002-260618"
+    port: 5228
+    server: 139.59.140.242
+    sub_tag: R002-260618
+    type: http
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1NL_2|656KB/s|GPT⁺-NL|YT-NL|NF|GM-NL|0%|P002-260618"
+    port: 443
+    server: 149.36.51.129
+    skip-cert-verify: true
+    sub_tag: P002-260618
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_3|863KB/s|GPT⁺-US|YT-CN|NF|0%|R002-260618"
+    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+    port: 443
+    server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+    sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+    sub_tag: R002-260618
+    tls: true
+    type: http
+    udp: true
+    username: 16955d72-1794-11f0-a035-f23c95b6f51d
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_1|1.6MB/s|GPT⁺-JP|YT-CN|NF|0%"
+    network: tcp
+    password: fef70590-17a9-4ddc-a38c-2b7467c083b5
+    port: 19500
+    server: zojp.rvvs.im
+    skip-cert-verify: false
+    sni: zojp.rvvs.im
+    type: trojan
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1FA\U0001F1F8US_4|4.8MB/s|GPT⁺-US|YT-CN|NF|D+|0%"
+    password: 7eadc6dbe2ae
+    port: 65443
+    server: 121.46.230.232
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1EF\U0001F1F5JP_2|5.6MB/s|GPT⁺-JP|YT-CN|NF|0%"
+    password: 7eadc6dbe2ae
+    port: 65443
+    server: 121.46.230.137
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_1|515KB/s|GPT⁺-FR|NF|D+"
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.18.152.108
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/40.0.2214.111 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_2|619KB/s|GPT⁺-FR|YT-US|NF"
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.18.152.149
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_3|689KB/s|GPT⁺-FR|YT-US|NF"
+    network: ws
+    password: humanity
+    port: 443
+    server: 172.67.149.60
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_4|573KB/s|GPT⁺-FR|NF"
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.20.6.134
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
+      path: /assignment
+  - name: "\U0001F1FA\U0001F1F8US_5|504KB/s|GPT⁺-US|YT-US|NF|D+|GM-US|57%|R002-260618"
+    port: 9002
+    server: 138.199.35.204
+    skip-cert-verify: true
+    sub_tag: R002-260618
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_6|546KB/s|GPT⁺|NF|67%|R002-260618"
+    password: None
+    port: 9002
+    server: 138.199.35.200
+    skip-cert-verify: true
+    sub_tag: R002-260618
+    tls: true
+    type: http
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_7|2.0MB/s|0%|R002-260618"
+    port: 10010
+    server: 23.225.34.122
+    sub_tag: R002-260618
+    type: socks5
+    udp: true
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1F7FR_5|916KB/s|GPT⁺-GB|NF"
+    network: tcp
+    packet-encoding: xudp
+    port: 443
+    reality-opts:
+      public-key: QdGXMBWibJZdfDmDk3YcCMxNPd0yd_CkHAOt2yDYJCE
+      short-id: "97ac193c0962477c"
+    server: 85.159.92.161
+    tls: true
+    type: vless
+    udp: true
+    uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
+    xudp: true
+    servername: www.cloudflare.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
