@@ -1,5 +1,5 @@
 proxies:
-  - name: 🇨🇳CN_1|1.3MB/s|YT-CN
+  - name: 🇨🇳CN_1|8.7MB/s|YT-CN|0%
     password: Og==
     port: 1080
     server: 103.210.161.8
@@ -7,87 +7,66 @@ proxies:
     type: socks5
     username: Og==
     udp: true
-  - name: 🇺🇸US_1|1.2MB/s|GPT|YT-CN|NF-US|D+-US|GM-US|27%
-    network: ws
-    port: 8880
-    server: 45.40.151.30
+  - name: 🇨🇿CZ_1|1.8MB/s
+    port: 443
+    server: 185.216.35.130
     skip-cert-verify: true
-    tls: false
-    type: vless
+    tls: true
+    type: http
     udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: vms.lifetime42.workers.dev
-      path: /
   - client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_1|1.2MB/s|GPT-DE|YT-US|NF-DE|17%
-    network: ws
-    port: 2096
-    server: 172.67.130.159
+    flow: xtls-rprx-vision
+    name: 🇧🇬BG_1|1.5MB/s|GPT⁺-BG|YT-BG|NF-RS|GM-BG|0%
+    network: tcp
+    port: 18775
+    reality-opts:
+      public-key: oR75S6pg_RDAKIuzv_WrCiwaUqqFoek2iuo5N22llQQ
+      short-id: "6ba85179e30d4fc2"
+    server: 136.175.82.85
     tls: true
     type: vless
     udp: true
-    uuid: 735b8344-0b95-464c-b687-1c5616138908
-    ws-opts:
-      headers:
-        Host: cdn-de.skyvora.app
-        User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
-      path: /3cagtz3
+    uuid: 9ae5940b-0278-403d-a1e1-9dddc47bdcf6
     xudp: true
     packet-encoding: xudp
-    servername: cdn-de.skyvora.app
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇸🇬SG_1|931KB/s|GPT⁺-SG|YT-SG|NF-SG|GM-SG|17%
-    network: ws
-    port: 2096
-    server: 172.67.130.159
-    tls: true
-    type: vless
-    udp: true
-    uuid: 832c8f42-7fe1-4aa4-9171-eb9dddbf6fef
-    ws-opts:
-      headers:
-        Host: cdn-sg.skyvora.app
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/64.0.3282.186 Safari/537.36
-      path: /78bc8
-    xudp: true
-    packet-encoding: xudp
-    servername: cdn-sg.skyvora.app
+    servername: addons.mozilla.org
   - alpn:
       - h3
       - h2
       - http/1.1
     client-fingerprint: chrome
-    name: 🇫🇷FR_1|1.0MB/s|GPT⁺-FR|NF-FR|D+-FR|36%
+    name: 🇫🇷FR_1|912KB/s|GPT⁺-FR|YT-US|NF-FR|D+-FR|36%|B007-260618
     network: ws
     password: humanity
     port: 443
-    server: join-telegram-channel-tirexnet.trex.kdns.fr
+    server: join-telegram-channel.tirexnet.kdns.fr
     skip-cert-verify: false
     sni: www.ignitelimit.com
+    sub_tag: B007-260618
     type: trojan
     udp: true
     ws-opts:
       headers:
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.116 Safari/537.36
       path: /assignment
-  - name: 🇳🇱NL_1|1014KB/s|GM-NL|P002-260618
+  - name: 🇨🇳CN_2|9.1MB/s|YT-CN|0%|S001-260618
     password: ""
-    port: 9002
-    server: 84.17.47.146
+    port: 1080
+    server: 103.210.161.8
     skip-cert-verify: true
-    sub_tag: P002-260618
-    tls: true
-    type: http
+    sub_tag: S001-260618
+    type: socks5
     udp: true
     username: ""
+  - name: 🇺🇸US_1|1.4MB/s|GPT-US|YT-US
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 19000
+    server: anytls2.864106.xyz
+    skip-cert-verify: true
+    sni: anytls2.864106.xyz
+    type: anytls
+    udp: true
 proxy-groups:
   - name: 🚀 节点选择
     type: select
